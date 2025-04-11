@@ -1,5 +1,5 @@
 name: quiz2om
-description: "A new Flutter project."
+description: Quiz2OM - Application de Quiz Interactif
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,6 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  flutter_animate: ^4.1.1+1
+  google_fonts: ^4.0.4
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
