@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "95087496267",
+    "project_id": "quiz2om-131a8",
+    "storage_bucket": "quiz2om-131a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95087496267:android:c6efb31f1d1b6d9cd591ce",
+        "android_client_info": {
+          "package_name": "com.example.com_quiz2om_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95087496267-hc77chmhph3t3o8h8utk814beisiqvkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz_Un8ovciLtKX7Gs9jPMw1pCljx5y5f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95087496267-hc77chmhph3t3o8h8utk814beisiqvkh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "95087496267-ab9t6qioi6hmmp4ho4rqobjomftiadm6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.comQuiz2omApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95087496267:android:17befbbae8f4e3cbd591ce",
+        "android_client_info": {
+          "package_name": "com.example.quiz2om"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95087496267-bcdc0n7cjr0k7vre9kfurhb6kjuhj097.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quiz2om",
+            "certificate_hash": "eaab50d7e44a4130e9fb1cfcf088bc09f9dec9e1"
+          }
+        },
+        {
+          "client_id": "95087496267-hc77chmhph3t3o8h8utk814beisiqvkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz_Un8ovciLtKX7Gs9jPMw1pCljx5y5f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95087496267-hc77chmhph3t3o8h8utk814beisiqvkh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "95087496267-ab9t6qioi6hmmp4ho4rqobjomftiadm6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.comQuiz2omApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
