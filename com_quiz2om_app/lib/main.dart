@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:com_quiz2om_app/screens/auth/login_screen.dart';
-import 'package:com_quiz2om_app/screens/home_screen.dart';
+import 'package:com_quiz2om_app/screens/home/home_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {

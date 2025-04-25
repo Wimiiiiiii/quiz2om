@@ -1,5 +1,7 @@
+import 'package:com_quiz2om_app/screens/admin_seed_screen.dart';
 import 'package:com_quiz2om_app/screens/custom_app_bar.dart';
-import 'package:com_quiz2om_app/screens/profile_screen.dart';
+import 'package:com_quiz2om_app/screens/profile/profile_screen.dart';
+import 'package:com_quiz2om_app/screens/quiz/categories_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -11,23 +13,31 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: CustomAppBar(
         title: 'Accueil',
-  actions: [
-    IconButton(
-      icon: const Icon(Icons.account_circle),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const ProfileScreen(),
+        actions: [
+          FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AdminSeedScreen()),
+              );
+            },
+            child: const Icon(Icons.data_usage),
           ),
-        );
-      },
-    ),
-    IconButton(
+          IconButton(
+            icon: const Icon(Icons.account_circle),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ProfileScreen()),
+              );
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () => FirebaseAuth.instance.signOut(),
-          ),],
- ),
+          ),
+        ],
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -35,9 +45,9 @@ class HomeScreen extends StatelessWidget {
           children: [
             Text(
               'Choisissez un mode',
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
+              style: Theme.of(
+                context,
+              ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
             Expanded(
@@ -55,7 +65,12 @@ class HomeScreen extends StatelessWidget {
                     Icons.person,
                     Colors.blue,
                     () {
-                      // Naviguer vers solo
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const CategoriesScreen(),
+                        ),
+                      );
                     },
                   ),
                   _buildModeCard(
@@ -74,15 +89,6 @@ class HomeScreen extends StatelessWidget {
                     Colors.orange,
                     () {
                       // Naviguer vers classement
-                    },
-                  ),
-                  _buildModeCard(
-                    context,
-                    'Catégories',
-                    Icons.category,
-                    Colors.purple,
-                    () {
-                      // Naviguer vers catégories
                     },
                   ),
                 ],
@@ -109,10 +115,7 @@ class HomeScreen extends StatelessWidget {
           padding: const EdgeInsets.all(15),
           decoration: BoxDecoration(
             color: color.withOpacity(0.1),
-            border: Border.all(
-              color: color.withOpacity(0.3),
-              width: 1,
-            ),
+            border: Border.all(color: color.withOpacity(0.3), width: 1),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -123,19 +126,12 @@ class HomeScreen extends StatelessWidget {
                   color: color.withOpacity(0.2),
                   shape: BoxShape.circle,
                 ),
-                child: Icon(
-                  icon,
-                  size: 28,
-                  color: color,
-                ),
+                child: Icon(icon, size: 28, color: color),
               ),
               const SizedBox(height: 10),
               Text(
                 title,
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: color,
-                ),
+                style: TextStyle(fontWeight: FontWeight.bold, color: color),
               ),
             ],
           ),
