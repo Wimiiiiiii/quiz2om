@@ -41,10 +41,10 @@ dependencies:
   provider: ^6.1.4
   google_sign_in: ^6.3.0
   cloud_firestore: ^5.6.6
-  webview_flutter: ^4.11.0 # Utilisez le package principal plutôt que webview_flutter_android
+  webview_flutter: ^4.11.0 
 
 dependency_overrides:
-  webview_flutter_android: ^3.0.6 # Force une version compatible
+  webview_flutter_android: ^3.0.6 
   webview_flutter_platform_interface: ^2.3.1
 
 dev_dependencies:
