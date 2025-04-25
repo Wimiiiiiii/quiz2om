@@ -1,7 +1,10 @@
 import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:com_quiz2om_app/screens/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
+import 'multiplayer_waiting_screen.dart';
 
 class MultiplayerLobbyScreen extends StatefulWidget {
   const MultiplayerLobbyScreen({super.key});
@@ -78,8 +81,14 @@ class _MultiplayerLobbyScreenState extends State<MultiplayerLobbyScreen> {
   }
 
   void _navigateToRoom(String roomCode) {
-    Navigator.pushNamed(context, '/multiplayer_waiting', arguments: roomCode);
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => MultiplayerWaitingScreen(roomCode: roomCode),
+      ),
+    );
   }
+
 
   void _showError(String message) {
     ScaffoldMessenger.of(context).showSnackBar(
@@ -90,7 +99,7 @@ class _MultiplayerLobbyScreenState extends State<MultiplayerLobbyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Mode Multijoueur')),
+      appBar: CustomAppBar(title:  'Mode Multijoueur'),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: _isLoading

@@ -1,6 +1,8 @@
 import 'package:com_quiz2om_app/screens/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
+import 'multiplayer/multiplayer_lobby_screen.dart';
+
 class MultiplayerModeScreen extends StatelessWidget {
   const MultiplayerModeScreen({super.key});
 
@@ -26,16 +28,20 @@ class MultiplayerModeScreen extends StatelessWidget {
             const SizedBox(height: 40),
             ElevatedButton.icon(
               onPressed: () {
-                // Naviguer vers l’écran de création
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Créer une partie')),
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const MultiplayerLobbyScreen(),
+                  ),
                 );
-              },
+              }
+              ,
               icon: const Icon(Icons.add),
               label: const Text('Créer une Partie'),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 50),
               ),
+
             ),
             const SizedBox(height: 20),
             ElevatedButton.icon(
