@@ -2,7 +2,7 @@ import 'package:com_quiz2om_app/screens/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:com_quiz2om_app/screens/auth/login_screen.dart'; // Importez votre écran de login
+import 'package:com_quiz2om_app/screens/auth/login_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -40,7 +40,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             'email': _emailController.text.trim(),
             'createdAt': FieldValue.serverTimestamp(),
             'avatarEmoji': '',
-            'total_score': 0, // Initialisation du score
+            'total_score': 0,
           });
 
       // Redirection vers l'écran de login après succès
@@ -94,7 +94,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           key: _formKey,
           child: Column(
             children: [
-              // Vos champs de formulaire existants...
+
               TextFormField(
                 controller: _usernameController,
                 decoration: const InputDecoration(

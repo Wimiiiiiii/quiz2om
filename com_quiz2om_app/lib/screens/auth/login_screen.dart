@@ -1,4 +1,5 @@
 import 'package:com_quiz2om_app/screens/auth/register_screen.dart';
+import 'package:com_quiz2om_app/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -11,7 +12,6 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
@@ -23,37 +23,59 @@ class _LoginScreenState extends State<LoginScreen> {
     if (!_formKey.currentState!.validate()) return;
 
     setState(() => _isLoading = true);
-    
+
     try {
-      await FirebaseAuth.instance.signInWithEmailAndPassword(
+      final userCredential = await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: _emailController.text.trim(),
         password: _passwordController.text.trim(),
       );
+
+      // Redirection après connexion réussie
+      if (mounted) {
+        Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(builder: (context) =>  HomeScreen()),
+              (route) => false,
+        );
+      }
     } on FirebaseAuthException catch (e) {
       _showErrorSnackbar(e.message ?? 'Erreur de connexion');
     } finally {
-      setState(() => _isLoading = false);
+      if (mounted) {
+        setState(() => _isLoading = false);
+      }
     }
   }
 
   Future<void> _signInWithGoogle() async {
     try {
       setState(() => _isLoading = true);
-      
+
       final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
       if (googleUser == null) return;
-      
+
       final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
       final credential = GoogleAuthProvider.credential(
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
-      
-      await FirebaseAuth.instance.signInWithCredential(credential);
+
+      final userCredential = await FirebaseAuth.instance.signInWithCredential(credential);
+
+      // Redirection après connexion Google réussie
+      if (mounted) {
+        Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(builder: (context) =>  HomeScreen()),
+              (route) => false,
+        );
+      }
     } catch (e) {
       _showErrorSnackbar('Erreur de connexion Google');
     } finally {
-      setState(() => _isLoading = false);
+      if (mounted) {
+        setState(() => _isLoading = false);
+      }
     }
   }
 
@@ -73,6 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void _showErrorSnackbar(String message) {
+    if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(message),
@@ -86,6 +109,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void _showSuccessSnackbar(String message) {
+    if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(message),
@@ -131,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
                 const SizedBox(height: 30),
-                
+
                 // Formulaire de connexion
                 Card(
                   elevation: 8,
@@ -151,7 +175,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                           const SizedBox(height: 24),
-                          
+
                           // Champ Email
                           TextFormField(
                             controller: _emailController,
@@ -174,7 +198,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             },
                           ),
                           const SizedBox(height: 16),
-                          
+
                           // Champ Mot de passe
                           TextFormField(
                             controller: _passwordController,
@@ -184,9 +208,9 @@ class _LoginScreenState extends State<LoginScreen> {
                               prefixIcon: const Icon(Icons.lock),
                               suffixIcon: IconButton(
                                 icon: Icon(
-                                  _passwordVisible 
-                                    ? Icons.visibility 
-                                    : Icons.visibility_off,
+                                  _passwordVisible
+                                      ? Icons.visibility
+                                      : Icons.visibility_off,
                                 ),
                                 onPressed: () {
                                   setState(() {
@@ -209,7 +233,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             },
                           ),
                           const SizedBox(height: 8),
-                          
+
                           // Lien mot de passe oublié
                           Align(
                             alignment: Alignment.centerRight,
@@ -219,7 +243,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                           const SizedBox(height: 16),
-                          
+
                           // Bouton Connexion
                           SizedBox(
                             width: double.infinity,
@@ -233,18 +257,18 @@ class _LoginScreenState extends State<LoginScreen> {
                               onPressed: _isLoading ? null : _loginWithEmail,
                               child: _isLoading
                                   ? const SizedBox(
-                                      width: 24,
-                                      height: 24,
-                                      child: CircularProgressIndicator(
-                                        strokeWidth: 2,
-                                        color: Colors.white,
-                                      ),
-                                    )
+                                width: 24,
+                                height: 24,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                  color: Colors.white,
+                                ),
+                              )
                                   : const Text('Se connecter'),
                             ),
                           ),
                           const SizedBox(height: 24),
-                          
+
                           // Séparateur
                           Row(
                             children: [
@@ -262,7 +286,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ],
                           ),
                           const SizedBox(height: 24),
-                          
+
                           // Bouton Google
                           SizedBox(
                             width: double.infinity,
@@ -287,7 +311,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
                 const SizedBox(height: 24),
-                
+
                 // Lien vers inscription
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

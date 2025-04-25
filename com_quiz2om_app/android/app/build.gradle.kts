@@ -27,10 +27,11 @@ android {
         applicationId = "com.example.com_quiz2om_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = 21
+        minSdk = 23
         targetSdk = 34
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -41,6 +42,14 @@ android {
         }
     }
 }
+
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:32.7.2")) // Firebase BOM
+    implementation("com.google.firebase:firebase-analytics") // Analytics
+    implementation("com.google.android.gms:play-services-basement:18.2.0") // Pour ProviderInstaller
+    implementation("androidx.multidex:multidex:2.0.1") // Pour multiDex
+}
+
 
 flutter {
     source = "../.."
