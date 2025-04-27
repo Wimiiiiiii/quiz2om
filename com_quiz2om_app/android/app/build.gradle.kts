@@ -48,6 +48,7 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics") // Analytics
     implementation("com.google.android.gms:play-services-basement:18.2.0") // Pour ProviderInstaller
     implementation("androidx.multidex:multidex:2.0.1") // Pour multiDex
+    implementation("com.google.firebase:firebase-database")
 }
 
 

@@ -48,6 +48,7 @@ class DefaultFirebaseOptions {
     authDomain: 'quiz2om-131a8.firebaseapp.com',
     storageBucket: 'quiz2om-131a8.firebasestorage.app',
     measurementId: 'G-PQZ8QCXYEY',
+
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -56,6 +57,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '95087496267',
     projectId: 'quiz2om-131a8',
     storageBucket: 'quiz2om-131a8.firebasestorage.app',
+
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
