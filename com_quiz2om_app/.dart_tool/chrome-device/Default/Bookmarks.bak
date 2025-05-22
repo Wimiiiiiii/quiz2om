@@ -1,0 +1,1279 @@
+{
+   "checksum": "3f102d0cfb6d707af94052a9df711f0f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13308574048032929",
+            "date_last_used": "0",
+            "guid": "951501a2-c23e-4130-b05c-14ef431f5f30",
+            "id": "9",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService",
+            "visit_count": 0
+         }, {
+            "date_added": "13308574048052022",
+            "date_last_used": "13383870351879318",
+            "guid": "33c509cf-bea4-48f0-aa05-7c428446ec4b",
+            "id": "10",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://youtube.com/",
+            "visit_count": 4
+         }, {
+            "date_added": "13308574048052631",
+            "date_last_used": "13392213196762310",
+            "guid": "30198d5d-3738-47eb-8e94-20e8aa4abc75",
+            "id": "11",
+            "name": "Maps",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://maps.google.com/",
+            "visit_count": 1
+         }, {
+            "date_added": "13308574052386391",
+            "date_last_used": "13316523772554573",
+            "guid": "07441535-3211-4fe9-9b6a-1a9b976e4db1",
+            "id": "12",
+            "name": "Traduire",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://translate.google.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13358247597238023",
+            "date_last_used": "0",
+            "guid": "30f9ab1c-9f4f-4f75-a172-d691b5697e39",
+            "id": "13",
+            "name": "",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.msn.com/en-xl/news/other/appetite-suppressing-foods-you-should-eat-every-day/ss-AA1blCPz",
+            "visit_count": 0
+         }, {
+            "date_added": "13358077961482091",
+            "date_last_used": "13369998966360295",
+            "guid": "2182039f-70e1-4050-b471-db4cab913fd5",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Formulaire d'inscription - COOP'TECH",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://forms.office.com/Pages/DesignPageV2.aspx?prevpage=templatesAll&linkreferrer=Others&templateorigin=portal&origin=NeoPortalPage&subpage=design&id=ne2LSKfW1Ui6H-vsOCOzV3_2hwDkZCZNsxnqk7m6aoVUM01EQVRKMTNDWDUzUkhWOTZaMTEwMjk0Ry4u&analysis=true&preview=%257B%2522ViewModeIndex%2522%3A0%257D",
+            "visit_count": 1
+         }, {
+            "children": [ {
+               "date_added": "13369736509169379",
+               "date_last_used": "0",
+               "guid": "e01fffa2-1124-49f0-a1d7-7a7c1ae65888",
+               "id": "16",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Multimodal Neurons in Artificial Neural Networks",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://distill.pub/2021/multimodal-neurons/",
+               "visit_count": 1
+            }, {
+               "date_added": "13369736555087608",
+               "date_last_used": "0",
+               "guid": "29e31fae-a6b8-4884-8c1c-668dc48d253f",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "CLIP-featurevis/model.py at master · openai/CLIP-featurevis · GitHub",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://github.com/openai/CLIP-featurevis/blob/master/model.py",
+               "visit_count": 1
+            }, {
+               "date_added": "13369737916991204",
+               "date_last_used": "0",
+               "guid": "9529357c-40f5-4e6e-a1c6-2da6c5750fd9",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Dévoilement de grands modèles multimodaux : façonner le paysage des modèles linguistiques en 2024 - Unite.AI",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://unite.ai/fr/d%C3%A9voilement-de-grands-mod%C3%A8les-multimodaux-fa%C3%A7onnant-le-paysage-des-mod%C3%A8les-de-langage-en-2024/",
+               "visit_count": 1
+            }, {
+               "date_added": "13369738355203283",
+               "date_last_used": "0",
+               "guid": "432909eb-1329-4a1b-ab88-4783038ccbc8",
+               "id": "19",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Gemini de l'IA multimodale de Google - Une plongée technique approfondie - Unite.AI",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.unite.ai/fr/googles-multimodal-ai-gemini-une-plong%C3%A9e-technique-approfondie/",
+               "visit_count": 1
+            }, {
+               "date_added": "13369742032224497",
+               "date_last_used": "0",
+               "guid": "ff064e57-8d96-4659-8104-e6fcf447121b",
+               "id": "20",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - declare-lab/multimodal-deep-learning: This repository contains various models targetting multimodal representation learning, multimodal fusion for downstream tasks such as multimodal sentiment analysis.",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://github.com/declare-lab/multimodal-deep-learning",
+               "visit_count": 1
+            }, {
+               "date_added": "13369755735426863",
+               "date_last_used": "0",
+               "guid": "80746820-6fb7-46ae-8408-40b1b2922709",
+               "id": "21",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Concevoir des requêtes multimodales  |  IA générative sur Vertex AI  |  Google Cloud",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/design-multimodal-prompts?hl=fr",
+               "visit_count": 1
+            }, {
+               "date_added": "13369758988991570",
+               "date_last_used": "0",
+               "guid": "2080d3fa-8fd5-4d30-b790-ecf372e7f22c",
+               "id": "22",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - THUDM/CogVLM: a state-of-the-art-level open visual language model | 多模态预训练模型",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://github.com/THUDM/CogVLM",
+               "visit_count": 1
+            }, {
+               "date_added": "13370090952386409",
+               "date_last_used": "0",
+               "guid": "b3e59687-b4eb-40e6-adae-a29172d8b17c",
+               "id": "23",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "EEG is better left alone | Scientific Reports",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.nature.com/articles/s41598-023-27528-0",
+               "visit_count": 1
+            }, {
+               "date_added": "13370532518726969",
+               "date_last_used": "13370707607102490",
+               "guid": "70c6edde-d772-4c96-a675-9a5c542dd0c4",
+               "id": "24",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "eeg_visual_classification/README.md at main · perceivelab/eeg_visual_classification · GitHub",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://github.com/perceivelab/eeg_visual_classification/blob/main/README.md",
+               "visit_count": 3
+            }, {
+               "date_added": "13370535147374397",
+               "date_last_used": "0",
+               "guid": "eb73b035-3d0c-42a8-8504-a97b406a0580",
+               "id": "25",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "On the Deep Learning Models for EEG-Based Brain-Computer Interface Using Motor Imagery | IEEE Journals & Magazine | IEEE Xplore",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://ieeexplore.ieee.org/document/9854857",
+               "visit_count": 1
+            }, {
+               "date_added": "13370536143818997",
+               "date_last_used": "13370692163772025",
+               "guid": "96648b40-f5a0-4226-a627-a33a46b86d85",
+               "id": "26",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "selfEEG/selfeeg/models/zoo.py at main · MedMaxLab/selfEEG · GitHub",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://github.com/MedMaxLab/selfEEG/blob/main/selfeeg/models/zoo.py",
+               "visit_count": 3
+            }, {
+               "date_added": "13373314643827451",
+               "date_last_used": "0",
+               "guid": "9917b721-2f05-44f1-8247-1ff0bc0198bb",
+               "id": "27",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Copy of Copy of 2024-2025 - Presentation - Canva",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.canva.com/design/DAGSPvc1wlo/zMlwauCJ-W9ZNmfbpi5Pfw/edit",
+               "visit_count": 1
+            }, {
+               "date_added": "13374947675111809",
+               "date_last_used": "0",
+               "guid": "2b5c46d4-5a3e-48ab-923d-1353d55dc8ad",
+               "id": "28",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "AIDE FINANCIERE",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://uhelp-aide.umons.ac.be/mondossier/711",
+               "visit_count": 1
+            }, {
+               "date_added": "13375805935280415",
+               "date_last_used": "0",
+               "guid": "359d3436-c0a5-4902-b7eb-80460ebf9942",
+               "id": "29",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(4) HACKER une BASE DE DONNÉES, SI FACILE ?! | Les INJECTIONS SQL - YouTube",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=KWOs0Waq2TM",
+               "visit_count": 1
+            }, {
+               "date_added": "13376164357197052",
+               "date_last_used": "0",
+               "guid": "18960f68-0836-488b-bee8-81560aeca159",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(8) Internship Cybersecurity | Sopra Steria | LinkedIn",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.linkedin.com/jobs/view/4072174364/?trackingId=npMsKbi9SG2OjpkhAiA7HQ%3D%3D&refId=Y28CdJ7sSfm890yeGx83Uw%3D%3D&midToken=AQEjpJQXJbSlyQ&midSig=2qopcSGjyXoXw1&trk=eml-jobs_jymbii_digest-job_card-0-jobcard_body&trkEmail=eml-jobs_jymbii_digest-job_card-0-jobcard_body-null-i3jh1f~m3iuw4vl~rm-null-null&eid=i3jh1f-m3iuw4vl-rm&otpToken=MTMwNTE3ZTQxMTJkYzFjMWIyMmQwZmViNDExZGU2YjI4N2NjZDI0OTllYWY4NjZhN2JjZTA0NmU0ODVhNTVmN2Y0ZDFkM2U5NjhiMGVmZDI3OWE0ZTliNjU0YTBjZTllY2YxYWFjMmZkMTA2ODM3MzRiN2Y1Y2M4LDEsMQ%3D%3D",
+               "visit_count": 1
+            } ],
+            "date_added": "13369736524321716",
+            "date_last_used": "0",
+            "date_modified": "13376164357197052",
+            "guid": "97975334-1904-40a8-9290-336bf211ca2e",
+            "id": "15",
+            "name": "stage",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13321802743193346",
+               "date_last_used": "13331751708983929",
+               "guid": "214e8d4e-c5b0-4f87-8e6c-a6f24372d9b0",
+               "id": "32",
+               "name": "PHYSIQUE MODERNE",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/223014_umons_ac_be/_layouts/15/Doc.aspx?sourcedoc={37877f0f-309a-4157-98ec-50c15b946727}&action=view&wd=target%28NOTE%20DE%20COURS.one%7Cf1cb72d6-8b94-4552-9448-0ff14b83d390%2FCOURS%7C7ba143d6-55cb-4470-8ddb-a76de5358611%2F%29&wdorigin=NavigationUrl",
+               "visit_count": 0
+            }, {
+               "date_added": "13321802714027127",
+               "date_last_used": "13330734098250498",
+               "guid": "afb5c33e-8622-43f1-b5c8-fb30f14875f5",
+               "id": "33",
+               "name": "BASES DE THERMO",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/EvysobAmlKROgiKZbsh_2T0BUS3VLsztNDOtDQ0ugnsgqA?email=Ouiam.Bouazzati%40student.umons.ac.be&e=5%3A23WlnM&at=9&CID=cde83dda-0d23-1863-a2c9-f93bddb8bc77",
+               "visit_count": 0
+            }, {
+               "date_added": "13321998041334673",
+               "date_last_used": "13323206738042532",
+               "guid": "af8562af-960e-4aa3-ab8c-8bd6034df142",
+               "id": "34",
+               "name": "Recueil de questions de labo",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/10RMen5RV4-gCvU-Rrf7Tw0sVHfdgOQu98pnWa4btmtc/mobilebasic?fbclid=IwAR05A5v25NUQ8PE_nLnKzlL2M0POhOID0YH2tOVTs6aGeKY51kmns0j5uKE",
+               "visit_count": 0
+            }, {
+               "date_added": "13317480954278406",
+               "date_last_used": "13346157500559395",
+               "guid": "bf4e7aef-9e28-4e65-8a03-2f2858311654",
+               "id": "35",
+               "name": "BAB2 Sarah Gilles - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/200481_umons_ac_be/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F200481%5Fumons%5Fac%5Fbe%2FDocuments%2FUniversit%C3%A9%2FBAB2%20Sarah%20Gilles&ga=1",
+               "visit_count": 0
+            }, {
+               "date_added": "13317077847970657",
+               "date_last_used": "13363203129597553",
+               "guid": "07c5a335-e36f-4876-a661-7662940b720f",
+               "id": "36",
+               "name": "Pas de moi - synthèses et résumés intéressants - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/210716_umons_ac_be/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F210716%5Fumons%5Fac%5Fbe%2FDocuments%2FA%5FUnif%2FBAB2%2FPartage%20BA2%2FQ1%2FInfo%2FPas%20de%20moi%20%2D%20synth%C3%A8ses%20et%20r%C3%A9sum%C3%A9s%20int%C3%A9ressants",
+               "visit_count": 0
+            }, {
+               "date_added": "13321880867137613",
+               "date_last_used": "13332178974318499",
+               "guid": "edf65418-d3a4-457e-94ab-b769eabd3808",
+               "id": "37",
+               "name": "Chimie Reactionnelle",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/Et3c-I6qF7pIr7k36N1u-9wBlfl9HrQn3v1a510_RBX2TQ?email=Ouiam.Bouazzati%40student.umons.ac.be&e=5%3AnzSDsF&at=9&CID=8a346034-10cb-245e-a417-d32fe2870084",
+               "visit_count": 0
+            }, {
+               "date_added": "13321558416758651",
+               "date_last_used": "13358169306574879",
+               "guid": "107cc947-766d-4838-a2d5-0ddbb8e0274a",
+               "id": "38",
+               "name": "Conduite de projet | Trello",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://trello.com/b/kOM4CTh9/conduite-de-projet",
+               "visit_count": 0
+            }, {
+               "date_added": "13321896959410657",
+               "date_last_used": "13330549296917495",
+               "guid": "8bc9520d-780a-4c3e-ada4-a3de0b538f6c",
+               "id": "39",
+               "name": "Probabilité",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/Elra_sO0t8VBuyZAxYFZ084BP7Z-Jo8U2W3MvQCr8lmsDQ?e=5%3AW96VF1&at=9&CID=254ff739-8f74-efbb-f37d-a70adb1950ee",
+               "visit_count": 0
+            }, {
+               "date_added": "13322162806386167",
+               "date_last_used": "0",
+               "guid": "920871c8-aae9-401c-8450-8a1a8105ba5b",
+               "id": "40",
+               "name": "Résumé-ChimPhys-Alexandre-Flas.pdf",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "file:///E:/BAB1/R%C3%A9sum%C3%A9-ChimPhys-Alexandre-Flas.pdf",
+               "visit_count": 0
+            }, {
+               "date_added": "13323381470111429",
+               "date_last_used": "13329990500110702",
+               "guid": "7831cd2a-630d-4604-a587-95cd91d85af8",
+               "id": "41",
+               "name": "Electromagnétisme",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/223014_umons_ac_be/_layouts/15/Doc.aspx?sourcedoc={2b0ef3b2-912d-433b-99b3-b33c2c112bc6}&action=view&wd=target%28NOTES%20DE%20COURS.one%7Cb357d166-32e7-485d-b59a-8f64da152e57%2FEtats%20Stationnaire%7C3bc1d577-84b5-481a-bc84-9b865e447fff%2F%29&wdorigin=NavigationUrl",
+               "visit_count": 0
+            }, {
+               "date_added": "13323715715676163",
+               "date_last_used": "13369760776243512",
+               "guid": "eeb3f469-f963-485d-8d02-bf29c2842cf2",
+               "id": "42",
+               "name": "4 - Polarisation de la Lumière – Google Drive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://drive.google.com/drive/folders/1N8xOceSupOrEhfZiuowZ0PFXPu9VaOtt?fbclid=IwAR0A8SLURcXB-xrtnFBt6W19XHcl9q5x6O0KKlWBLTg6JIFV3NIScFrGNJ8",
+               "visit_count": 2
+            }, {
+               "date_added": "13325905278489048",
+               "date_last_used": "13369753151823776",
+               "guid": "92aba31c-eb47-40ed-8b6b-a6b7f461db40",
+               "id": "43",
+               "name": "Green Minimalist The Environtment Presentation - Presentation",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.canva.com/design/DAFfnZnR-Og/aVsK4PMdCkb5jCqLoagW-w/edit",
+               "visit_count": 1
+            }, {
+               "date_added": "13330104947478032",
+               "date_last_used": "13343245151994322",
+               "guid": "53e2bc4b-0486-4733-a4a1-13822e925881",
+               "id": "44",
+               "name": "Signaux et Commandes",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/223014_umons_ac_be/_layouts/15/Doc.aspx?sourcedoc={769793bd-0c0a-4cc2-a833-38b85ad52f95}&action=view&wd=target%28NOTES%20DE%20COURS.one%7C36b73ca3-79e9-4653-973d-34127d7874b8%2FIntro%20Signaux%7C480c5352-5a6d-44ed-8061-a23028d62712%2F%29&wdorigin=NavigationUrl",
+               "visit_count": 0
+            }, {
+               "date_added": "13331997638584926",
+               "date_last_used": "13332151787411722",
+               "guid": "74847920-9e50-45b4-aa9d-e6e384cb9a43",
+               "id": "45",
+               "name": "ChimieReacPartage - Google Drive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://drive.google.com/drive/folders/1-0OOH_2e_a_NtoCoGOmJtoEAEc2eibTj?fbclid=IwAR3qddG5J4ejBgsLAqKT9C7nJH4y-cKKqI3JcUrwZaDkz8QQwJZHYFY9Nyo",
+               "visit_count": 0
+            }, {
+               "date_added": "13309191443911510",
+               "date_last_used": "13361841251422526",
+               "guid": "26923d30-f128-43ad-83dd-48884f0c0493",
+               "id": "46",
+               "name": "quadri 1 - Google Drive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://drive.google.com/drive/folders/1ql0Nr8imxHPcppIjLSLxEeuNfJ3UjBB6?fbclid=IwAR3zmzQzQd5Yl9SuzWg4AEtPMq6jMDzqLUrzVPvdLQdc-h5dyP9VNBxtyIc",
+               "visit_count": 0
+            } ],
+            "date_added": "13369760673142798",
+            "date_last_used": "0",
+            "date_modified": "13369760673142798",
+            "guid": "96f93d1b-d7e8-4ab3-9812-635d14ac5bcb",
+            "id": "31",
+            "name": "Bab2",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13339711055695170",
+               "date_last_used": "13363555661016873",
+               "guid": "e9b492c9-c212-4f9e-9c48-7b89a94f1a0f",
+               "id": "48",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "A_Unif - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/210716_umons_ac_be/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F210716%5Fumons%5Fac%5Fbe%2FDocuments%2FA%5FUnif",
+               "visit_count": 0
+            }, {
+               "date_added": "13339711015942157",
+               "date_last_used": "13363555677306002",
+               "guid": "72c1dc6b-2eeb-4779-9bc9-5291f9421a6e",
+               "id": "49",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Eléonore VANDENDAELE - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/211361_umons_ac_be/_layouts/15/onedrive.aspx?ga=1",
+               "visit_count": 0
+            }, {
+               "date_added": "13339939415734265",
+               "date_last_used": "13359498621976475",
+               "guid": "5f4be1df-0c20-456f-af0d-87d42774dce0",
+               "id": "50",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "BAB3_Dache - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/200643_umons_ac_be/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F200643%5Fumons%5Fac%5Fbe%2FDocuments%2FBAB3%5FDache&ga=1&fbclid=IwAR3kj4OJMoBpsJCKw3UpCVROz18diDWqUA0oSs7CEsLnIISdlGhSNZmxoJA",
+               "visit_count": 0
+            }, {
+               "date_added": "13339939411152860",
+               "date_last_used": "13360197004129650",
+               "guid": "6580ee37-54cc-49b3-8387-afafe8e3b0e3",
+               "id": "51",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Partage de notes BAC3 - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/211361_umons_ac_be/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F211361%5Fumons%5Fac%5Fbe%2FDocuments%2FPartage%20de%20notes%20BAC3&ga=1",
+               "visit_count": 0
+            }, {
+               "date_added": "13339177481530724",
+               "date_last_used": "13361925487491019",
+               "guid": "ad7dc424-6f1c-4ba8-96d3-74c2ec1941e5",
+               "id": "52",
+               "name": "Q1 - Google Drive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://drive.google.com/drive/folders/1cXdjtjlSqOeHZ7zq69wnnMtwbmMPdfFi?fbclid=IwAR0o8n_7a4GfK-wts6JpDE5TdOXVPkWgyXmO7my6D3FlZmFJkJG00Mbxt8s",
+               "visit_count": 0
+            }, {
+               "date_added": "13347885420139878",
+               "date_last_used": "0",
+               "guid": "f9ebb6f8-ebc9-4aff-82bd-53ef58c57612",
+               "id": "53",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Analyse des données",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/EmtSQDec7gFHoyP4RQpWQ0EB7i-AcYi5VfQJS5cRRIFS4Q?e=5%3A9UmXWM&fromShare=true&at=9&CID=144f5f2e-d593-d51a-72e8-aadd725f591d",
+               "visit_count": 0
+            }, {
+               "date_added": "13345009203510810",
+               "date_last_used": "13350238439510211",
+               "guid": "8c9419b6-3b0e-4489-ae7b-17bff57c0bd4",
+               "id": "54",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Model Logiciel",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/223014_umons_ac_be/_layouts/15/Doc.aspx?sourcedoc={473d431c-2902-463a-9b6f-866e8daa519f}&action=view&wd=target%28Note%20de%20cours.one%7C549bf343-a972-4be4-9195-75351fc20ee0%2FD.%20Sequence%7C0d4eb8fd-7992-43ab-a0ff-a84a9d91ad87%2F%29&wdorigin=NavigationUrl",
+               "visit_count": 0
+            }, {
+               "date_added": "13342441540346706",
+               "date_last_used": "13343495559708586",
+               "guid": "31451ada-d753-47b9-b3ce-a2f0176f2f25",
+               "id": "55",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Optimisation Lineaire",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/ErWNZSjor31OiXXeP7O5eisBnyQabE0S9pboGD659X1sIg?e=5%3AcC59R9&fromShare=true&at=9&CID=9146b60e-84c8-8e31-6ddc-bc478c32081d",
+               "visit_count": 0
+            }, {
+               "date_added": "13342434315899397",
+               "date_last_used": "13343053574568898",
+               "guid": "9b386397-2b4c-4782-a920-a4370e310e15",
+               "id": "56",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Mecanique des fluides - Microsoft OneNote Online",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://onedrive.live.com/redir?resid=7EA0DD1AA178E2F4%216856&authkey=%21AE9rhrNDiy-RzGs&page=View&wd=target%28SLIDES.one%7Cc5a9bb9d-fc18-4919-be1d-7129caa2f666%2F102-141%7Cf8581caa-01c1-41fb-b64f-b8f2a8899116%2F%29&wdorigin=NavigationUrl",
+               "visit_count": 0
+            }, {
+               "date_added": "13342394684587615",
+               "date_last_used": "0",
+               "guid": "9ca37437-586b-4bba-8b31-f72cf42b5341",
+               "id": "57",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Big data",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/EoIYEBLKtD9FkbOjtHpCnnABeZrhm9jzCLAJosvN3G1R5Q?email=Ouiam.Bouazzati%40student.umons.ac.be&e=5%3A1fesxW&fromShare=true&at=9&CID=9bd5ee18-7910-638a-3e81-12c2a91e4a77",
+               "visit_count": 0
+            }, {
+               "date_added": "13340032697505024",
+               "date_last_used": "13350228365591934",
+               "guid": "b72c25eb-a12e-4fcb-9c45-469b20713071",
+               "id": "58",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Optimisation NonLin",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/El5lZB8mq3BGm05xtpU2pe0B7qkMmnWwugTLyM48BoNMVg?e=5%3Amfw9jL&fromShare=true&at=9&CID=72faa359-2688-0d15-3ad1-44ac850e58fb",
+               "visit_count": 0
+            }, {
+               "date_added": "13340032690410010",
+               "date_last_used": "13342475801221711",
+               "guid": "11407b82-93dc-4011-8e32-e8ec4264977d",
+               "id": "59",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Machine Learning",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/:o:/g/personal/223014_umons_ac_be/Eml-4yhoC4dBpoGBli-yxTgB6doMZ-q0sSXdtr-Mj8Xqnw?e=5%3AiJiSVd&fromShare=true&at=9&CID=dce09689-d5c5-7e41-88b7-5df4d25acfcd",
+               "visit_count": 0
+            }, {
+               "date_added": "13353193965345918",
+               "date_last_used": "13354789845158486",
+               "guid": "af964cb4-207f-4ec5-82d3-97753996e403",
+               "id": "60",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ProjetIG Docs - OneDrive",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://alumniumonsac-my.sharepoint.com/personal/223014_umons_ac_be/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F223014%5Fumons%5Fac%5Fbe%2FDocuments%2FDocuments%2FBAC3%2FQ2%2FProjetIG%2FProjetIG%20Docs&ct=1708717592947&or=OWA%2DNT&cid=2ee45b56%2Dcb00%2D8e85%2D226b%2Dab6de344f6b9&fromShare=true&ga=1",
+               "visit_count": 0
+            }, {
+               "date_added": "13357735994042835",
+               "date_last_used": "0",
+               "guid": "d3b49ea5-8628-4222-9663-aed981ee2df2",
+               "id": "61",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "2024-2025 - Presentation",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.canva.com/design/DAGChe-opOc/m_AQIUfIu_iwuDvdGyWzJQ/edit",
+               "visit_count": 0
+            }, {
+               "date_added": "13350095296345673",
+               "date_last_used": "0",
+               "guid": "6a6bcd72-68ca-4e7c-bc95-1d55f1c0ce85",
+               "id": "62",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Rapport de Projet Modélisation et - Presentation",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.canva.com/design/DAF5g5xWrac/fYvy-Eo-n5AAeZBfeQZf9w/edit",
+               "visit_count": 0
+            }, {
+               "date_added": "13359130029064728",
+               "date_last_used": "0",
+               "guid": "ba823db0-2664-4b74-bf4a-1ce95a1b5eb3",
+               "id": "63",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ABC Bourse - The Game, portefeuille",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.abcbourse.com/school/FPMS2024/portfolio",
+               "visit_count": 0
+            }, {
+               "date_added": "13352814038058766",
+               "date_last_used": "13354645739747421",
+               "guid": "882f715f-7f0a-4d43-b417-7feed512e333",
+               "id": "64",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Mes tâches",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://b24-wbp50x.bitrix24.fr/company/personal/user/10/tasks/?F_STATE=sVg0&secret=1k54hox8",
+               "visit_count": 0
+            } ],
+            "date_added": "13369760468024926",
+            "date_last_used": "0",
+            "date_modified": "13369760468024926",
+            "guid": "71a6c2c1-bc3c-4fa1-9cd6-2f156dd62dd5",
+            "id": "47",
+            "name": "Bab3",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13330348497009387",
+            "date_last_used": "13374795092871108",
+            "guid": "a3401a7b-60d9-4e70-a9e4-c5bb6ef32506",
+            "id": "65",
+            "name": "(3) DJ Youcef - En Mode Rifino - +1h de Mix Live Rifino - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=kdAVOk-1NBc",
+            "visit_count": 3
+         }, {
+            "children": [ {
+               "date_added": "13359902739186054",
+               "date_last_used": "0",
+               "guid": "414e7d12-b8aa-43b2-9c60-72e130611f76",
+               "id": "67",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Hand Tracking with Only Webcam - Webcam Motion Capture",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://webcammotioncapture.info/",
+               "visit_count": 0
+            }, {
+               "date_added": "13360148584251089",
+               "date_last_used": "0",
+               "guid": "16db808e-e12b-423c-b394-ed3618a58fe1",
+               "id": "68",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Langue des signes belge",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=Kf3OSVqGOso&list=PLyLNlJz7IZS574gTBiym9BWXoWuWXruy6",
+               "visit_count": 0
+            }, {
+               "date_added": "13361697724476712",
+               "date_last_used": "0",
+               "guid": "9a950c10-8db3-4b39-a23b-16b3af1b1f4f",
+               "id": "69",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Adova_Manifesto-Ressources.pdf",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://adova-group.com/wp-content/uploads/2023/11/Adova_Manifesto-Ressources.pdf",
+               "visit_count": 0
+            }, {
+               "date_added": "13361698227763419",
+               "date_last_used": "0",
+               "guid": "8cf1dd85-0fa0-460e-8ad4-e37dc29031a3",
+               "id": "70",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Ressources, l’engagement chez ADOVA | Adova Group",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.adova-group.com/nos-engagements/programme-rse-ressources/",
+               "visit_count": 0
+            }, {
+               "date_added": "13361837715927556",
+               "date_last_used": "0",
+               "guid": "2ad95c4c-3278-4e3b-b97c-2b77acee20be",
+               "id": "71",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Orchestre zouhir adha - Aarassia nayda (FULL ALBUM MIX) - YouTube",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=7p70s0p_2A8",
+               "visit_count": 0
+            }, {
+               "date_added": "13365078301091888",
+               "date_last_used": "0",
+               "guid": "c507ef53-da23-4bb7-8f58-f6b3f998af9d",
+               "id": "72",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Tutorials - EEGLAB Wiki",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://eeglab.org/tutorials/",
+               "visit_count": 0
+            }, {
+               "date_added": "13356130542282363",
+               "date_last_used": "13356180185951576",
+               "guid": "80293208-fd25-493a-ab49-a60431cbc06d",
+               "id": "73",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "asl sign recognizer",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.kaggle.com/code/devprabal/asl-sign-recognizer/notebook",
+               "visit_count": 0
+            }, {
+               "date_added": "13355147555824663",
+               "date_last_used": "13356011535319276",
+               "guid": "0256aa0b-88a9-4a34-981d-6cce66b73e16",
+               "id": "74",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ASL_Recognition/code/wlasl-baseline-model/datasets/nslt_dataset.py at main · Joshitha18/ASL_Recognition",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://github.com/Joshitha18/ASL_Recognition/blob/main/code/wlasl-baseline-model/datasets/nslt_dataset.py",
+               "visit_count": 0
+            }, {
+               "date_added": "13354749527192919",
+               "date_last_used": "13359819875288111",
+               "guid": "5aeb642a-ced8-457b-9f99-61e94cbbe320",
+               "id": "75",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Corpus de langue des signes de Belgique francophone",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.corpus-lsfb.be/",
+               "visit_count": 0
+            }, {
+               "date_added": "13354748693587773",
+               "date_last_used": "0",
+               "guid": "71a36256-f696-4ad9-a084-7ce7181444e2",
+               "id": "76",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Qu'est-ce que la langue des signes française ? - Surdi Info Service",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.surdi.info/langue-des-signes-francaise-lsf/langue-des-signes-francaise/#:~:text=Elle%20poss%C3%A8de%20sa%20propre%20syntaxe%2C%20qui%20est%20intimement,mots%20dans%20la%20phrase%20n%E2%80%99est%20pas%20la%20m%C3%AAme.",
+               "visit_count": 0
+            }, {
+               "date_added": "13354748329162967",
+               "date_last_used": "0",
+               "guid": "7787a028-dac4-48c8-8a40-fe1f9e10466e",
+               "id": "77",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "La Langue des signes française (LSF) | Fondation pour l'audition",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.fondationpourlaudition.org/la-langue-des-signes-francaise-569",
+               "visit_count": 0
+            } ],
+            "date_added": "13359902756438131",
+            "date_last_used": "0",
+            "date_modified": "13365078301091888",
+            "guid": "a928d78f-3b76-4b9c-a7c1-6488488ed3a6",
+            "id": "66",
+            "name": "projetbab3",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13369841196847295",
+            "date_last_used": "13392231533051118",
+            "guid": "32286a5d-150b-4b6e-92d7-992ff30aba92",
+            "id": "78",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "HYPERPLANNING - HYPERPLANNING",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://hplanning2024.umons.ac.be/invite",
+            "visit_count": 76
+         }, {
+            "date_added": "13376951189938300",
+            "date_last_used": "0",
+            "guid": "2ad8f046-8ca8-4cb3-906a-74b26e1d9bee",
+            "id": "79",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Inbox (111) - ouiambouazzati7@gmail.com - Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/5/#inbox",
+            "visit_count": 1
+         }, {
+            "date_added": "13377901971860782",
+            "date_last_used": "0",
+            "guid": "82b38c2a-4665-4611-a926-f4c080fd9261",
+            "id": "80",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pentesting d'infrastructure industrielle - CETIC - Your connection to ICT research",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.cetic.be/Pentesting-d-infrastructure-industrielle",
+            "visit_count": 1
+         }, {
+            "children": [ {
+               "date_added": "13379249107635801",
+               "date_last_used": "0",
+               "guid": "7d8d559b-becc-44f4-8e82-a1365d24d46d",
+               "id": "82",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(10) Vulnérabilité XSS (Cross-site-scripting) : Explication et Démo - YouTube",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=E47rY21gXSY&t=69s",
+               "visit_count": 1
+            }, {
+               "date_added": "13379424211843019",
+               "date_last_used": "0",
+               "guid": "92112b1c-2553-486f-a908-4d77cf89b8a6",
+               "id": "83",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Failles XSS : principes, attaques, bonnes pratiques sécurité",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.vaadata.com/blog/fr/failles-xss-principes-types-dattaques-exploitations-et-bonnes-pratiques-securite/",
+               "visit_count": 1
+            }, {
+               "date_added": "13382048416225532",
+               "date_last_used": "0",
+               "guid": "f86767e6-f2b0-4209-b958-9370ddeee355",
+               "id": "84",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Copy of Opti'Plan Project - Presentation - Canva",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.canva.com/design/DAGc8zkydrc/_feooDIEPiSg8jBJviRqsg/edit",
+               "visit_count": 1
+            } ],
+            "date_added": "13379249105612348",
+            "date_last_used": "0",
+            "date_modified": "13382048416225532",
+            "guid": "455e84c9-1879-4674-9d49-f2f4b1e1e01d",
+            "id": "81",
+            "name": "XSS",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13383586009842503",
+            "date_last_used": "0",
+            "guid": "ab10772c-4349-4bdd-aee4-1ade22f7de00",
+            "id": "85",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Scan results for https://tryhackme.com/",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://securityheaders.com/?q=https%3A%2F%2Ftryhackme.com%2F&followRedirects=on",
+            "visit_count": 1
+         }, {
+            "date_added": "13384617082351699",
+            "date_last_used": "0",
+            "guid": "2ab75a20-92bc-47e0-b1ef-cd94a572c21f",
+            "id": "86",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "THM",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/List_of_file_signatures",
+            "visit_count": 1
+         }, {
+            "date_added": "13384633231118260",
+            "date_last_used": "0",
+            "guid": "2de79d07-67c3-4654-9a1d-c60b5302081d",
+            "id": "87",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CrackStation - Online Password Hash Cracking - MD5, SHA1, Linux, Rainbow Tables, etc.",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://crackstation.net/",
+            "visit_count": 1
+         }, {
+            "date_added": "13384690963712015",
+            "date_last_used": "0",
+            "guid": "ade61615-692f-4fa4-94cf-12ffd4fe9b45",
+            "id": "88",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "What is the Document Object Model?",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.w3.org/TR/REC-DOM-Level-1/introduction.html",
+            "visit_count": 1
+         }, {
+            "date_added": "13384705475981156",
+            "date_last_used": "0",
+            "guid": "4fad34e3-25cf-4995-9d58-3072d82e5341",
+            "id": "89",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "payloadbox/command-injection-payload-list: 🎯 Command Injection Payload List",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/payloadbox/command-injection-payload-list",
+            "visit_count": 1
+         }, {
+            "date_added": "13384735470858884",
+            "date_last_used": "0",
+            "guid": "4040dfc6-27d3-4aa3-ac10-2e8298fbf9b0",
+            "id": "90",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "R57 Shell | C99 Shell | Shell | TXT Shell | R57.php | c99.php | r57shell.net",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.r57shell.net/index.php",
+            "visit_count": 1
+         }, {
+            "date_added": "13384988858687862",
+            "date_last_used": "0",
+            "guid": "d6cd7dfe-a363-45a7-93ad-36e95037f7e3",
+            "id": "91",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vigenere Solver | guballa.de",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.guballa.de/vigenere-solver",
+            "visit_count": 1
+         }, {
+            "date_added": "13385329092160981",
+            "date_last_used": "0",
+            "guid": "bfa84261-7b34-4e7e-ade2-f277057ccb6d",
+            "id": "92",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ouiam Bouazzati - CV en ligne",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://localhost/CV/index.html",
+            "visit_count": 1
+         }, {
+            "date_added": "13385335491766359",
+            "date_last_used": "0",
+            "guid": "535e799c-4d32-47c5-b3fe-670bbfd69b30",
+            "id": "93",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ouiam Bouazzati - CV en ligne",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://localhost/CV_OuiamBOUAZZATI/index.html?status=success#Contact",
+            "visit_count": 1
+         }, {
+            "date_added": "13385399651447215",
+            "date_last_used": "0",
+            "guid": "d9462157-f64f-4fb9-9627-ebd83cb139cc",
+            "id": "94",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ouiam Bouazzati - CV en ligne",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://mobile.ig.umons.ac.be/bouazzatio/",
+            "visit_count": 1
+         }, {
+            "date_added": "13386429546627330",
+            "date_last_used": "0",
+            "guid": "33874ca8-aab4-4cf6-911b-f9fe849719f9",
+            "id": "95",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Trusted computing",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://tpm2-tools.readthedocs.io/en/latest/",
+            "visit_count": 1
+         }, {
+            "date_added": "13386782078891095",
+            "date_last_used": "0",
+            "guid": "e7e0d5ca-d354-463b-91ff-8838fe41dc91",
+            "id": "96",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Black and White Modern The Art Of Music Presentation - Presentation",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGiFheT8c8/WgvweAkppLXc2ftOGv4kpA/edit",
+            "visit_count": 1
+         }, {
+            "date_added": "13387641448162995",
+            "date_last_used": "0",
+            "guid": "261f4406-2a00-4b72-98e4-6efe02a0642a",
+            "id": "97",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Stages Polytech",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://alumniumonsac.sharepoint.com/sites/FacultePolytechnique/SitePages/Stages.aspx",
+            "visit_count": 1
+         }, {
+            "date_added": "13387970935619187",
+            "date_last_used": "0",
+            "guid": "9df3332f-95b7-4775-8c02-757f9e92e767",
+            "id": "98",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LEPL1503 : Introduction au langage C",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://sites.uclouvain.be/SyllabusC/distrib/latex/LEPL1503Theorie.pdf",
+            "visit_count": 1
+         }, {
+            "date_added": "13390305090869660",
+            "date_last_used": "0",
+            "guid": "8a24779e-1e08-44de-ad89-31a3c4e5dc5a",
+            "id": "99",
+            "name": "FlutLab.io - Flutter IDE online",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://flutlab.io/editor/9b47bd0c-3895-4c8d-b1c0-7ae40ae1b77a",
+            "visit_count": 1
+         }, {
+            "date_added": "13391186432421408",
+            "date_last_used": "0",
+            "guid": "b7850d69-0663-484e-819f-90dcd9165952",
+            "id": "100",
+            "name": "Questions d'éthique en IA et en NTIC",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://ethique.ig.umons.ac.be/",
+            "visit_count": 1
+         }, {
+            "date_added": "13391192044079377",
+            "date_last_used": "0",
+            "guid": "5b500588-0b61-4b4a-b155-a154618bc5ef",
+            "id": "101",
+            "name": "Blue and White Modern Illustrative Thesis Defense Presentation - Presentation - Canva",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGmyvYyBIo/g3lflQllkmIJZ4VmAWkibg/edit",
+            "visit_count": 1
+         } ],
+         "date_added": "13392233910038035",
+         "date_last_used": "0",
+         "date_modified": "13391192044079377",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13287576787675425",
+               "date_last_used": "0",
+               "guid": "d7f85a2b-ea99-4bca-86b9-fe7492ab48b5",
+               "id": "7",
+               "name": "Amazon.co.uk – Online Shopping",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.amazon.co.uk/gp/bit/amazonbookmark.html?tag=hp2-brobookmark-uk-21&partner=HP",
+               "visit_count": 0
+            }, {
+               "date_added": "13287576787675425",
+               "date_last_used": "0",
+               "guid": "71aa8b9f-c7bf-4403-b2f2-74921896990a",
+               "id": "8",
+               "name": "LastPass",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.lastpass.com/hpwelcome",
+               "visit_count": 0
+            } ],
+            "date_added": "13308441887824690",
+            "date_last_used": "0",
+            "date_modified": "13308441887824690",
+            "guid": "2ebac803-2755-4044-be2e-bc986d7691b1",
+            "id": "6",
+            "name": "HP",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13392233910038038",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13392233910038039",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCK6nfe6WAQAAEgAqGGs3YjFUTURSaGVsdFROMlQ0WDkwK0E9PUgDoAYHErUBCGUSsAEKHGRURnJmTGFrNE9hNlhJVnVxZWJpRkErSFhHRT0SJDViNTAwNTg4LTBiNjEtNGI0YS1iMTU1LWExNTQ2MThiYzVlZhgAIAAoADC7puqF7DI4+qOhhOsyQPqjoYTrMkocTk5EWTFOVGlVaHF3Uk9pMkxZc04zV2hKcUdVPVonIiX/////AAAACdljQldvUEpwNnNMWGw4R01TZzdqeHFQYVRPc1k9ZVIdo2XCPgJgBRK1AQhkErABChxVZ05EbkF3ZnhTWTdOczlnbXVRRlNZL0syUk09EiRiNzg1MGQ2OS0wNjYzLTQ4NGUtODE5Zi05MGRjZDkxNjU5NTIYACAAKAAwnuLKgesyOPPjyoHrMkDz48qB6zJKHEJGY25BdnFScUxZYTdXTUgvcDBOWlNhWkVXcz1aJyIl/////wAAAAmyNmR4NHNncUhSMkx0Uy9PbEVYalIvZ1E4RStjPWV0t9tqwj4CYAUStAEIThKvAQocR2hCZmFCOERZYkplR0twc0JldEErNHVjNG93PRIkMzIyODZhNWQtMTUwYi00YjZlLTkyZDctOTkyZmYzMGFiYTkyGAAgACgAMK3P9vPuMji+0qCktDJAvtKgpLQyShw2TDlXYWNHb3RxQUNZdHgxM0wyWm8yM1BJQnM9WiYiJP////8AAAAHd3lMSkcvZXlLRTQ5ZWdsNlh3anI0MjVyQWZ3PWXfJVHLwj4CYAUStQEIYBKwAQocdGpYNzdVdytHM0IrVWU4K1I2eDVVNUVscFV3PRIkZTdlMGQ1Y2EtZDM1NC00NjNiLTkxZmYtODgzOGZlNDFkYzkxGAAgACgAMK2zts3aMjj2s7bN2jJA9rO2zdoyShx4UERuQzNaT2hiQ1RBSXNUSG4xR090NmxVVmc9WiciJf////8AAAAI/ndkNGlrRnFtMFBFeXIyRkJvc3pncFNuR1BZZz1lUh2jZcI+AmAFErUBCF8SsAEKHDBXdTM2b0czNkl1RjYzaExNMVNNYWRrNlJPYz0SJDMzODc0Y2E4LWFhYjQtNGNmNi05MTFiLWY5ZmU4NDk3MTlmORgAIAAoADD7h6ql2TI4tbappdkyQLW2qaXZMkocZjNHampnT0phK2Y3SDh3TlVVaUdnZE12VEtZPVonIiX/////AAAACP1YbGk1VENuMHZpN0RLODFZUjdYSFJXTlNVTUk9ZWFGIJrCPgJgBRK1AQheErABChxEQjBTcDFSZE1tYmtpRFIxWVF4WHhmdFdZL289EiRkOTQ2MjE1Ny1mNjRmLTRmYjktOTYyNy1lYmQ4M2NiMTM5Y2MYACAAKAAwiM6dutUyOI/QnbrVMkCP0J261TJKHGFudHpnWnZWZE5semNqYkFTb3crb2t2V2phYz1aJyIl/////wAAAAj7MjREbEJpcDFLZ3Fnb2x4c085NkJKT3EwZHFVPWUAAAAAwj4CYAUStQEIXBKwAQocb3hhcEVJcW0yVWFSaStVdDQzNlBqL2VkUUhnPRIkYmZhODQyNjEtN2IzNC00ZTdlLWFkZTItZjI3NzA1N2NjYjZkGAAgACgAMOSHy5jVMjibicuY1TJAm4nLmNUyShxZM3RaT0NUc2pyUzFBVnMrSldJdk8wa1R5RXc9WiciJf////8AAAAI7jNFWFVLNEhucEV1SHFZUzdpaDdSSm0walUzND1llj2T+8I+AmAFEq0BCCESqAEKHHY5bEZzVnZMRklSaTVWVHpQbXpmZWhJV0k4OD0SJGFmYjVjMzNlLTg2MjItNDNmMS1iNWM4LWZiMzBmMTQ4NzVmNRgAIAAoADC916CktDI48NjsxOgwQPDY7MToMEocNGkrdVZZeVZadUEvZXlWbHFYbHpZcnJra3VRPVofIh2xNlIyZ005UktuQ3dOak1pR3hvSzg2VXc4Q0lvPWVhkJsiwj4CYAUStQEIWxKwAQocYUpML0R3Z3RaSkdJc2QzOGpqNFFsSnRXRmxFPRIkZDZjZDdkZmUtYTM2My00NWE3LTkzYWQtMzZlOTUwMzdmN2UzGAAgACgAMPv3rPbTMjjb+Kz20zJA2/is9tMyShxkRFFNZ3FNYnZnY0VTMGluRlJWNTNnUnRaVE09WiciJf////8AAAAI3UQ3aHpRZHhJcFpLWjdBSEc4aVRkRmVIVEFWND1lWomOQsI+AmAFErUBCFoSsAEKHFd2NEZ6L3lNcWNhRmNDUU9renhaTDFmS2g3TT0SJDQwNDBkZmM2LTI3ZDMtNGFhMy1hYzEwLTJlODI5OGZiZjliMBgAIAAoADCSo8P90jI4xaTD/dIyQMWkw/3SMkocWjRZV2lYSmVaUXU3N3ZQSGM2TDNuL2FoVHpZPVonIiX/////AAAACLtETUlwOWRVVkxVSm13dGEvQ0gvRVIwRzlQLzQ9ZWAoppTCPgJgBRK0AQhZEq8BChx2MmdiT00yL3NxZEZ2WHJFcGV2TVBXb0VGVkU9EiQ0ZmFkMzRlMy0yNWNmLTQ5OTUtOWQ1OC0zMDcyZDgyZTUzNDEYACAAKAAw4syc79IyOOnOnO/SMkDpzpzv0jJKHDVMSXJ3QTFOL0dMU2hKak5IZmxkblRKaWpPTT1aJiIk/////wAAAAh2NDZXTlRrOFRGNTJoVm5FcWNBbE0yZlNvdEk9ZRVQ+YnCPgJgBRK1AQhYErABChxnNnpYd01GOE11VnZyTk0xaU9HbUpoeWl1WG89EiRhZGU2MTYxNS02OTJmLTRmYTQtOTRjZi0xMmZmZDRmZTliNDUYACAAKAAwneGm6NIyOITjpujSMkCE46bo0jJKHFIyWFA4YzMwenMvbjRSYjl4S2tkWG9ETGUxRT1aJyIl/////wAAAAf+cDA5OW41MmFWY3FpYk9hcDNWRDRBblRLYng0PWUvVRRswj4CYAUStQEIVxKwAQocUU5CZys3QzBYTUlhbDc2Qlk0ZGpRSzJRM0xzPRIkMmRlNzlkMDctNjdjMy00NjU0LTlhMWQtYzYwYjUzMDIwODFkGAAgACgAMJv94szSMjiu/+LM0jJArv/izNIyShxWWCtYUk1ldUxWdHBxaDZiSVlyL091VXptZXc9WiciJf////8AAAAH/Xl6WlViS2lRTVFQWHZzVGtKNDhFdWZwcTFDWT1lL8/E7cI+AmAFEq4BCDwSqQEKHGVmZHZnZFd1VDlseTE2bXhCMGZLSHM5Q091OD0SJGFmOTY0Y2I0LTIwN2YtNGVjNS04MmQzLTk3NzUzOTk2ZTQwMxgAIAAoADC816CktDI4383Gx+AxQN/NxsfgMUocZGoycllLdU5jNXROa3dBUUNIV1crSmJVbTA4PVogIh7/3HZPdzRYcXRhdzk0bVZLellKemw4VVJGR0NpUT1lAOoTTMI+AmAFErUBCFUSsAEKHEk2eTJRRkFab1hCeXBlNHlZWkNwOFllY0VaST0SJGFiMTA3NzJjLTQzNDktNGJkZC1hZWU0LTFhZGUyMmY3ZGUwMBgAIAAoADD/ibbZzjI4zuO12c4yQM7jtdnOMkocWEZIR1MwVUVyRlN2OFhRb1N2ZWhob2xvOGhRPVonIiX/////AAAAB/d4ek1tR3B2dTJpYytBdmhsbXBuUDBESTB5VjQ9ZTE86I3CPgJgBRKsAQhUEqcBChxhaHN2aXhmclRmMVFOZEM2L2U0bkhSaHdpaVE9EiRmODY3NjdlNi1mMmIwLTQyMDktYjk1OC05MzcwZGRlZWUzNTUYACAAKAAw57ye/MgyOL++nvzIMkC/vp78yDJKHHdQTVNNQ2R6WkRGanRwS2p0ZVFhK3hMbjRHaz1aHiIcZkQrc3czeDZ1eHJQVHBSTE5ubEhnazJSZ0lZPWVSHaNlwj4CYAUSrAEIUxKnAQocem9Jb1ZtdjNmUHFGaExuVnlISzRxV3hkTTc4PRIkOTIxMTJiMWMtMjU1My00ODZmLWE5MDgtNGQ3N2NmODliOGE2GAAgACgAMI/j9Zi/Mji35PWYvzJAt+T1mL8yShxSWFFPT3hPWjdNZ21BeFBDOXJtNGpGYnFWSU09Wh4iHDZ1OTdGSjd1YS90WWczNWV4V09ieTYvSDRJWT1lBj7HjcI+AmAFEq0BCDcSqAEKHDh3ejdlRTBCUE5MRjRRdmhWUTgzK3l1TEtDUT0SJDMxNDUxYWRhLWQ3NTMtNDdiOS1iM2NlLWEyZjAxNzZmMmYyNRgAIAAoADDJ5aCktDI4/NyatrUxQPzcmra1MUocM3k3N1lOemxia2lVUWJyTnllM0hjTWVJRHhFPVofIh37VGxUK1pSQWwvbkNLclNGdGY5Z283RGhleDNFPWVhkJsiwj4CYAUSrQEISxKoAQocdGZQdklWMW9FOGhTUHRkTFM1dnNlVDlZUncwPRIkNWFlYjY0MmEtY2VkOC00NTdiLTlmOTktNjFlOTRjYmJlMzIwGAAgACgAMMrloKS0MjikzY6j4zFApM2Oo+MxShx6TlVPUEdkL1F0SjN1amgycnpsSlpuMko4R3c9Wh8iHf5Ja05pR1lrMFdTY05kRTA4emJnVnpLQ25USDg9ZaGibFvCPgJgBRKtAQhKEqgBChwwa0RmUkZXeFd0UEQ5M1kvWEo4bU84Vm1lYU09EiQwMjU2YWEwYi04OGE5LTRhMzQtOTgxZC02Y2NlNjZiNzNlMTYYACAAKAAw0OWgpLQyOJ6qnfLpMUCeqp3y6TFKHEVQL3hQY3NpZ3pGRVZkdmpmcGZJU2s1cGp3az1aHyId/TlpT1RrOW5RdWRwWWxjWHFqa0VKbFhIa2FTND1lFVD5icI+AmAFEq0BCEkSqAEKHEVyM0lWaTFkRzVvZCs4VTJyQXpuNXE0aUN1QT0SJDgwMjkzMjA4LWZkMjUtNDkzYS1hYjQ5LWE2MDQzMWNiYzA2ZBgAIAAoADDQ16CktDI486md8ukxQPOpnfLpMUocTTNwbFo3VUlJYUFLdmpmaFFzd3h6SFVFVEVzPVofIh36SnZmU0J6Z2VWOG1oajlVMkUvMkVHcDAwZlE4PWW8aNgZwj4CYAUSsAEIQRKrAQocVlA4eUo3QjdCVXRLTmNFVjhhQlB3YUZla3QwPRIkYTM0MDFhN2ItNjBkOS00ZTcwLWE5ZTQtYzViYjZlZjMyNTA2GAAgACgAMO3FoKS0MjjC8eWviDFAwvHlr4gxShxVblJycTVyUkVoYjQzcVFZT3h6ZFVMQ0Y0MEU9WiIiIP///+xnMTJkRU9YRDdsNUNRZmdFVHdzQkU2a2VnMEU9Zf2cjErCPgJgBRKuAQgrEqkBChxyVGJ6Y3RKa0dSY3ROVmQwTm9vMUQrL1N2VUE9EiQ5MmFiYTMxYy1lYjQ3LTQwZWQtOGI2Yi1hNmI3ZjQ2MWRiNDAYACAAKAAwx9egpLQyOMaujen3MEDGro3p9zBKHEFHUlUrM3lPK1pjaFcvTUdDb0g4YjBnWXBNdz1aICIe/80rMHNaajBrUEVGb2RWRHpVaWJTM05vM3BJcHM9ZVIdo2XCPgJgBRKsAQgQEqcBChwyS0MzdGxWYU9YaVhrV2tBNGkvRnhOWmQvbUk9EiRlMDFmZmZhMi0xMTI0LTQ5ZjAtYTFkNy03YTdjMWFlNjU4ODgYACAAKAAw0+WgpLQyOJDvoKS0MkCQ76CktDJKHFlUSVJFOW9DTnZ5WHNDUW9IZklZVWNuekNTcz1aHiIcb1pSY3FPZndRaTFYbE1KZXlLRGRFNTFVZzRJPWXmXrYywj4CYAUSrQEIRxKoAQocdU04aFRLbmZNcVZEVzlGbmxKSXpqcGlGRkpFPRIkMmFkOTVjNGMtMzI3OC00ZTNiLWI5N2MtMmI3N2FjZWUyMGJlGAAgACgAMKrXoKS0Mjjc4KCktDJA3OCgpLQyShwvdG1ZUDFacGdZa3FFOW1sZlJNVldWVHlHM1k9Wh8iHesvRjRGcjk2b1NvaDJyS1FsODBLd0YrU244cUU9ZTj5OTPCPgJgBRK0AQhiEq8BChxRMTI0SjlJekxrSEV2MDRrSUVnYzFBZHdlT2c9EiQ5ZGYzMzMyZi05NWI3LTQ3NzUtOGMwMi03NTdmOWU5MmU3NjcYACAAKAAwl7CohN8yOJuyqITfMkCbsqiE3zJKHFlLc2lzOHZEVmE4VkVQQklTek9MTHoyUERlND1aJiIk/////wAAAAlaRWVrQmZXekFtY1hhRVFyTDhjbW1hQmx3czA9ZXsTaIbCPgJgBRKuAQg9EqkBChx5TEdaNXdPQXhSTEw1T0FOVlQ4N0IxMmxwa2M9EiRkM2I0OWVhNS04NjI4LTQyMjItOTY2My1hZWQ5ODFlZTJkZjIYACAAKAAwqdegpLQyOMS/6orwMUDEv+qK8DFKHGxtbU55aDN2NHN1bk1QemVLVndla0puZmRETT1aICIe/+5UVHl6MXk0RkRWWWFsRUllTjJEZFVOcTdNMzA9ZVIdo2XCPgJgBRK1AQhPErABChxlUStyeGd2aFUrUmhQOGtIODk1RWtPaDhuVXM9EiQyYWQ4ZjA0Ni04Y2E4LTRjYjMtOTA2YS03NGIyNmUxZDliZWUYACAAKAAw0ejZ/bUyOMDB2P21MkDAwdj9tTJKHC9iVkF6eGQrbGZTNjNDcHFKTm9YSXV1N1l1UT1aJyIl/////wAAAAe7QnF0NkNJNkpUVld0QitrYlRCeGQra3dzOUg4PWWbPYW2wj4CYAUSrgEILBKpAQocRUNYWW1lVlU3a2dnd2pHMW5iMkZCcC8vTFVVPRIkNTNlMmJjNGItMDQ4Ni00NzMzLWE0YTEtMTM4MjJlOTI1ODgxGAAgACgAMMjloKS0Mjix6dS7hzFAsenUu4cxShxsaXJSUlRzOWIrSUxBcTR4Y0R6MzMzZGJtWGs9WiAiHv/mSDVkM3RSaGw5K01KMDkzZXVVeU1uYjJId21JPWVhkJsiwj4CYAUStQEIURKwAQocbkdQbmpmVkphWDlPMTMwNUFGY3MvMGpQRGZNPRIkNDU1ZTg0YzktMTg3OS00Njc0LTlkNDktZjJmNGIxZTFlMDFkGAAgACgAMNOWtsW+MjiQmLbFvjJAkJi2xb4yShxpNlVvNFM4WUtMZXp5RkkzZS9QYmlxMkI2VW89WiciJf////8AAAAH7mpDa0tpeHp6eXpwWGdUazc2VTkvcy8yVXA5VT1lAAAAAMI+AmAAEq0BCA4SqAEKHHdmNmVLV1krYlZ5ZHRCRkZQMDY5dmlPb3V6ST0SJDIxODIwMzlmLTcwZTEtNDA1MC1iNDcxLWRiNGNhYjkxM2ZkNRgAIAAoADDvxaCktDI4lcDqivAxQJXA6orwMUocVUNmS0hWU0NLVVFUc2RGTHRDSmxqd2gvamRjPVofIh3+dmNSWkdIY3Y0bkN2a1VMMCtGTzdJNHQ2VGtFPWUY6tzSwj4CYAUSrQEIOhKoAQocUVQ0ZnVOb1V4VGY5SFpFYW9uZUN1dXo1cEtnPRIkYjcyYzI1ZWItYTEyZS00ZmNiLTljNDUtNDY5YjIwNzEzMDcxGAAgACgAMNfloKS0Mjivwsq5rDFAr8LKuawxShxsMHpZbWFnL1dOWXY4NlREMG91NFd5QlRzSEU9Wh8iHf9wSmJlNVZBcjY0VnV4dFJLUDFLL0s1MXlxakk9ZWGQmyLCPgJgBRKtAQg5EqgBChxxL1NCS0dwcUhhRy9OdEZHT1pEL2Fmem00c3c9EiQ5Y2EzNzQzNy01ODZiLTRiYmEtOGIzMS1mNzJjZjQyYjUzNDEYACAAKAAwttegpLQyOIzY7p+1MUCM2O6ftTFKHENMcUp6Z1pUaE9JNzEwWjJ0Q1EwRDB3LytJUT1aHyId/jNNUG1jSXBnalNjenUvSlk4U3lRc2RnM25IND1lYZCbIsI+AmAFEq0BCDgSqAEKHER1QnNPNm82S2NRYStWazNrMzZZN1hmbGNybz0SJDliMzg2Mzk3LTJiNGMtNDc4Mi1hOTIwLWE0MzcwZTMxMGUxNRgAIAAoADDP16CktDI4huPhsrUxQIbj4bK1MUocVjVtWU1aUWFISUc0ZVZnOUtNNzlMS3Y3dE1RPVofIh39cWN0SkhFNkpieXNPTnhxTmdUb0VacklocXpjPWVhkJsiwj4CYAUSrgEIKhKpAQocb0xoaTREVTJMcGdXNEFxaXVqdGlhQndnZXN3PRIkZWViM2Y0NjktZjk2My00ODVkLThkMDItYmYyOWMyODQyY2YyGAAgACgAMMXXoKS0MjjwhYXV7zBA8IWF1e8wShxJa280K01DTml4dUVYaVVqMTd1Z21WdlR1UFU9WiAiHv+bNVVHS3hNNzNhMGFsdTdBd0hOVXVTdFY4dmtRPWX6kd7bwj4CYAUSrAEIUhKnAQocM3R3aERXdjdtU1owR21FWkc0b3M1T01yOWdNPRIkN2Q4ZDU1OWItYmVjYy00NGY0LThlODItYTEzNjVkMjRkNDZkGAAgACgAMJi9tsW+MjiwmLbFvjJAsJi2xb4yShxZbkhxa2xJNmIvTkVDdkJBMWFmSStWTHYvVEU9Wh4iHDFhVWJhTTM5YTFubFp2VEtEZ3NuRXJ0a0M2ST1l/ZyMSsI+AmAFEq4BCEASqQEKHCtrRUt2dlZxSGZINlhnWnl2TStRNG9IWDNRaz0SJDg4MmY3MTVmLTdmMGEtNGQ0My1iNDE3LTdmZWVkNTEyZTMzMxgAIAAoADDI16CktDI4v83Gx+AxQL/NxsfgMUocYUJUQjVaSDRZZVMwd0VKMW90eFEwdkEvMGlJPVogIh7//ThDWlhDa0ZLak9yTkJEM0FWNU5SMjY3SDcyQT1lHnDnUcI+AmAFEqwBCDASpwEKHDFmVnlmZ29rbjFtQ0pzKzJFRHZDUm9vK0dIdz0SJGU5YjQ5MmM5LWMyMTItNGY5ZS05YzQ4LTdiODlhOTRmMWEwZhgAIAAoADDA16CktDI4wI6boKsxQMCOm6CrMUocaGJjNXEyWVhDTTN2UzFaNGJkTWgwc00ydzBVPVoeIhxTRCs4TCtLdGVQZGJOdU81Sy8zQnBld054Rkk9ZQDqE0zCPgJgBRKtAQhIEqgBChxKVE9ZY0tOL1pvWTQzNzRPbURXaVBzV3FXdDg9EiRjNTA3ZWY1My1kYTIzLTRiYjctOGY1OC1mNmIzZjk5OGFmOWQYACAAKAAwq9egpLQyOPzgoKS0MkD84KCktDJKHEhjdjN1WkwxdWJkbEpWd0UrdkVXTmZtZmF3Zz1aHyId9Ut5THNTRW9zTERIZlJHUjRXUDN5WHN0aGh5Zz1lAAAAAMI+AmAFEqwBCDISpwEKHGRhN0huZm1USVNacUxqdy9VRzR6dnNKVWN0TT0SJDVmNGJlMWRmLTBjMjAtNDU2Zi1hZjBkLTg3ZDQyNzc0ZGNlMBgAIAAoADDG5aCktDI49IuNjawxQPSLjY2sMUocM2xuWXF3Z1Q1Q1J3OFJGSlBuWGUzYUdpc0JVPVoeIhxwQ0JSUU5MakRnYjJjVlRsQ3Nvd2p1eHFsMVE9ZQDqE0zCPgJgBRKuAQguEqkBChxwL0hnbzh1Um9KU0FxYU5pNG0yc01peGI2OW89EiQyNjkyM2QzMC1mMTI4LTQzYWQtODNkZC00ODg4NGYwYzA0OTMYACAAKAAwxtegpLQyOLL8u6W6MECy/LulujBKHElzUU9WV2NpVU5zaHliUExOV0dhcjZqak9pWT1aICIe//laKzdjYkRyNHluNy9vL0NhWEgzb3RsR2Zkems9ZfqR3tvCPgJgBRK1AQhdErABChwzTkhaZzF1amNDMlU2TmhZaTQ2djRYMU9lNWM9EiQ1MzVlNzk5Yy00ZDMyLTQ3YzUtYjNmZS02NzBiYmZkNjliMzAYACAAKAAw3NTRm9UyOKzV0ZvVMkCs1dGb1TJKHEEwVXdQVkRYZnVWRmhER3M2alliUzQ2dE1aRT1aJyIl/////wAAAAj3WEN6alBvOGdaelBYYklhUWxBeUVEanc5UFk0PWWWPZP7wj4CYAUSrQEICRKoAQocSXJ3NjZYMGRmN1I4dXIwSzBuVkx1ZDc4Zmd3PRIkOTUxNTAxYTItYzIzZS00MTMwLWIwNWMtMTRlZjQzMWY1ZjMwGAAgACgAMO7FoKS0Mjii/LulujBAovy7pbowShwreVViRTUrQnZGTWpjZEZQaXk4TytXWjExbzg9Wh8iHdV2MEIzZkQxY2Z5R2NWRlZRUGlSb1BjUmROeU09ZZs9hbbCPgJgBRKtAQgnEqgBChxWcXF1eDl2cC9Ta1IrRnI5T3h0OHh5aHpCSG89EiQ4YmM5NTIwZC03ODBhLTRjM2UtYWRhNC1hM2RlMGI1MzhmNmMYACAAKAAwz+WgpLQyONH65PHoMEDR+uTx6DBKHHNqL3NHS3cvV0dya0JIS3hqQVZKM3RRM1A2ND1aHyId/XlKNExPYXF0MVRUbllYQ3BxSXc4RUdPM25QMD1lYZCbIsI+AmAFErQBCEISrwEKHFZuRWQ4WkIwd2dheWpMZzVJdnExZXNEMThPRT0SJGE5MjhkNzhmLTNiNzYtNGI5Yy1hN2MxLTY0ODg0ODhlZDNhNhgAIAAoADDrpfOO9zE4t7LzjvcxQLey8473MUocRnFvdDNrMEczMU1XbGJ1eXQ2emJtaS9ubG13PVomIiT/////AAAAB1prTGhzV1ExYjJ1RmxhdTN3cEpwNUM3NTdsVT1lAAAAAMI+AmAAEq4BCC0SqQEKHGQvZm8xVjZrZFIybHdGNkJBNGJscWxhRnhXND0SJDc0ODQ3OTIwLTllNTAtNDViNC1hYTlkLWU2ZTM4NGNiOWE0MxgAIAAoADDK16CktDI4oL6Vwo4xQKC+lcKOMUocNHVZZlRXZ0NTNjJjeGNUc1ArSXdiQXRRY0VjPVogIh7/80xld3VLOXdZKzRIQTNtMnBLbkczNTk4V0lPND1l+pHe28I+AmAFEq0BCDUSqAEKHHBsekQ1ODBGdG5YUEdlT3hhdmcyRWJhODhoMD0SJGY5ZWJiNmY4LWViYzktNGFmZi04MmJkLTUzZWY1OGM1NzYxMhgAIAAoADC316CktDI4rd6G2skxQK3ehtrJMUocTEg5S3poSFBWUW9hN005SDQ5YUx3bDZ0Ly9NPVofIh3uc2FPUklJcmdJbWRLUCtsaUJhVzN3UWVnZnJZPWVhkJsiwj4CYAUSrgEILxKpAQocWHNob1huREZ3VXRkbjFYNFRIaUpCblRHMU53PRIkNzFhNmMyYzEtYmMzYy00ZmExLTljZDYtMmYxNTZkZDYyZGQ1GAAgACgAMOnFoKS0Mjjb0qCktDJA29KgpLQyShxMZnpEZkJxM3BxKzJXR01aaE9LUktyZTREd3M9WiAiHv/8THF4Y20vTmNsYmhWVzVvelFYY241QUR4OURvPWUAAAAAwj4CYAASrQEIJRKoAQocbVlQZ2toQ014aEszU3JoNFo0NXdXazR1Z2xZPRIkZWRmNjU0MTgtZDNhNC00NTdlLTk0YWItYjc2OWVhYmQzODA4GAAgACgAMLvXoKS0MjiH4o7q6DBAh+KO6ugwShxnSGxSa3E5R2RTWUZPdlBRNnVhd2RINXhsQ009Wh8iHfY0WVR1SVhzckI5ekZDbitrVnFxeWRoZG8wK0E9ZWGQmyLCPgJgBRKtAQhMEqgBChwxZklqY2sydWZkS252dlJXKzhpM25vM0ppQzQ9EiQ3MWEzNjI1Ni1mNjk2LTRhZDktYTA4NC03Y2U3MTgxNDQ0ZTIYACAAKAAwy+WgpLQyOKve26LjMUCr3tui4zFKHCtlVk5TdlJKTTk5dHdYZG1zUE9nY3F0bGJhRT1aHyId/3NnOVhJV282MWFMaXBZVmhFdmozREtPdjdNaz1l9yM7S8I+AmAFEq0BCCQSqAEKHG9zdXU2NWhEVlJCQlBSTGdYdzVmUnRGQlRIUT0SJDA3YzVhMzM1LWUzNmYtNDg3Ni1hNjYxLTc2NjI5NDBiNzIwZhgAIAAoADDN5aCktDI43tXt99YwQN7V7ffWMEoca3g1U1JRV3IzbU5hQ1NmMHJDZlo1Ly8rN0pnPVofIh3sTzBkMHFBM3VPOFI3TTQva1M2NEdISVA5QzM0PWUA6hNMwj4CYAUSrQEINBKoAQocUUI1RHo2cFVEbkY4cXJrMHpKNkFKeEZwTldRPRIkYWQ3ZGM0MjQtNmYxYy00YmE4LTk2ZDMtNzRjMmVjMTk0MWU1GAAgACgAMMTXoKS0MjjHmuShqTFAx5rkoakxShxRNGRPcmdFeUxxZUJ2aElQLzgyZVpvWEJzTjA9Wh8iHdxtWXZmVXNSUkYwbjRMdy9UbGNWZGFBTlJjZkE9ZfqR3tvCPgJgBRKtAQgiEqgBChwxN05BZGhvNS9RSHdlQmtIbE1yYU1CelpXSm89EiRhZjg1NjJhZi05NjBlLTRhYTMtYWI4Yy04YmQ2MDM0ZGYxNDIYACAAKAAww9egpLQyOO+7/qHpMEDvu/6h6TBKHDVMZm1VK0cweFV5Y1Boako4RlIzdkFGQ1cwVT1aHyIdxFRZQmVtVlVyVlB6OU1NdmZsa2VXbkxmUjJLcz1l1UdNNMI+AmAFEqwBCCASpwEKHHI2ckZhUXAwbG1vZE9ZZXhYbjRFUSsxZWJuOD0SJDIxNGU4ZDRlLWM1YjAtNGY4Ny04ZTZjLWE2ZjI0MzcyZDliMBgAIAAoADC416CktDI4vLvuxOgwQLy77sToMEocV2JZcUd5ZGU4UFFMV2N1YklOQVpCclM2NUJJPVoeIhxjdlIvV1dZbS96N1BaSlZhWHZUYmNUeFZRYzg9ZWGQmyLCPgJgBRKuAQg/EqkBChxsNUVxL1dmcjkybGplZlpQVlcvNEpVVnZ4cjQ9EiRiYTgyM2RiMC0yNjY0LTRiNzQtYmY0YS0xY2U5NWExYjVlYjMYACAAKAAwutegpLQyONOR88vzMUDTkfPL8zFKHHdyRnhEWGZHYjFwYmVGVjhlQVlQMml1czlTVT1aICIe//s1ZmlOOUMyelNVRU1JaS9Uc0srdGZGZ3MrMGM9ZSfGA97CPgJgBRKuAQgeEqkBChxaVDJIbVh3QWpCNENRNE5UaG9mWnZvUm53bEU9EiQxODk2MGY2OC0wODM2LTQ4OGItYmVlOC04MTU2MGFlY2ExNTkYACAAKAAwsNegpLQyOJnhoKS0MkCZ4aCktDJKHEtrTmlGbXV6ZUs5RXUxOHdtbWlOVDk0WVlFVT1aICIe//1RWTd0Wms2RTRKem13SlYyb1pwakxSL3RoYTA9ZUVNStHCPgJgBRKuAQgdEqkBChxsaVlhT3I1VHQ2K2o1UDFJdTdlMVJaRmExbnM9EiQzNTlkMzQzNi1jMGE1LTQ5MDItYjdlYi04MDQ2MGViZjk5NDIYACAAKAAwwtegpLQyONHioKS0MkDR4qCktDJKHDkzTnhieUlza05OVTJHdElXajJVSU8zd09mMD1aICIe//tMVWMzdXZtenQyLzVFTk1xRDNvc2hxM1hPaHM9Zf2cjErCPgJgBRK0AQhjEq8BChxrbGNHWUxjOFFCMjJxSFQ4RmxmVFJWc1RLYk09EiQ4YTI0Nzc5ZS0xZTA4LTQ0ZGUtYWQ4OS0zMWEzYzRlNWRjNWEYACAAKAAw+YXW4ucyOJKDqt3nMkCSg6rd5zJKHFZndSs3Q3pScjhXR2pCOHJoUVllQmRLSWpxcz1aJiIk/////wAAAAllemVGKzBxRmtHQ0Z1MXdJLzN0dDU1VFp6dmc9ZSUNECHCPgJgBRKtAQhFEqgBChw3dFdKTEo5OEVlekZDUU9EdTVjbDVvRXJGSVk9EiQ5YTk1MGMxMC04ZGIzLTRiMzktYTIzYi0xNmIzYWYxYjFmNGYYACAAKAAwtdegpLQyOP/hoKS0MkD/4aCktDJKHHJHY3k1MVF5TkJKam85U0hzTjdGZktRRWh0bz1aHyIdrDJJZkk5d2pCemh3Z1o2TlY0ZnpjKzh0NDRTVT1lD2vLVcI+AmAFEq4BCBsSqQEKHFlaYlRjS0hPMFJGYTdvaktjemVIY0RabkZZaz0SJDk5MTdiNzIxLTJmMDUtNDRmMS04MjQ3LTFmZjBiYzAxOThiYhgAIAAoADDV8o725TI43e2gpLQyQN3toKS0Mkocak5ReXRjbkcrbjBaNlA0YUtRVk5EREo4akpNPVogIh7/21RqZjQ2T2R2VU1zemFPdkVZZlRQR0daSnFjOD1lUh2jZcI+AmAFEq0BCBkSqAEKHGp3Mjc2cHplWVhWYjQ3OGZ3Y1RQK3NqRGZQYz0SJGViNzNiMDM1LTNkMGMtNDJhOC04NTA0LWE5N2I0MDZhMDU4MBgAIAAoADDR5aCktDI4v+6gpLQyQL/uoKS0MkoceWZ1R2VIY3A1b1JXVERSOUZydWJPUWFnTkVFPVofIh3/bElEVWZ1N0I3eXdxZHVmd21uZUpSVW43djNZPWUAAAAAwj4CYAUSrgEIGhKpAQocZS9LQnFoSFJDTWJKeHdBdmhyaURReTYwUzd3PRIkOTY2NDhiNDAtZjVhMC00MjI2LWE2MjctYTMzYTQ2Yjg2ZDg1GAAgACgAMM7loKS0MjiW7qCktDJAlu6gpLQyShxRLzcrR0swbXRCeHdjNE5WanZ4NkIrZmRQZzQ9WiAiHv+2Qk9EcWNDdXZmY05BWkFqVFJHQ3dtQmh0ck5jPWUVUPmJwj4CYAUSrAEIRBKnAQocekxPaVEvTWg1UXhtb085WGNpaUV6Y0VoYVBvPRIkMTZkYjgwOGUtZTEyYi00MjNjLWIzOTQtZWQzNjE4YTU4ZmUxGAAgACgAMIzhy7H3MTjb8cqx9zFA2/HKsfcxShxabUN0QzN5NlRTVS9iMEZIS0xWd3BXRkRXLzA9Wh4iHFg0alZWdE5zNEtPcGUxQld2bkRkdFBnVHk3VT1lOPk5M8I+AmAFEq0BCCgSqAEKHFRQc3BqTXdTdjI4WE5ueEZNY0p6R2FZbVR1dz0SJDkyMDg3MWM4LWFhZTktNDAxYy04NDUwLThhMWE4MTA1YmE1YhgAIAAoADCv16CktDI4/frG8OkwQP36xvDpMEoceFUzZ0czTlc2dmlLKzU4aWkvTG5WMEhIMTFnPVofIh3+VmlhL2dXSDZEUzVDNm9XWnovTGthWDB1SWNzPWV3cGyjwj4CYAUSrQEIKRKoAQocbTFBbmR6YmpKbURQM2dDSllLTDBhNUxSblpNPRIkNzgzMWNkMmEtNjMwZC00NjA0LWE1ODctOTVjZDkxZDg1YWY4GAAgACgAMK7XoKS0Mjj8ptS17jBA/KbUte4wShxWYWlvZWJkbHUyam9salVHMVFoUHlzdzZaMmc9Wh8iHf83SVJnUm0ydmxqcnhXMmtXMFdiQTRJd3NuVmc9ZWGQmyLCPgJgBRKtAQgYEqgBChxEeGZkZXVtYWd1UjljellIcDVyaE8wYkNuTWM9EiQ3MGM2ZWRkZS1kNzcyLTRjOTYtYTY3NS05YTVjNTQyZGQwYzQYACAAKAAwwdegpLQyOLTioKS0MkC04qCktDJKHHNJenh4cnhVTDhJdGtrQTk2d1o1cUdoZ3NyTT1aHyId/zNVSTE1MmxnekhPTTdtODdiVGNTQ0tNRXhKZz1lFVD5icI+AmAFEqwBCEMSpwEKHFkyaU1panNLL0FPRkxXRHRZNmpMR1VERTJnRT0SJDQxNGU3ZDEyLWI4YWEtNDNiMi05YzYwLTcyZTEzMDYxMWY3NhgAIAAoADCPtPOO9zE417rzjvcxQNe68473MUocWHpDVkFPU0NYL1VocWFNenZEdDFIQnFQQnBrPVoeIhxLRnBzOWY3MjhYdDhMWXllQjBQV0tLMXJ6M0E9ZXlzBO7CPgJgBRKtAQgmEqgBChxFN21xVWRKS0dJM25zYmt0dGlIWFZOOUZTODA9EiQxMDdjYzk0Ny03NjZkLTQ4MzgtYTJkNS0wZGRiYjhlMDI3NGEYACAAKAAwsdegpLQyOJT4rdDnMECU+K3Q5zBKHGQzZG1IV2NXc2tuQ1ZiNE10eWdEdVpJL0IyQT1aHyId+3J2WDNxYXg0VzRwbnNPaUFtOGc4bGIzbVMrTT1loDw9dMI+AmAFEq4BCD4SqQEKHHkvNDlhT1hpVGx0NUQwdlhjT3gvbkFvYS9sQT0SJDZhNmJjZDcyLTY4Y2EtNGU3Yy1iYzk1LTFkNTVmMWMwY2U4NRgAIAAoADCs16CktDI43+/m99ExQN/v5vfRMUocZDFkekNDT2pqc3ptbnBSQ1g3NjI3SVVPVldvPVogIh7/91cxT3dWRUhYbWV6VHVsNHcxWDBLM25aWkZmST1lUh2jZcI+AmAFEq0BCCMSqAEKHE8xR0RpcEkyY1JMUkk5UUYwaGl5MFFSOE9kcz0SJGJmNGU3YWVmLTllMjgtNGU2NS04YTAzLTJmMjg1ODMxMTY1NBgAIAAoADCy16CktDI4hKuJuNgwQISribjYMEoca0pqa1RzUG5IbEVwVFdaOC9lcGdjY0Q4b3l3PVofIh3YbWFiQ216NmJQejU3MGxoekVxMVIzbExxRk0wPWUA6hNMwj4CYAUSrQEIFxKoAQocK3BSTysxUjVwOHNlNnlBOVYzSy9wZXA0WGs4PRIkYjNlNTk2ODctYjRlYi00MGU2LWFkYWUtYTI5MTcyZDhiMTdjGAAgACgAMLTXoKS0Mjja4aCktDJA2uGgpLQyShxVblRUL0NPQ08rSG16d3ZZdjNYZVNiM0JFNGc9Wh8iHf5XWngwNVUzSWEyOE9uQnZkajh5UHcxRUIzSE09ZVqMmAHCPgJgBRKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQzMjk1OTZiMC0zZGY2LTU4MzAtOTZhYi1kZjM3YjQ1ZmVlMzAYACAAKAAwx6ub37YwOKGum9+2MEChrpvftjBKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASrAEIBxKnAQoccGVzMWloK2ZkQVEwejJzUmlJczA2aXFaQlhjPRIkZDdmODVhMmItZWE5OS00YmNhLTg2YjktZmU3NDkyYWI0OGI1GAAgACgAMMnXoKS0MjjKzfThtjBAys304bYwShxmZHVCdlNKeWhvYzRFZEJMc21LbDU0Sy9iQ2c9Wh4iHHQzSGVNOG9FOFJnSWczOHIyVDlwWlZPTTh1dz1ldb41UsI+AmAFErQBCGESrwEKHDVTMlZyQlRyTDdkazgwK3U0Q0ZOVUduM01Gaz0SJDI2MWY0NDA2LTJhMDAtNGI3Mi05OGU0LTZlZmUwMmEwNjQyYRgAIAAoADDH7Jnn3TI4x/CZ590yQMfwmefdMkocYk1pTVUrVFNIOXE2cHpGOThJS3B6eDhoNlM4PVomIiT/////AAAACVNLdjcyS0NjZCtsYVEyM0hBZFpGdjl1b3hQcz1lofhAsMI+AmAFEq0BCAsSqAEKHGprNGFzZ3NTQ3ZYNVJ5cmpCazllVTRaRFJOOD0SJDMwMTk4ZDVkLTM3MzgtNDdlYi04ZTk0LTIwZThhYTRhYmM3NRgAIAAoADDpu5fr7jI4g/y7pbowQIP8u6W6MEocZVB4YkEwRUZCdk9YUWxDK0Z1SHNUcDZrWGt3PVofIh31djZQdm43VXZ2Wi9UQzNHNkJhc1UrMGgyTlgwPWU9bIURwj4CYAUSrQEIDBKoAQocenZWM1Y1R2wxemhjbVpNcks2R1lUWVo4ZWU0PRIkMDc0NDE1MzUtMzIxMS00ZmU5LTliNmEtMWE5Yjk3NmU0ZGIxGAAgACgAMMe0/by4MjjR/LulujBA0fy7pbowShx1dEd5eXBYQWxhY29SNEk1V0hGSkF0akRJeDA9Wh8iHfovSThQeEZNZmlWOU5PeUxnMVJVVmZkaGl1TTA9ZcXPkAHCPgJgBRKuAQgfEqkBChxjbG9waE9tcUJwRmY0THBwS1B3TzB5Qm9xU3M9EiQ5NmY5M2QxYi1kN2U4LTRhYjMtOTgxMi02MzVkMTRhYzViY2IYACAAKAAw68WgpLQyOPzSoKS0MkD80qCktDJKHGpEci9FVUI4eG1xQ045aURJanU5cFpJRmRyZz1aICIe//g1d1BWc0psV2dJdlVzY0ZIbjBnZGpKYytTQkE9ZQAAAADCPgJgABKtAQgUEqgBChwyOXBLb2ZubVdOT0RzVG4rbGNiNWpLZWVZdk09EiRmZjA2NGU1Ny04ZDk2LTQ2NTktODEwNC1lNmZjZjQ0NzEyMWIYACAAKAAwy9egpLQyOO/ioKS0MkDv4qCktDJKHENpQnhyb3hlYVhDYzNNbmw2YXBCdWtnaHZNRT1aHyId9kdnbTN0NWpETU9FTFZwVS9ESjJ5ZFE4RlNCWT1lFVD5icI+AmAFEq0BCBISqAEKHEN4aUZ5d01CU0dVNFVqeVBLb3Y5NnhjK0Fsaz0SJDk1MjkzNTdjLTQwZjUtNGU2ZS1hMWM2LTJkYTZjNTc1MGZkORgAIAAoADDN16CktDI4puOgpLQyQKbjoKS0MkocZlgzOCtvQncrUzlrUkFzQmw5NnNyMEoxSS93PVofIh3bR0l6YmhOZmR1VWZ3UktvM1dndm1FOVpZODFRPWWMyL/8wj4CYAUSrQEIExKoAQocUDBsbnkzYzdzY0dDa2pNUCtxSWYwSkgzUmpVPRIkNDMyOTA5ZWItMTMyOS00YTFiLWFiODgtNDc4MzAzOGNjYmM4GAAgACgAMLPXoKS0Mji34aCktDJAt+GgpLQyShxEdjhiZTZjbXRQZmRiSUlBOXluNElTK0psYVk9Wh8iHe1tRnM4YlEzY2YxYzF1dVVPR1pBK2pwOTJIbDg9ZYzIv/zCPgJgBRKuAQg7EqkBChxsTDc1TXBtNXk2ZERrQndvRmJtbFB2RU83MmM9EiQxMTQwN2I4Mi05M2RjLTQwMTEtOGUzMi1lOGVjNDI2NDk3N2QYACAAKAAw2OWgpLQyOLqPyrmsMUC6j8q5rDFKHHArSnhHcGZ2SEdOemwzUjZma09kYU5wd1NMVT1aICIe/7hOa0k3d3NKSVlIalYxSVUvbEFsbm8wemxmRkk9ZWGQmyLCPgJgBRKtAQhGEqgBChx4bEZjSmFJendiM0Y3SjE1Skt4a1JtZ1VscUE9EiQ4Y2YxZGQ4NS0wZmEwLTQ2MGUtOGFkNC1lMzdkYzI5MDMxYTMYACAAKAAwztegpLQyOMLjoKS0MkDC46CktDJKHEIyMGJ3aFUxT25tb3JpWHVkWGdtQkV1cE1uQT1aHyId1kFaTkh6MHcvM2RPcHZjL2VUam9vSUpsdnZodz1lD2vLVcI+AmAFEq0BCDYSqAEKHEZ3b3g3MzR1b0NSdy92a09NWmZYUytELzJEWT0SJDhjOTQxOWI2LTNiMGUtNDQ4OS1hZTdiLTE3YmZmNTdjMGJkNBgAIAAoADC/16CktDI4/q/I/r4xQP6vyP6+MUocRG9PazFwL1RVRVhnNmhYUURiQ2NxVDNTWTJ3PVofIh33bjNvTlU4bThZeTVybjR2Vks3ZFMrUmI2ZWRRPWVhkJsiwj4CYAUSrQEIChKoAQocM0tHL1czcVUvOEhRU3BOc2Z2VUJVNHdNMjBvPRIkMzNjNTA5Y2YtYmVhNC00OGYwLWFhMDUtN2M0Mjg0NDZlYzRiGAAgACgAMObYh+HPMji1+7ulujBAtfu7pbowShxLc1FQdW9UTk5oYVJoTFU2Yk5nMU1YckJIL3c9Wh8iHeplNU9teEdUMWtBc3lkMlBVNVpuL3hpeGU1UnM9Zf2cjErCPgJgBRKtAQgPEqgBChx2MzFxQUZDSU95UHArZXMxcjgxUGN1YmpTQVE9EiQ5Nzk3NTMzNC0xOTA0LTQwYTgtOTI5MC0zMzZiZjIxMWNhMmUYACAAKAAw7MWgpLQyOKTToKS0MkCk06CktDJKHEZBdm1VazA0YjN0WUxCK1ZRVnFOYTc1Mmswdz1aHyId/zIxMzYrdkh4MURmbHB5VmhEdWs5QVFkc0JxRT1lAAAAAMI+AmAAEq0BCDMSqAEKHEk2VUVDQUp3SmJEckRFUXBmRCtJdHEzMFFwQT0SJDY1ODBlZTM3LTU0Y2MtNDliMy04Mzg3LWFmYWZlOGUzYjBlMxgAIAAoADC516CktDI45+eMjawxQOfnjI2sMUocRXM4VXlMYWpEYlY5SkJLTDlDQytoZE9WZzJjPVofIh24OUR5Ny9sVFdWZGgwUTJ4akdHV1graEE0QnZRPWUA6hNMwj4CYAUSrQEIFhKoAQocM1l2cEE2M0gwS1hlMlFJaktYWEpjcTMyczQ4PRIkMjA4MGQzZmEtOGZkNS00ZDMwLWI3OTAtZWNmMzcyZTdmMjJjGAAgACgAML7XoKS0MjiZ4qCktDJAmeKgpLQyShxybkV1a0ZFNTNkUjQyUDdtWlBObFV3WXlwaXc9Wh8iHf1rbGI5VGQ4elNtT0kwM2F0ZENreEl4SGd2bkE9ZRVQ+YnCPgJgBRKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQzZTQ0MDIyOC02ZDI5LTU5OGYtOTYyNS0xOWMzN2IwOWU0MWYYACAAKAAwx6ub37YwOLCum9+2MECwrpvftjBKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASrQEIDRKoAQocQ2ZpMGJreW5pNEhENVJtTm1HNTR1RmFvVGc4PRIkMzBmOWFiMWMtOWY0Zi00Zjc1LWExNzItZDY5MWI1Njk3ZTM5GAAgACgAMLTij6fwMTjE5I+n8DFAxOSPp/AxShx5RE5rdnBNQlpQMTdGNlorUElGcGVBYmo4NlE9Wh8iHftoTy9xN2ZiWWd3KzRTUjVxUXVTaTdBazBZaDA9ZQAAAADCPgJgBRKuAQgcEqkBChxINDhnRTQyTkNPRDlJMFdXMFlFZENSOUJVMWM9EiQyYjVjNDZkNC01YTNlLTQ4YWItOTIzZC0xMzUzZDU1ZGM4YWQYACAAKAAw1eWgpLQyOLzvoKS0MkC876CktDJKHFYvTHFJNWFmZlpDVUlubXhzT1U0dmZOV0xHUT1aICIe//ZqcDNIaEJBZjl6Qzl3RkV2a01FSVAyZ0FzeWs9ZX+CwyfCPgJgBRKsAQgxEqcBChxXZmF3Rnd6bFNOb1BNNXk3SklEYnM5Q2x5bm89EiQ3MmMxZGM2Yi0yZWViLTQ3NzktOWJjOS01MjkxZjk0MjFhNmUYACAAKAAwrdegpLQyOLbXmKCrMUC215igqzFKHGpSRUdHZW0xQWkvRzF0L1MvSHd4eHg3YVplYz1aHiIcVER4Yzh1eGxVTC9qMFVGYkdxNU5DZlBBZDhvPWUA6hNMwj4CYAUSrQEICBKoAQocL0VsQk1kN2o3VUZTc1lDaTlCaVF2bWczMEgwPRIkNzFhYThiOWYtYzdiZi00NDAzLWIyZjItNzQ5MjE4OTY5OTBhGAAgACgAMMes1cPWMDjZzfThtjBA2c304bYwShx2cjBUZHNQWUhtQnQrbURlKzZwaUtvS3ZIWWM9Wh8iHbo5RW1BUVY0bi9XbmlDL0Q5WVNSUVJWS2g4YU09ZZq0TNPCPgJgBRK1AQhWErABChxIdk9Td282ZWxPMWFWcWNkdDBqYnRCQmg2ZFk9EiQyYWI3NWEyMC05MmJjLTQ3ZTAtYjFlZi1jZDk0YTU3MmMyMWYYACAAKAAw2deJxdIyOJGuicXSMkCRronF0jJKHGhyYkc5SHhQekxFWkN2ZEJZM3JNMTY1UStJUT1aJyIl/////wAAAAf7bElLWjNYNmVoZWlCV2J0d3Y4S2oxTVFFRkZvPWXhLlkQwj4CYAUSrQEIERKoAQocbHNkcTNldy9HMWtmRVA4Wmd0aTRVYWM0R01nPRIkMjllMzFmYWUtYTZiOC00ODg0LThjMWMtNjY4ZGM0OGQyNTNmGAAgACgAMNLloKS0Mjjm7qCktDJA5u6gpLQyShxOUWZkdnJoWitCOUxSOWRhYzhYVENYV3dmUUU9Wh8iHbdlaUFoUkxHTmkxL2UxTmhudXlzUjNNU2tDWm89ZRVQ+YnCPgJgBRKsAQgGEqcBChxBNUZadjZ0Q1JnQ0ZaODRtSzZvdFNhVnRiV009EiQyZWJhYzgwMy0yNzU1LTQwNDQtYmUyZS1iYzk4NmQ3NjkxYjEYACAAKAAw58z04bYwOKrN9OG2MECqzfThtjBKHE14cTFrdmhMUWJTZUVxZVU2VzNUS1pHcFRrYz1aHiIcbEx4WWhGZFM3RlVSSEhDMHlFZVk5cEdhZFdNPWUAAAAAwj4CYAAStQEIUBKwAQoccmt1Tkk2RW01MEd4Wkdaem5WdzMyTXZMNFp3PRIkODJiMzhjMmEtNDY2NS00NjExLWE5MjYtZjRjMDgwZmQ5MjYxGAAgACgAMJTXh8O5MjjH2YfDuTJAx9mHw7kyShw5UVhSaDhldEpxQ3pOVjZOWGlidnVDMlpVaDA9WiciJf////8AAAAH3UcyNHYwNlFDRURBWnl1emx1b2dLVFdjMmJpOD1lAqIjjcI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDBiMjAzNDVjLWMwMzQtNWRlMS1hYTVjLWI2Nzk3YTJiMzhhNxgAIAAoADDHq5vftjA4ra+b37YwQK2vm9+2MEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKuAQhNEqkBChw4QXAwallIMVZ4TDVuODZrc0c1VldQNG1rMEk9EiQ3Nzg3YTAyOC1kYWM0LTQ4YzgtOGE0MC1mZTFmOWUxMDQ2NmUYACAAKAAw1OWgpLQyONe+xaLjMUDXvsWi4zFKHFpLdWxlZHhYQVVIcUJrdFowT3Zsckk3UUZYVT1aICIe/7lzMGVUTGtQN0R2cWJYYnJwOWFtK3VKdmJxaE09ZUEFF7jCPgJgBRKtAQgVEqgBChxhbFJKcXFZTjJvYjFPd3R5SDRWZTAycG1SdE09EiQ4MDc0NjgyMC02ZmI3LTQ2YWUtODQwOC00MGIxYjI5MjI3MDkYACAAKAAwzNegpLQyOIzjoKS0MkCM46CktDJKHGpTVnJ4S3ZQemxaV25DTmcxMXNiVnZseHR1VT1aHyId+3NiMzVFY2VkOGp2cW95QmNpSjFSTTZZN1RLMD1ldXXEU8I+AmAFMAA4AA==",
+   "version": 1
+}

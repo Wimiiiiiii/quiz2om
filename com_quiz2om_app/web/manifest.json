@@ -1,6 +1,6 @@
 {
-    "name": "com_quiz2om_app",
-    "short_name": "com_quiz2om_app",
+    "name": "nanochat",
+    "short_name": "nanochat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

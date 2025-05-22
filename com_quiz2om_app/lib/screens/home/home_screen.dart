@@ -30,15 +30,6 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: CustomAppBar(
         title: 'Accueil',
         actions: [
-          FloatingActionButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => AdminSeedScreen()),
-              );
-            },
-            child: const Icon(Icons.data_usage),
-          ),
           IconButton(
             icon: const Icon(Icons.account_circle),
             onPressed: () {

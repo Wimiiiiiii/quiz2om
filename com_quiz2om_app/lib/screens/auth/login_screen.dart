@@ -2,7 +2,6 @@ import 'package:com_quiz2om_app/screens/auth/register_screen.dart';
 import 'package:com_quiz2om_app/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -17,7 +16,6 @@ class _LoginScreenState extends State<LoginScreen> {
   final _passwordController = TextEditingController();
   bool _isLoading = false;
   bool _passwordVisible = false;
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   Future<void> _loginWithEmail() async {
     if (!_formKey.currentState!.validate()) return;
@@ -40,38 +38,6 @@ class _LoginScreenState extends State<LoginScreen> {
       }
     } on FirebaseAuthException catch (e) {
       _showErrorSnackbar(e.message ?? 'Erreur de connexion');
-    } finally {
-      if (mounted) {
-        setState(() => _isLoading = false);
-      }
-    }
-  }
-
-  Future<void> _signInWithGoogle() async {
-    try {
-      setState(() => _isLoading = true);
-
-      final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
-      if (googleUser == null) return;
-
-      final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
-      final credential = GoogleAuthProvider.credential(
-        accessToken: googleAuth.accessToken,
-        idToken: googleAuth.idToken,
-      );
-
-      final userCredential = await FirebaseAuth.instance.signInWithCredential(credential);
-
-      // Redirection après connexion Google réussie
-      if (mounted) {
-        Navigator.pushAndRemoveUntil(
-          context,
-          MaterialPageRoute(builder: (context) =>  HomeScreen()),
-              (route) => false,
-        );
-      }
-    } catch (e) {
-      _showErrorSnackbar('Erreur de connexion Google');
     } finally {
       if (mounted) {
         setState(() => _isLoading = false);
@@ -202,22 +168,10 @@ class _LoginScreenState extends State<LoginScreen> {
                           // Champ Mot de passe
                           TextFormField(
                             controller: _passwordController,
-                            obscureText: !_passwordVisible,
+                            obscureText: true,
                             decoration: InputDecoration(
                               labelText: 'Mot de passe',
                               prefixIcon: const Icon(Icons.lock),
-                              suffixIcon: IconButton(
-                                icon: Icon(
-                                  _passwordVisible
-                                      ? Icons.visibility
-                                      : Icons.visibility_off,
-                                ),
-                                onPressed: () {
-                                  setState(() {
-                                    _passwordVisible = !_passwordVisible;
-                                  });
-                                },
-                              ),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
                               ),
@@ -265,44 +219,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                 ),
                               )
                                   : const Text('Se connecter'),
-                            ),
-                          ),
-                          const SizedBox(height: 24),
-
-                          // Séparateur
-                          Row(
-                            children: [
-                              const Expanded(child: Divider()),
-                              Padding(
-                                padding: const EdgeInsets.symmetric(horizontal: 8),
-                                child: Text(
-                                  'OU',
-                                  style: theme.textTheme.bodySmall?.copyWith(
-                                    color: theme.colorScheme.onSurface.withOpacity(0.6),
-                                  ),
-                                ),
-                              ),
-                              const Expanded(child: Divider()),
-                            ],
-                          ),
-                          const SizedBox(height: 24),
-
-                          // Bouton Google
-                          SizedBox(
-                            width: double.infinity,
-                            child: OutlinedButton.icon(
-                              icon: Image.asset(
-                                'assets/images/google_logo.png',
-                                height: 24,
-                              ),
-                              label: const Text('Continuer avec Google'),
-                              onPressed: _isLoading ? null : _signInWithGoogle,
-                              style: OutlinedButton.styleFrom(
-                                padding: const EdgeInsets.symmetric(vertical: 16),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                ),
-                              ),
                             ),
                           ),
                         ],

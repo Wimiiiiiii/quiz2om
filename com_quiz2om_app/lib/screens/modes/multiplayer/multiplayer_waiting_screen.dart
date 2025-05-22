@@ -1,226 +1,303 @@
-import 'dart:async';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/services.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
 import 'package:com_quiz2om_app/screens/custom_app_bar.dart';
-import 'package:com_quiz2om_app/services/multiplayer_service.dart';
+import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_database/firebase_database.dart';
-
 import 'multiplayer_quiz_screen.dart';
 
 class MultiplayerWaitingScreen extends StatefulWidget {
-  final String gameId;
-  final String roomName;
-  final int maxPlayers;
-  final bool isHost;
+  final String roomCode;
 
-  const MultiplayerWaitingScreen({
-    super.key,
-    required this.gameId,
-    required this.roomName,
-    required this.maxPlayers,
-    required this.isHost,
-  });
+  const MultiplayerWaitingScreen({super.key, required this.roomCode});
 
   @override
-  State<MultiplayerWaitingScreen> createState() => _MultiplayerWaitingScreenState();
+  State<MultiplayerWaitingScreen> createState() =>
+      _MultiplayerWaitingScreenState();
 }
 
 class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
-  final MultiplayerService _service = MultiplayerService();
-  late StreamSubscription<DatabaseEvent> _gameSubscription;
-  Map<String, dynamic> _gameData = {};
-  bool _isStarting = false;
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+  final User? _user = FirebaseAuth.instance.currentUser;
+  bool _isLoading = false;
+  bool _isStartingGame = false;
+  Map<String, String> _usernames = {};
 
   @override
   void initState() {
     super.initState();
-    _joinGame();
-    _setupGameListener();
+    // Mettre à jour lastActivity quand le joueur rejoint la salle d'attente
+    _updateLastActivity();
   }
 
-  Future<void> _joinGame() async {
-    final user = FirebaseAuth.instance.currentUser!;
-    final userDoc = await FirebaseFirestore.instance
-        .collection('users')
-        .doc(user.uid)
-        .get();
+  Future<List<Map<String, dynamic>>> _loadQuestions(
+      String categoryId, String difficulty) async {
+    try {
+      final query = await _firestore
+          .collection('questions')
+          .where('categoryId', isEqualTo: categoryId)
+          .where('difficulty', isEqualTo: difficulty)
+          .limit(10)
+          .get();
 
-    final userName = userDoc.data()?['username'];
-    await _service.joinGame(widget.gameId, user.uid, userName);
+      return query.docs.map((doc) {
+        final data = doc.data();
+        return {
+          'id': doc.id,
+          'question': data['question'],
+          'options': List<String>.from(data['options']),
+          'correctAnswer': data['correctAnswer'],
+        };
+      }).toList()
+        ..shuffle();
+    } catch (e) {
+      throw Exception('Erreur de chargement des questions: $e');
+    }
   }
 
-  void _setupGameListener() {
-    _gameSubscription = _service.gameStream(widget.gameId).listen((event) {
-      if (event.snapshot.exists) {
-        final data = event.snapshot.value;
-        final convertedData = _convertToMap(data);
-        setState(() {
-          _gameData = convertedData;
-        });
-      } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Partie introuvable')),
-        );
-        Navigator.pop(context);
-      }
+  Future<void> _updateLastActivity() async {
+    await _firestore.collection('game_rooms').doc(widget.roomCode).update({
+      'lastActivity': FieldValue.serverTimestamp(),
     });
   }
 
-  dynamic _convertToMap(dynamic data) {
-    if (data is Map) {
-      final newMap = <String, dynamic>{};
-      data.forEach((key, value) {
-        newMap[key.toString()] = _convertToMap(value);
-      });
-      return newMap;
-    } else if (data is List) {
-      final listAsMap = <String, dynamic>{};
-      for (int i = 0; i < data.length; i++) {
-        listAsMap[i.toString()] = _convertToMap(data[i]);
-      }
-      return listAsMap;
-    } else {
-      return data;
+  Future<void> _setReady(bool ready) async {
+    if (_user == null) return;
+
+    setState(() => _isLoading = true);
+    try {
+      await _firestore
+          .collection('game_rooms')
+          .doc(widget.roomCode)
+          .update({
+            'players.${_user?.uid}.ready': ready,
+            'lastActivity': FieldValue.serverTimestamp(),
+          });
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Erreur: ${e.toString()}')),
+      );
+    } finally {
+      setState(() => _isLoading = false);
     }
   }
 
+  Future<void> _loadUsernames(List<String> userIds) async {
+    try {
+      final userDocs = await Future.wait(
+        userIds.map((uid) => _firestore.collection('users').doc(uid).get()),
+      );
+
+      final Map<String, String> loadedUsernames = {};
+      for (var doc in userDocs) {
+        if (doc.exists) {
+          loadedUsernames[doc.id] = doc.data()?['username'] ?? 'Inconnu';
+        }
+      }
+
+      setState(() {
+        _usernames = loadedUsernames;
+      });
+    } catch (e) {
+      // Optionnel: afficher une erreur
+      print('Erreur lors du chargement des usernames: $e');
+    }
+  }
 
   Future<void> _startGame() async {
-    if (_isStarting) return;
+    if (_user == null) return;
 
-    setState(() => _isStarting = true);
-
+    setState(() => _isStartingGame = true);
     try {
-      // Utilisation de l'instance par défaut de Realtime Database
-      final DatabaseReference dbRef = FirebaseDatabase.instance.ref();
-      await dbRef.child('games').child(widget.gameId).update({
+      final roomDoc =
+          await _firestore.collection('game_rooms').doc(widget.roomCode).get();
+      final roomData = roomDoc.data() as Map<String, dynamic>;
+
+      // Vérifier que les deux joueurs sont prêts
+      final players = Map<String, dynamic>.from(roomData['players']);
+      if (players.length != 2 ||
+          !players.values.every((p) => p['ready'] == true)) {
+        throw Exception('Les joueurs ne sont pas tous prêts');
+      }
+
+      // Charger les questions
+      final questions = await _loadQuestions(
+        roomData['categoryId'],
+        roomData['difficulty'],
+      );
+
+      // Mettre à jour la salle avec les questions et démarrer le jeu
+      await _firestore.collection('game_rooms').doc(widget.roomCode).update({
         'status': 'started',
-        'startedAt': ServerValue.timestamp,
+        'questions': questions,
+        'currentQuestionIndex': 0,
+        'currentPlayerTurn': roomData['creatorId'],
+        'lastUpdated': FieldValue.serverTimestamp(),
       });
 
+      // Naviguer vers l'écran de jeu
       if (!mounted) return;
-
-      Navigator.of(context).push(MaterialPageRoute(
-        builder: (_) => MultiplayerQuizScreen(
-          gameId: widget.gameId,
-          isHost: true,
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) =>
+              MultiplayerQuizScreen(roomCode: widget.roomCode),
         ),
-      ));
-    } catch (e, stack) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Erreur lors du démarrage de la partie: $e')),
       );
-      print('Erreur au startGame: $e');
-      print('Stacktrace: $stack');
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Erreur: ${e.toString()}')),
+      );
     } finally {
-      if (mounted) {
-        setState(() => _isStarting = false);
-      }
+      setState(() => _isStartingGame = false);
     }
   }
-
-
-
-
 
   @override
   void dispose() {
-    _gameSubscription.cancel();
+    // Si le créateur quitte la salle d'attente, supprimer la partie
+    if (_user != null) {
+      _firestore.collection('game_rooms').doc(widget.roomCode).get().then((doc) {
+        if (doc.exists) {
+          final data = doc.data()!;
+          if (data['creatorId'] == _user!.uid && data['status'] == 'waiting') {
+            doc.reference.delete();
+          }
+        }
+      });
+    }
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    // Accède directement aux données de la partie actuelle
-    final gameData = _gameData;
-
-    // Accède aux données des joueurs en toute sécurité
-    final players = gameData?['players'] as Map<String, dynamic>? ?? {};
-
-    final maxPlayers = gameData?['maxPlayers'] as int? ?? widget.maxPlayers;
-
-    print('Game Data: $gameData');
-    print('Players: $players');
-    print('Max Players: $maxPlayers');
-
     return Scaffold(
-      appBar: CustomAppBar(title: 'Salle d\'attente'),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Partie: ${widget.roomName}',
-              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 10),
-            Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    'Code d\'invitation : ${widget.gameId}',
-                    style: const TextStyle(
-                      fontSize: 16,
-                      color: Colors.blueAccent,
-                      fontWeight: FontWeight.bold,
+      appBar: CustomAppBar(
+        title: "Code de la partie: ${widget.roomCode}",
+      ),
+      body: StreamBuilder<DocumentSnapshot>(
+        stream: _firestore
+            .collection('game_rooms')
+            .doc(widget.roomCode)
+            .snapshots(),
+        builder: (context, snapshot) {
+          if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          final roomData = snapshot.data!.data() as Map<String, dynamic>;
+          final players = Map<String, dynamic>.from(roomData['players']);
+          if (_usernames.length != players.length) {
+            _loadUsernames(players.keys.toList());
+          }
+
+          final userData = _user != null ? players[_user!.uid] : null;
+          final isReady = userData is Map && userData['ready'] == true;
+          final isCreator =
+              _user != null && roomData['creatorId'] == _user!.uid;
+          final allPlayersReady = players.length == 2 &&
+              players.values.every((p) => p['ready'] == true);
+
+          if (roomData['status'] == 'started') {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      MultiplayerQuizScreen(roomCode: widget.roomCode),
+                ),
+              );
+            });
+          }
+
+          return Stack(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      'En attente des joueurs...',
+                      style: Theme.of(context).textTheme.headlineSmall,
+                      textAlign: TextAlign.center,
                     ),
-                  ),
-                ),
-                IconButton(
-                  icon: const Icon(Icons.copy),
-                  onPressed: () {
-                    Clipboard.setData(ClipboardData(text: widget.gameId));
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Code copié dans le presse-papiers !')),
-                    );
-                  },
-                ),
-              ],
-            ),
+                    const SizedBox(height: 30),
+                    Card(
+                      elevation: 4,
+                      child: Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Column(
+                          children: [
+                            const Text(
+                              'Joueurs connectés:',
+                              style: TextStyle(
+                                  fontSize: 18, fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 10),
+                            ...players.entries.map((entry) {
+                              final isCurrentUser = entry.key == _user?.uid;
+                              final username =
+                                  _usernames[entry.key] ?? 'Joueur';
 
-
-            const SizedBox(height: 10),
-            Text(
-              'Joueurs: ${players.length}/$maxPlayers',
-              style: const TextStyle(fontSize: 16),
-            ),
-            const Divider(height: 30),
-            const Text(
-              'Joueurs connectés:',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 10),
-            Expanded(
-              child: ListView(
-                children: players.entries.map((entry) {
-                  final playerData = entry.value as Map<String, dynamic>? ?? {}; // Accède aux données du joueur en toute sécurité
-                  return ListTile(
-                    leading: const Icon(Icons.person),
-                    title: Text(playerData['name'] ?? 'Joueur inconnu'),
-                    trailing: playerData['ready'] == true
-                        ? const Icon(Icons.check_circle, color: Colors.green)
-                        : const Icon(Icons.hourglass_bottom, color: Colors.orange),
-                  );
-                }).toList(),
-              ),
-            ),
-            // Bouton SEULEMENT pour l'hôte
-            if (widget.isHost)
-              ElevatedButton(
-                onPressed: players.length >= 2 ? _startGame : null,
-                child: _isStarting
-                    ? const CircularProgressIndicator()
-                    : const Text('Commencer la partie'),
-                style: ElevatedButton.styleFrom(
-                  minimumSize: const Size(double.infinity, 50),
+                              return ListTile(
+                                leading: CircleAvatar(
+                                  backgroundColor: isCurrentUser
+                                      ? Colors.deepPurple
+                                      : Colors.grey,
+                                  child: Text(
+                                    username.substring(0, 1).toUpperCase(),
+                                    style: const TextStyle(color: Colors.white),
+                                  ),
+                                ),
+                                title: Text(
+                                  isCurrentUser ? '$username (Vous)' : username,
+                                ),
+                                trailing: entry.value['ready']
+                                    ? const Icon(Icons.check_circle,
+                                        color: Colors.green)
+                                    : const Icon(Icons.hourglass_empty,
+                                        color: Colors.orange),
+                              );
+                            }).toList(),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const Spacer(),
+                    // Afficher le bouton "Je suis prêt" seulement si le joueur n'est pas encore prêt
+                    if (!isReady)
+                      ElevatedButton(
+                        onPressed: _isLoading ? null : () => _setReady(true),
+                        style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          backgroundColor: Colors.green,
+                        ),
+                        child: const Text(
+                          'Je suis prêt',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    // Afficher le bouton "Commencer le jeu" seulement pour le créateur quand tous sont prêts
+                    if (isCreator)
+                      ElevatedButton(
+                        onPressed: _isStartingGame ? null : _startGame,
+                        style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          backgroundColor: Colors.deepPurple,
+                        ),
+                        child: const Text(
+                          'Commencer le jeu',
+                          style: TextStyle(fontSize: 18, color: Colors.white),
+                        ),
+                      ),
+                  ],
                 ),
               ),
-          ],
-        ),
+              if (_isStartingGame)
+                const Center(child: CircularProgressIndicator()),
+            ],
+          );
+        },
       ),
     );
   }

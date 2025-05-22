@@ -1,8 +1,5 @@
 plugins {
     id("com.android.application")
-    // START: FlutterFire Configuration
-    id("com.google.gms.google-services")
-    // END: FlutterFire Configuration
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
@@ -10,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.com_quiz2om_app"
-    compileSdk = 35
+    compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -28,10 +25,9 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 23
-        targetSdk = 34
+        targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        multiDexEnabled = true
     }
 
     buildTypes {
@@ -42,15 +38,6 @@ android {
         }
     }
 }
-
-dependencies {
-    implementation(platform("com.google.firebase:firebase-bom:32.7.2")) // Firebase BOM
-    implementation("com.google.firebase:firebase-analytics") // Analytics
-    implementation("com.google.android.gms:play-services-basement:18.2.0") // Pour ProviderInstaller
-    implementation("androidx.multidex:multidex:2.0.1") // Pour multiDex
-    implementation("com.google.firebase:firebase-database")
-}
-
 
 flutter {
     source = "../.."
