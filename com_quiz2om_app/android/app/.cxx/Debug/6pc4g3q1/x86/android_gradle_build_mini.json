@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Program Files\\FlutterSDK\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\mammo\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\mammo\\Desktop\\Mobile_project\\quiz2om\\com_quiz2om_app\\android\\app\\.cxx\\Debug\\6pc4g3q1\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\mammo\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\mammo\\Desktop\\Mobile_project\\quiz2om\\com_quiz2om_app\\android\\app\\.cxx\\Debug\\6pc4g3q1\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

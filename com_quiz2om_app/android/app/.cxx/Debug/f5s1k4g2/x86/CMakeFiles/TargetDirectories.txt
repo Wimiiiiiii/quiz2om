@@ -1,0 +1,2 @@
+C:/Users/mammo/Desktop/Mobile_project/quiz2om/com_quiz2om_app/android/app/.cxx/Debug/f5s1k4g2/x86/CMakeFiles/edit_cache.dir
+C:/Users/mammo/Desktop/Mobile_project/quiz2om/com_quiz2om_app/android/app/.cxx/Debug/f5s1k4g2/x86/CMakeFiles/rebuild_cache.dir

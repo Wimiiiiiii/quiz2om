@@ -1,14 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:com_quiz2om_app/screens/admin_seed_screen.dart';
 import 'package:com_quiz2om_app/screens/custom_app_bar.dart';
 import 'package:com_quiz2om_app/screens/profile/profile_screen.dart';
 import 'package:com_quiz2om_app/screens/modes/solo_mode_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:com_quiz2om_app/services/user_stats_service.dart';
-
 import '../../models/user_stats.dart';
 import '../modes/multiplayer_mode_screen.dart';
+import '../auth/login_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({super.key});
@@ -19,8 +18,26 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final CategoryService _categoryService = CategoryService();
-
   final GlobalKey _refreshKey = GlobalKey();
+  final User? _user = FirebaseAuth.instance.currentUser;
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
+  // Liste de couleurs pour les catégories
+  final List<Color> _categoryColors = [
+    Colors.blueAccent,
+    Colors.green,
+    Colors.orange,
+    Colors.purple,
+    Colors.redAccent,
+    Colors.teal,
+    Colors.indigo,
+    Colors.brown,
+  ];
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,18 +47,54 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: CustomAppBar(
         title: 'Accueil',
         actions: [
-          IconButton(
-            icon: const Icon(Icons.account_circle),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const ProfileScreen()),
+          StreamBuilder<DocumentSnapshot>(
+            stream: _firestore.collection('users').doc(_user?.uid).snapshots(),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const CircleAvatar(
+                  radius: 16,
+                  child: Icon(Icons.person, size: 20, color: Colors.grey),
+                );
+              }
+
+              if (!snapshot.hasData || !snapshot.data!.exists) {
+                return const CircleAvatar(
+                  radius: 16,
+                  child: Icon(Icons.person, size: 20, color: Colors.grey),
+                );
+              }
+
+              final userData = snapshot.data!.data() as Map<String, dynamic>?;
+              final avatarEmoji = userData?['avatarEmoji'] as String?;
+
+              return IconButton(
+                icon: CircleAvatar(
+                  radius: 16,
+                  backgroundColor: Colors.grey[200],
+                  child: Text(
+                    avatarEmoji ?? '👤',
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const ProfileScreen()),
+                  );
+                },
               );
             },
           ),
           IconButton(
             icon: const Icon(Icons.logout),
-            onPressed: () => FirebaseAuth.instance.signOut(),
+            onPressed: () async {
+              await FirebaseAuth.instance.signOut();
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => const LoginScreen()),
+              );
+            },
           ),
         ],
       ),
@@ -88,7 +141,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           children: [
                             Text(
                               'Vos Statistiques',
-                              style: Theme.of(context).textTheme.titleLarge
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             _buildTrophyBadge(rank),
@@ -124,28 +179,34 @@ class _HomeScreenState extends State<HomeScreen> {
                           Wrap(
                             spacing: 8,
                             runSpacing: 8,
-                            children:
-                                categoryRates.entries.map((entry) {
-                                  final categoryName =
-                                      categoryNames[entry.key] ?? entry.key;
-                                  return Chip(
-                                    backgroundColor: _getCategoryColor(
-                                      entry.value,
-                                    ),
-                                    label: Text(
-                                      '$categoryName: ${entry.value.toStringAsFixed(0)}%',
-                                      style: const TextStyle(
-                                        color: Colors.white,
-                                      ),
-                                    ),
-                                    avatar: Icon(
-                                      entry.value > 70
-                                          ? Icons.check_circle
-                                          : Icons.trending_up,
-                                      color: Colors.white,
-                                    ),
-                                  );
-                                }).toList(),
+                            children: categoryRates.entries
+                                .toList()
+                                .asMap()
+                                .entries
+                                .map((mapEntry) {
+                              final index = mapEntry.key;
+                              final entry = mapEntry.value;
+                              final categoryName =
+                                  categoryNames[entry.key] ?? entry.key;
+                              final categoryColor = _categoryColors[
+                                  index % _categoryColors.length];
+
+                              return Chip(
+                                backgroundColor: categoryColor,
+                                label: Text(
+                                  '$categoryName: ${entry.value.toStringAsFixed(0)}%',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                avatar: Icon(
+                                  entry.value > 70
+                                      ? Icons.check_circle
+                                      : Icons.trending_up,
+                                  color: Colors.white,
+                                ),
+                              );
+                            }).toList(),
                           ),
                         ],
                       ],
@@ -195,12 +256,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     Colors.green,
                     () async {
                       Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const MultiplayerModeScreen(),
-                          ),
-                        );
-
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const MultiplayerModeScreen(),
+                        ),
+                      );
                     },
                   ),
                 ],
@@ -288,20 +348,14 @@ class _HomeScreenState extends State<HomeScreen> {
             Text(
               value,
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                fontWeight: FontWeight.bold,
-                color: color,
-              ),
+                    fontWeight: FontWeight.bold,
+                    color: color,
+                  ),
             ),
           ],
         ),
       ),
     );
-  }
-
-  Color _getCategoryColor(double percentage) {
-    if (percentage >= 80) return Colors.green;
-    if (percentage >= 50) return Colors.blue;
-    return Colors.orange;
   }
 
   Widget _buildModeCard(

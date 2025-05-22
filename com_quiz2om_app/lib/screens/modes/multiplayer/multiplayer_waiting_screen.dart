@@ -28,6 +28,44 @@ class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
     _updateLastActivity();
   }
 
+  // Nouvelle méthode pour afficher l'erreur
+  void _showPlayersNotReadyError(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Partie en attente',
+            style: TextStyle(color: Colors.deepPurple)),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.hourglass_empty, color: Colors.orange, size: 50),
+            const SizedBox(height: 15),
+            const Text(
+              'Tous les joueurs ne sont pas prêts.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.grey),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              'Attendez que tous les participants soient prêts.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.grey[600], fontSize: 12),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('OK', style: TextStyle(color: Colors.deepPurple)),
+          ),
+        ],
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(15),
+        ),
+      ),
+    );
+  }
+
   Future<List<Map<String, dynamic>>> _loadQuestions(
       String categoryId, String difficulty) async {
     try {
@@ -64,13 +102,10 @@ class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
 
     setState(() => _isLoading = true);
     try {
-      await _firestore
-          .collection('game_rooms')
-          .doc(widget.roomCode)
-          .update({
-            'players.${_user?.uid}.ready': ready,
-            'lastActivity': FieldValue.serverTimestamp(),
-          });
+      await _firestore.collection('game_rooms').doc(widget.roomCode).update({
+        'players.${_user?.uid}.ready': ready,
+        'lastActivity': FieldValue.serverTimestamp(),
+      });
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Erreur: ${e.toString()}')),
@@ -144,9 +179,8 @@ class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
       );
     } catch (e) {
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Erreur: ${e.toString()}')),
-      );
+      // Remplacer le SnackBar par la boîte de dialogue
+      _showPlayersNotReadyError(context);
     } finally {
       setState(() => _isStartingGame = false);
     }
@@ -156,7 +190,11 @@ class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
   void dispose() {
     // Si le créateur quitte la salle d'attente, supprimer la partie
     if (_user != null) {
-      _firestore.collection('game_rooms').doc(widget.roomCode).get().then((doc) {
+      _firestore
+          .collection('game_rooms')
+          .doc(widget.roomCode)
+          .get()
+          .then((doc) {
         if (doc.exists) {
           final data = doc.data()!;
           if (data['creatorId'] == _user!.uid && data['status'] == 'waiting') {
