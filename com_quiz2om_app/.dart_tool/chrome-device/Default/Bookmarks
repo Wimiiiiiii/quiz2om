@@ -1,0 +1,1658 @@
+{
+   "checksum": "d1ebf395e6fc00ae55ad9ce22029a233",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13286595749463971",
+            "date_last_used": "0",
+            "guid": "0bbe2365-861a-43a8-abde-6579bb21c4c1",
+            "id": "52",
+            "name": "Academic vocabulary",
+            "type": "url",
+            "url": "https://www.griffith.edu.au/international/englishhelp/academic-vocabulary"
+         }, {
+            "date_added": "13262257223218662",
+            "date_last_used": "13357914078007272",
+            "guid": "3e827034-89ee-4355-a0cf-1c4bd723e97d",
+            "id": "53",
+            "name": "Dashboard",
+            "type": "url",
+            "url": "https://moodle.umons.ac.be/"
+         }, {
+            "date_added": "13338996001744325",
+            "date_last_used": "13378858359313767",
+            "guid": "c35c31f5-456b-455a-9cab-48cc41d96a6f",
+            "id": "54",
+            "name": "Intranet Student - Home",
+            "type": "url",
+            "url": "https://alumniumonsac.sharepoint.com/sites/intranetv2_student"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13377829410500278",
+                  "date_last_used": "0",
+                  "guid": "519e8423-1c66-4586-b8d2-40ac771699d8",
+                  "id": "57",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Command and Scripting Interpreter, Technique T1059 - Enterprise | MITRE ATT&CK®",
+                  "type": "url",
+                  "url": "https://attack.mitre.org/techniques/T1059/"
+               }, {
+                  "date_added": "13382485990936313",
+                  "date_last_used": "0",
+                  "guid": "f777b04a-2822-4c03-ba53-b9af30bb12e8",
+                  "id": "58",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Cybersecurity Framework | NIST",
+                  "type": "url",
+                  "url": "https://www.nist.gov/cyberframework"
+               } ],
+               "date_added": "13377829449350548",
+               "date_last_used": "0",
+               "date_modified": "13382485990936313",
+               "guid": "17200866-2202-4ba7-bab1-32f399290801",
+               "id": "56",
+               "name": "Docs",
+               "type": "folder"
+            }, {
+               "date_added": "13378505915211474",
+               "date_last_used": "0",
+               "guid": "a6a8e53a-f63d-4d25-924f-c0e65b4430cb",
+               "id": "59",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Listen to the whispers: web timing attacks that actually work | PortSwigger Research",
+               "type": "url",
+               "url": "https://portswigger.net/research/listen-to-the-whispers-web-timing-attacks-that-actually-work"
+            }, {
+               "date_added": "13382977716407839",
+               "date_last_used": "13383943389996492",
+               "guid": "be6f39f5-2543-4c81-8607-b0cae9fb2061",
+               "id": "60",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "TryHackMe | Paths",
+               "type": "url",
+               "url": "https://tryhackme.com/r/paths"
+            }, {
+               "date_added": "13385994330526039",
+               "date_last_used": "0",
+               "guid": "23b35a00-01d0-4f5c-be9d-74c81e26e3fd",
+               "id": "61",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Flod224/Ethical_hacking_project",
+               "type": "url",
+               "url": "https://github.com/Flod224/Ethical_hacking_project"
+            } ],
+            "date_added": "13377642191403590",
+            "date_last_used": "0",
+            "date_modified": "13385994330526039",
+            "guid": "6c7f1aab-e188-4ae8-a0c3-703e2eb77d4e",
+            "id": "55",
+            "name": "Cyber_Challenges",
+            "type": "folder"
+         }, {
+            "date_added": "13321107247766678",
+            "date_last_used": "13383513057838486",
+            "guid": "62aa3383-f54f-48b9-8898-07700be2d40f",
+            "id": "62",
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chat.openai.com/chat"
+         }, {
+            "date_added": "13341522092769191",
+            "date_last_used": "13342314844832457",
+            "guid": "93a2f4c0-73db-4716-9cb3-5a5104da54fa",
+            "id": "63",
+            "name": "59:51 - Minuteur",
+            "type": "url",
+            "url": "https://webhorloge.fr/minuteur/#countdown=01:00:00&date=2023-10-11T21:21:24&title=Minuteur&sound=xylophone&loop=1"
+         }, {
+            "date_added": "13287626733887317",
+            "date_last_used": "0",
+            "guid": "0ddbda81-c86b-4cba-8830-b55a4b225049",
+            "id": "64",
+            "name": "Sélection d'un document",
+            "type": "url",
+            "url": "https://www.partenamut.be/MyPartenamut/internal/demandes/centre-documents/centre-documents-thematic?documentId=5167"
+         }, {
+            "date_added": "13298984236711318",
+            "date_last_used": "0",
+            "guid": "2b27568f-6dcc-48b8-987e-1e6b3bab5cfc",
+            "id": "65",
+            "name": "WOLFRAM ALPHA",
+            "type": "url",
+            "url": "https://www.wolframalpha.com/input?i2d=true&i=Power%5Bx%2C2%5D%2B4Power%5By%2C2%5D%3D1"
+         }, {
+            "date_added": "13344259893054994",
+            "date_last_used": "13383684742817308",
+            "guid": "5a78e11d-ede3-4b5f-a7a1-4777e6bb96c9",
+            "id": "66",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Authentification",
+            "type": "url",
+            "url": "https://siel.enap.ca/apex/f?p=151:101::::::"
+         }, {
+            "date_added": "13341169382678103",
+            "date_last_used": "0",
+            "guid": "dea9ef15-ece6-4cdd-b63d-a837e99710d9",
+            "id": "67",
+            "name": "Calculatrice Suite - GeoGebra",
+            "type": "url",
+            "url": "https://www.geogebra.org/calculator"
+         }, {
+            "date_added": "13320326860415647",
+            "date_last_used": "0",
+            "guid": "8d5cd2e9-f079-409e-abab-9595312227b1",
+            "id": "68",
+            "name": "How to pronounce though | English Pronunciation Dictionary | howjsay",
+            "type": "url",
+            "url": "https://howjsay.com/how-to-pronounce-though+"
+         }, {
+            "date_added": "13310116105596588",
+            "date_last_used": "0",
+            "guid": "3560444c-dfce-4d9f-8d10-801429d271ff",
+            "id": "69",
+            "name": "https://cplusplus.com/reference/cmath/cos/",
+            "type": "url",
+            "url": "https://cplusplus.com/reference/cmath/cos/"
+         }, {
+            "date_added": "13341073245148545",
+            "date_last_used": "0",
+            "guid": "d0572756-0f9c-4fb0-8399-08d407a2e773",
+            "id": "70",
+            "name": "Blank diagram: Lucidchart",
+            "type": "url",
+            "url": "https://lucid.app/lucidchart/6e363c15-500e-4f89-8c50-691d66291dce/edit?existing=1&token=8c5fe13912dde3f28da653c10945352c59f8c8fb32bd94625bc26095bd96c64c-eml%3Dbarrymamadou787%2540gmail.com%26ts%3D1696599503%26uid%3D187821627&docId=6e363c15-500e-4f89-8c50-691d66291dce&shared=true&page=0_0&invitationId=inv_f4945c5a-465e-4eb0-9a87-f718c7607460#"
+         }, {
+            "date_added": "13313706697150084",
+            "date_last_used": "0",
+            "guid": "082d8411-34b1-4fbd-9ddf-52e45e73c0f3",
+            "id": "71",
+            "name": "Coupe du monde 2022 - Auvio",
+            "type": "url",
+            "url": "https://auvio.rtbf.be/live/coupe-du-monde-2022-426980"
+         }, {
+            "date_added": "13311525393695480",
+            "date_last_used": "0",
+            "guid": "00973636-b5d9-4d65-914c-b9ebae061241",
+            "id": "72",
+            "name": "my e-box",
+            "type": "url",
+            "url": "https://mycitizenebox.belgium.be/myebox/overview/card"
+         }, {
+            "date_added": "13293580898574224",
+            "date_last_used": "0",
+            "guid": "b42078bc-4fab-4c08-b342-e03b066f93ca",
+            "id": "73",
+            "name": "Calculatrice de matrices",
+            "type": "url",
+            "url": "https://matrixcalc.org/fr/"
+         }, {
+            "date_added": "13321480598242710",
+            "date_last_used": "0",
+            "guid": "72670799-7555-420f-9288-6de317d59510",
+            "id": "74",
+            "name": "Gérez les projets de votre équipe, où que vous soyez | Trello",
+            "type": "url",
+            "url": "https://trello.com/fr?&aceid=&adposition=&adgroup=144042634705&campaign=19322080744&creative=642166749494&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p74597792817&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy-_01E3Z-v1lK-GwAh6m-bIUbbcHFOsPfDxwQZb5x6ubvt0O29zufBoCTI8QAvD_BwE&gclsrc=aw.ds"
+         }, {
+            "date_added": "13329179314829860",
+            "date_last_used": "0",
+            "guid": "db682aad-ce0e-4f1e-9a0b-73819b24241e",
+            "id": "75",
+            "name": "Liste des verbes les plus fréquents",
+            "type": "url",
+            "url": "https://leconjugueur.lefigaro.fr/frlistedeverbe.php"
+         }, {
+            "date_added": "13323196344693465",
+            "date_last_used": "0",
+            "guid": "4334ac26-672d-4a6c-92a2-96844ad23ea8",
+            "id": "76",
+            "name": "Log in to Overleaf - Overleaf, Éditeur LaTeX en ligne",
+            "type": "url",
+            "url": "https://fr.overleaf.com/login"
+         }, {
+            "date_added": "13320923438086821",
+            "date_last_used": "0",
+            "guid": "74e7f847-4272-4383-8a97-9ace6ce33fde",
+            "id": "77",
+            "name": "How to Build a Startup",
+            "type": "url",
+            "url": "https://learn.udacity.com/courses/ep245"
+         }, {
+            "date_added": "13322245912842804",
+            "date_last_used": "0",
+            "guid": "e4b0a6c7-6d85-4f33-8ad4-ef3abb7ad26b",
+            "id": "78",
+            "name": "Admitis - Espace enseignant",
+            "type": "url",
+            "url": "http://enseignants.admitis.be/mon_espace/candidat-completer.htm"
+         }, {
+            "date_added": "13341257754307998",
+            "date_last_used": "0",
+            "guid": "a485bb31-b60f-41c0-91e1-b9db95b837e9",
+            "id": "79",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Demande d'Evaluation Bright Language supervisée à distance",
+            "type": "url",
+            "url": "https://airtable.com/appunBTJtagHXAsMD/shrc61NfQzbNrffSE"
+         }, {
+            "date_added": "13252027538032337",
+            "date_last_used": "0",
+            "guid": "8248baa9-e9ab-406e-a515-a1ab6420761b",
+            "id": "80",
+            "name": "Foot Streaming : Real Madrid B. Monchengladbach En Streaming Live HD",
+            "type": "url",
+            "url": "https://www.streamonsport.info/44218-regarder-real-madrid-b.-monchengladbach-streaming-en-direct.html"
+         }, {
+            "date_added": "13259275004273470",
+            "date_last_used": "0",
+            "guid": "ee8b8011-7d2c-4010-84ce-2bdf9b0f9307",
+            "id": "81",
+            "name": "All american S03 Torrent",
+            "type": "url",
+            "url": "https://www.oxtorrent.tv/recherche/All%20american%20S03"
+         }, {
+            "date_added": "13319908672854797",
+            "date_last_used": "0",
+            "guid": "d9434b7f-b718-4f91-9e4d-6f9ba6e2e284",
+            "id": "82",
+            "name": "Télécharger la vidéo Youtube 4K - Télécharger la vidéo depuis Youtube | YT5",
+            "type": "url",
+            "url": "https://yt5s.io/fr10"
+         }, {
+            "date_added": "13308534857854355",
+            "date_last_used": "13351809286765458",
+            "guid": "46a52db3-03f4-4dc6-a919-b5d9c5725a71",
+            "id": "83",
+            "name": "CV de Mamadou Mounir BARRY - CV.fr",
+            "type": "url",
+            "url": "https://www.cv.fr/app/resumes/6823b6aa-39e2-4f81-8e23-a23f9c52d36d/edit"
+         }, {
+            "date_added": "13323196243203107",
+            "date_last_used": "0",
+            "guid": "3f5878f2-cb4f-4535-98f5-ae435dc5b6e3",
+            "id": "84",
+            "name": "BibMe: Free BibTeX generic citation style Bibliography & Citation Maker",
+            "type": "url",
+            "url": "https://www.bibme.org/bibtex"
+         }, {
+            "date_added": "13325641587163678",
+            "date_last_used": "0",
+            "guid": "8ac5005b-9e72-472c-ade6-d2384967d23e",
+            "id": "85",
+            "name": "Free Logo Maker - Get Custom Logo Designs in Minutes | Looka",
+            "type": "url",
+            "url": "https://looka.com/editor/120322263"
+         }, {
+            "date_added": "13325905501530090",
+            "date_last_used": "0",
+            "guid": "326cf982-7b7e-43f9-a544-37945e32ecdb",
+            "id": "86",
+            "name": "Green Minimalist The Environtment Presentation - Présentation",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAFfnZnR-Og/aVsK4PMdCkb5jCqLoagW-w/edit"
+         }, {
+            "date_added": "13325955321719625",
+            "date_last_used": "0",
+            "guid": "b81fefc8-f8e0-492f-b37f-f9746da573e1",
+            "id": "87",
+            "name": "Mes appareils sur iCloud",
+            "type": "url",
+            "url": "https://www.icloud.com/find/"
+         }, {
+            "date_added": "13325996890663277",
+            "date_last_used": "0",
+            "guid": "9dbb6bcf-8a56-43b3-84b9-b176f62baea3",
+            "id": "88",
+            "name": "Invitation - Formulaire de réponse - Google Forms",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/1Jedjq2yvch2wwKngcQ2huCWqXIr_6W7qimZtQRynGwc/edit#settings"
+         }, {
+            "date_added": "13326251260646699",
+            "date_last_used": "0",
+            "guid": "0af88dec-eb45-4d02-b862-ea74888b392c",
+            "id": "89",
+            "name": "Paris sportifs | Napoleon Sports & Casino",
+            "type": "url",
+            "url": "https://www.napoleonsports.be/fr/sports"
+         }, {
+            "date_added": "13326325176733053",
+            "date_last_used": "13342559246824429",
+            "guid": "75989b67-528e-4b2a-8e36-1df62f22cf58",
+            "id": "90",
+            "name": "l'Université de Mons- Création de compte pour l'inscription en ligne 2023-2024",
+            "type": "url",
+            "url": "https://gestacumons.umons.ac.be/online/index.php"
+         }, {
+            "date_added": "13264883727104419",
+            "date_last_used": "13346196185120294",
+            "guid": "e63d8386-7de1-42d4-b4b0-d803d13a2397",
+            "id": "91",
+            "name": "OİS",
+            "type": "url",
+            "url": "https://ois.baucyprus.edu.tr/auth/login"
+         }, {
+            "date_added": "13327149104589280",
+            "date_last_used": "13376863913840074",
+            "guid": "f3497e90-8444-4ca2-9c7e-07371b21f2e8",
+            "id": "92",
+            "name": "Éditeur Wix | Arro Itech",
+            "type": "url",
+            "url": "https://editor.wix.com/html/editor/web/renderer/edit/02b0f61e-6bc8-4591-9e99-4bb64867d044?metaSiteId=82b20b2c-a431-4c21-8710-9d9c086995bb"
+         }, {
+            "date_added": "13334274092638955",
+            "date_last_used": "0",
+            "guid": "15c562e2-6c38-4fbe-a10d-1ba5ee90d55d",
+            "id": "93",
+            "name": "Télécharger un fichier | iLovePDF",
+            "type": "url",
+            "url": "https://www.ilovepdf.com/fr/download/A8sxgr1gwdw3vrpb8t25426br8bcdfdb0tjq34shf0ttyz7p9wv6p961rzr38lf2p7394tj5ztmAw7rfg3sbx17h33d4hkggkph914qbf4drnfnpfq531m8311Awlh3d3xhAv3ktyA26k260x204wr7n6jzA3hb26x7b02wqm30bmgt15xjq/61"
+         }, {
+            "date_added": "13338651978883078",
+            "date_last_used": "0",
+            "guid": "3143230f-d25f-486d-a219-54b3773b5de4",
+            "id": "94",
+            "name": "Welcome - Ecobank AOP",
+            "type": "url",
+            "url": "https://aop.ecobank.com/login"
+         }, {
+            "date_added": "13342714556470874",
+            "date_last_used": "0",
+            "guid": "e09a3e3f-0254-4cfc-936e-9b2f75095d78",
+            "id": "95",
+            "name": "JetBrains Toolbox App: Manage Your Tools with Ease",
+            "type": "url",
+            "url": "https://www.jetbrains.com/toolbox-app/"
+         }, {
+            "date_added": "13342644386099955",
+            "date_last_used": "0",
+            "guid": "0e4dc0db-8fd9-41da-ba78-f57c587f45f8",
+            "id": "96",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13345925719033353",
+            "date_last_used": "0",
+            "guid": "dfd03b84-0d7a-4c85-9d36-09c4ba79ec80",
+            "id": "97",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Form controls · Bootstrap v5.0",
+            "type": "url",
+            "url": "https://getbootstrap.com/docs/5.0/forms/form-control/"
+         }, {
+            "date_added": "13285174967770276",
+            "date_last_used": "0",
+            "guid": "7c5ad8ef-5d7d-4b51-9f1c-1aad5b498c73",
+            "id": "98",
+            "name": "Booking.com",
+            "type": "url",
+            "url": "http://secure.rezserver.com/sdk/v1/LinkFwd?refid=7684&destination=booking&refclickid=webslice1819"
+         }, {
+            "date_added": "13344900272407744",
+            "date_last_used": "0",
+            "guid": "f4f227bc-efa5-49f7-be8c-0562f78106d8",
+            "id": "99",
+            "name": "Google Coolab",
+            "type": "url",
+            "url": "https://colab.research.google.com/drive/1FqjkT_L1lKg08-tWDrMjpYWY8LBWCagk?authuser=0#scrollTo=Vam9aMu4UJxF"
+         }, {
+            "date_added": "13344118680785399",
+            "date_last_used": "0",
+            "guid": "0dd3bcba-e98d-4469-9d5b-029b5a495254",
+            "id": "100",
+            "name": "MCD FINAL.drawio - draw.io",
+            "type": "url",
+            "url": "https://app.diagrams.net/#G110J7yPUHzwRl-awT08bQyZdd3D7zDkdO"
+         }, {
+            "date_added": "13346098473388584",
+            "date_last_used": "0",
+            "guid": "b60df2de-bc37-422e-865a-3c333166c3fe",
+            "id": "101",
+            "name": "Desmos | Calculatrice scientifique",
+            "type": "url",
+            "url": "https://www.desmos.com/scientific?lang=fr"
+         }, {
+            "date_added": "13347673267202197",
+            "date_last_used": "0",
+            "guid": "9ffcbfa3-a3b7-425a-a318-aef2318f112a",
+            "id": "102",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Microsoft Office 2021 Professionnel Plus (clé bind) - Clé licence à télécharger - Logiciels | fnac Belgique",
+            "type": "url",
+            "url": "https://www.fr.fnac.be/mp46651867/Microsoft-Office-2021-Professionnel-Plus-cle-bind-Cle-licence-a-telecharger#omnsearchpos=5"
+         }, {
+            "date_added": "13348446372010134",
+            "date_last_used": "0",
+            "guid": "cbacd068-2c6f-4005-a6de-a88656294f23",
+            "id": "103",
+            "name": "Decorator - Wikibooks, open books for an open world",
+            "type": "url",
+            "url": "https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Decorator"
+         }, {
+            "date_added": "13353778079066547",
+            "date_last_used": "0",
+            "guid": "5cbb5af9-e64b-4ba1-9d6a-86fd07187aae",
+            "id": "104",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vidéos Bing",
+            "type": "url",
+            "url": "https://www.bing.com/videos/riverview/relatedvideo?q=how+to+create+my+first+mobile+multiplatform+with+react&mid=5C2C9D990423AB2B1E015C2C9D990423AB2B1E01&FORM=VIRE"
+         }, {
+            "date_added": "13358947203581231",
+            "date_last_used": "0",
+            "guid": "d2564882-9ee0-4fa2-ac44-54836ab8055a",
+            "id": "105",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "DigiHuman/README.md at main · Danial-Kord/DigiHuman",
+            "type": "url",
+            "url": "https://github.com/Danial-Kord/DigiHuman/blob/main/README.md"
+         }, {
+            "children": [ {
+               "date_added": "13358091020502158",
+               "date_last_used": "0",
+               "guid": "0ac1e881-411b-47ca-923a-207b8fc25fa7",
+               "id": "107",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Formulaire d'inscription - COOP'TECH",
+               "type": "url",
+               "url": "https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&origin=NeoPortalPage&subpage=design&id=ne2LSKfW1Ui6H-vsOCOzV3_2hwDkZCZNsxnqk7m6aoVUM01EQVRKMTNDWDUzUkhWOTZaMTEwMjk0Ry4u&branchingelementid=r961399fab27f4b418327caa32bc80389&preview=%257B%2522ViewModeIndex%2522%3A0%257D&analysis=false"
+            } ],
+            "date_added": "13358091038286467",
+            "date_last_used": "0",
+            "date_modified": "13358091038286467",
+            "guid": "6a0c5812-5f17-48b8-beda-b111b27ce626",
+            "id": "106",
+            "name": "Coop'Tech",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13333411045020485",
+               "date_last_used": "13357484660192824",
+               "guid": "4981c062-f110-4738-93f3-52514ac27ca4",
+               "id": "109",
+               "name": "Ouvrir une session dans votre compte sécurisé d’IRCC - Canada.ca",
+               "type": "url",
+               "url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/demande/compte.html"
+            }, {
+               "date_added": "13334333926935091",
+               "date_last_used": "13342314865545418",
+               "guid": "12834960-8073-4f66-9a03-913196b4deaa",
+               "id": "110",
+               "name": "VFS : Registered Login",
+               "type": "url",
+               "url": "https://www.vfsglobal.ca/IRCC-AppointmentWave1/Account/RegisteredLogin?ReturnUrl=%2fIRCC-AppointmentWave1%2fHome%2fSelectVAC%3fq%3ddePiaPfL2MJ7yDPEmQRU6fRZbx3aIpSal6PdG3Bxqq7rSNU6HabciCVot9dEwkhd&q=dePiaPfL2MJ7yDPEmQRU6fRZbx3aIpSal6PdG3Bxqq7rSNU6HabciCVot9dEwkhd"
+            }, {
+               "date_added": "13323302748684237",
+               "date_last_used": "13349227861425303",
+               "guid": "794bcb28-8cf0-47df-9fc4-872a937e3564",
+               "id": "111",
+               "name": "Faire une demande d'admission | Cégep de Chicoutimi",
+               "type": "url",
+               "url": "https://cchic.ca/futurs-etudiants/faire-une-demande-dadmission/"
+            }, {
+               "date_added": "13325778911980802",
+               "date_last_used": "13351993333904397",
+               "guid": "89fadd22-5163-412c-a382-4bb3eef619c7",
+               "id": "112",
+               "name": "www.srasl.qc.ca",
+               "type": "url",
+               "url": "https://www.srasl.qc.ca/secure/votre_dossier00.php"
+            }, {
+               "date_added": "13326680609142272",
+               "date_last_used": "0",
+               "guid": "21ece70f-a5d0-426f-96de-09342fc5707c",
+               "id": "113",
+               "name": "Polytechnique Montreal - Admission en ligne",
+               "type": "url",
+               "url": "https://admission.polymtl.ca/admission-main-web/pages/admission-dashboard.xhtml?fragmentName=fragments-compte%2Fadmission-profil-change.xhtml"
+            }, {
+               "date_added": "13341013656793180",
+               "date_last_used": "0",
+               "guid": "fa3776f8-69dd-42ad-b7f6-77ac37b9148b",
+               "id": "114",
+               "name": "Admission et inscription - Université du Québec à Chicoutimi",
+               "type": "url",
+               "url": "https://www.uqac.ca/admissionenligne/"
+            }, {
+               "date_added": "13341013765653979",
+               "date_last_used": "13350689612130510",
+               "guid": "90f08c8a-f1e0-43f3-903f-af36489b4c3f",
+               "id": "115",
+               "name": "Étudier en formation professionnelle ou technique au Québec - Immigrant Québec",
+               "type": "url",
+               "url": "https://immigrantquebec.com/fr/preparer/etudier-au-quebec/etudier-en-formation-professionnelle-ou-technique-2/"
+            }, {
+               "date_added": "13342135185125063",
+               "date_last_used": "13346704973389082",
+               "guid": "28b8bf16-9553-4ece-90cf-71b12c7942ea",
+               "id": "116",
+               "name": "Agence de Voyage Opodo - Comparateur de vols et séjours",
+               "type": "url",
+               "url": "https://www.opodo.fr/travel/secure/?locale=fr_FR#details/13003373628/"
+            }, {
+               "date_added": "13331647233667256",
+               "date_last_used": "13358091099724195",
+               "guid": "b0072b49-be9f-47aa-a584-10555c8a5e40",
+               "id": "117",
+               "name": "Arrima",
+               "type": "url",
+               "url": "https://arrima.immigration-quebec.gouv.qc.ca/monespaceclient/mon-dossier/documents"
+            }, {
+               "date_added": "13358552359818413",
+               "date_last_used": "0",
+               "guid": "c6e0f601-694b-4f87-9746-43e65e6678d9",
+               "id": "118",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Suivi de ma demande — Admission SRAM",
+               "type": "url",
+               "url": "https://admission.sram.qc.ca/mon-dossier/2503841/suivi-demande"
+            } ],
+            "date_added": "13358091084598561",
+            "date_last_used": "0",
+            "date_modified": "13358552359818413",
+            "guid": "a3777955-7631-4b1f-905f-bfdafc8dae26",
+            "id": "108",
+            "name": "Canada Etude",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13323121164611623",
+               "date_last_used": "0",
+               "guid": "2c9477e1-f5f8-46b3-bfe0-a0d77f8c5774",
+               "id": "120",
+               "name": "Mon Espace",
+               "type": "url",
+               "url": "https://monespace.wallonie.be/me/dossiers/detail/2a90a81b-10ba-4783-9333-01960bb591f1"
+            }, {
+               "date_added": "13349558178084102",
+               "date_last_used": "13351626440693065",
+               "guid": "1aa53f17-7479-42f9-88d5-6b0ee5c109a4",
+               "id": "121",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Mon dossier - ::: ::: - Administration Générale de l'Enseignement - Fédération Wallonie-Bruxelles",
+               "type": "url",
+               "url": "http://www.equivalences.cfwb.be/index.php?id=1042"
+            } ],
+            "date_added": "13358091227375441",
+            "date_last_used": "0",
+            "date_modified": "13358091227375441",
+            "guid": "8b658120-6272-44ff-af46-f1ce577546a8",
+            "id": "119",
+            "name": "Belgium Etude",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13355024605149355",
+                  "date_last_used": "0",
+                  "guid": "4e159006-7391-4437-a88e-a8c253e3162b",
+                  "id": "124",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "SimpleCV",
+                  "type": "url",
+                  "url": "http://simplecv.org/"
+               }, {
+                  "date_added": "13355024618140996",
+                  "date_last_used": "0",
+                  "guid": "e03176e3-f12e-445d-82fb-d2d3828fa0ab",
+                  "id": "125",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Computer Vision | How does Computer Vision work",
+                  "type": "url",
+                  "url": "https://www.analyticsvidhya.com/blog/2021/06/everything-happening-in-computer-vision-that-you-should-know/"
+               }, {
+                  "date_added": "13355024623004836",
+                  "date_last_used": "0",
+                  "guid": "6a5d1eb4-b4b3-4d39-83af-9420376651d9",
+                  "id": "126",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Reconnaissance de la langue des signes pour les débutants en vision par ordinateur",
+                  "type": "url",
+                  "url": "https://www.analyticsvidhya.com/blog/2021/06/sign-language-recognition-for-computer-vision-enthusiasts/"
+               }, {
+                  "date_added": "13355024625932845",
+                  "date_last_used": "0",
+                  "guid": "ac947b0a-7b85-41be-b18a-9fbb233bb55b",
+                  "id": "127",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Sign-Language-Recognition/Dynamic_WLASL/wlasl_train.ipynb at main · vaishnavipatil29/Sign-Language-Recognition",
+                  "type": "url",
+                  "url": "https://github.com/vaishnavipatil29/Sign-Language-Recognition/blob/main/Dynamic_WLASL/wlasl_train.ipynb"
+               }, {
+                  "date_added": "13355029222051392",
+                  "date_last_used": "0",
+                  "guid": "86b4dba5-5871-4988-aede-daab7d84646d",
+                  "id": "128",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Video to Dataframe",
+                  "type": "url",
+                  "url": "https://www.kaggle.com/code/minnikeswarrao/video-to-dataframe/notebook"
+               }, {
+                  "date_added": "13357868407001092",
+                  "date_last_used": "0",
+                  "guid": "3837c607-478c-49f4-b18d-556475fce455",
+                  "id": "129",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Minimalist Hand Gesture Logo | BrandCrowd Logo Maker | BrandCrowd",
+                  "type": "url",
+                  "url": "https://www.brandcrowd.com/maker/logo/38743429-30a2-44f5-b32f-12604046b5e5/draft/aae36903-1834-4fc6-a7ce-bb7c14ae94d8?savedDraft=True"
+               } ],
+               "date_added": "13358091271886209",
+               "date_last_used": "0",
+               "date_modified": "13358091271886209",
+               "guid": "a53475bb-4a9d-4469-af54-ea3f3f5d8470",
+               "id": "123",
+               "name": "BAB3_Q2",
+               "type": "folder"
+            } ],
+            "date_added": "13358091258363550",
+            "date_last_used": "0",
+            "date_modified": "13358091258363550",
+            "guid": "37f6f7f7-03f8-46b2-a81e-487b90796a7a",
+            "id": "122",
+            "name": "Projets",
+            "type": "folder"
+         }, {
+            "date_added": "13349822185016810",
+            "date_last_used": "0",
+            "guid": "630b157b-6ea9-427e-8026-f818f9640cfa",
+            "id": "130",
+            "name": "01:59:58 - Minuteur",
+            "type": "url",
+            "url": "https://webhorloge.fr/minuteur/#countdown=02:00:00&date=2024-01-15T22:56:23&title=Minuteur&sound=guitar&loop=0"
+         }, {
+            "date_added": "13349445743850984",
+            "date_last_used": "0",
+            "guid": "91da78ee-3a38-49e8-a7b9-b388889c6187",
+            "id": "131",
+            "name": "مسجد النور - Mosquée An-nour | Mawaqit - Horaire de prière, Mosquée",
+            "type": "url",
+            "url": "https://mawaqit.net/fr/m/annour-mons"
+         }, {
+            "date_added": "13352146444150636",
+            "date_last_used": "0",
+            "guid": "62ea7dea-d2d7-414d-be1a-c4f7c82ee97e",
+            "id": "132",
+            "name": "Demande de logement - Université de Mons",
+            "type": "url",
+            "url": "https://web.umons.ac.be/fr/vie-campus/le-logement/demande-de-logement-umons/"
+         }, {
+            "date_added": "13356393580527846",
+            "date_last_used": "0",
+            "guid": "b361bcbe-d7d4-435c-b293-02b0756ee782",
+            "id": "133",
+            "name": "Course | CS50's Introduction to Programming with Python | edX",
+            "type": "url",
+            "url": "https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home"
+         }, {
+            "date_added": "13352754380167022",
+            "date_last_used": "0",
+            "guid": "8841e2ad-8327-437c-99e1-6f6f9e8e9d21",
+            "id": "134",
+            "name": "Tâches du groupe de travail",
+            "type": "url",
+            "url": "https://b24-wbp50x.bitrix24.fr/workgroups/group/4/tasks/"
+         }, {
+            "date_added": "13352079600444715",
+            "date_last_used": "0",
+            "guid": "418e7c8b-4ecd-4cec-91b5-61bd86aa5417",
+            "id": "135",
+            "name": "Projet IG BAB3 | Trello",
+            "type": "url",
+            "url": "https://trello.com/b/yUP6J4RB/projet-ig-bab3"
+         }, {
+            "date_added": "13323121164611623",
+            "date_last_used": "0",
+            "guid": "7a35f6ef-7b79-4bc3-9542-5abe8c51d74c",
+            "id": "136",
+            "name": "Mon Espace",
+            "type": "url",
+            "url": "https://monespace.wallonie.be/me/dossiers/detail/2a90a81b-10ba-4783-9333-01960bb591f1"
+         }, {
+            "date_added": "13323302748684237",
+            "date_last_used": "0",
+            "guid": "33b379c3-cc57-453a-9fef-b64ade5b2b46",
+            "id": "137",
+            "name": "Faire une demande d'admission | Cégep de Chicoutimi",
+            "type": "url",
+            "url": "https://cchic.ca/futurs-etudiants/faire-une-demande-dadmission/"
+         }, {
+            "date_added": "13325778911980802",
+            "date_last_used": "0",
+            "guid": "fb76fc2e-5c69-463e-b549-e99d76d51151",
+            "id": "138",
+            "name": "www.srasl.qc.ca",
+            "type": "url",
+            "url": "https://www.srasl.qc.ca/secure/votre_dossier00.php"
+         }, {
+            "date_added": "13326680609142272",
+            "date_last_used": "0",
+            "guid": "3a344629-01ea-4da9-8bc2-88f7f4d43c24",
+            "id": "139",
+            "name": "Polytechnique Montreal - Admission en ligne",
+            "type": "url",
+            "url": "https://admission.polymtl.ca/admission-main-web/pages/admission-dashboard.xhtml?fragmentName=fragments-compte%2Fadmission-profil-change.xhtml"
+         }, {
+            "date_added": "13341013656793180",
+            "date_last_used": "0",
+            "guid": "4fda9628-7c91-451f-96dd-64372060029b",
+            "id": "140",
+            "name": "Admission et inscription - Université du Québec à Chicoutimi",
+            "type": "url",
+            "url": "https://www.uqac.ca/admissionenligne/"
+         }, {
+            "date_added": "13341013765653979",
+            "date_last_used": "0",
+            "guid": "faec802c-2511-4b91-a554-06f0549b5225",
+            "id": "141",
+            "name": "Étudier en formation professionnelle ou technique au Québec - Immigrant Québec",
+            "type": "url",
+            "url": "https://immigrantquebec.com/fr/preparer/etudier-au-quebec/etudier-en-formation-professionnelle-ou-technique-2/"
+         }, {
+            "date_added": "13342135185125063",
+            "date_last_used": "0",
+            "guid": "a907558a-4ad9-46b2-8f67-665df0424868",
+            "id": "142",
+            "name": "Agence de Voyage Opodo - Comparateur de vols et séjours",
+            "type": "url",
+            "url": "https://www.opodo.fr/travel/secure/?locale=fr_FR#details/13003373628/"
+         }, {
+            "date_added": "13347541722393254",
+            "date_last_used": "0",
+            "guid": "1bac8317-60ca-4132-aa4d-2c3cd71c265b",
+            "id": "143",
+            "name": "Send email using the GMail SMTP server from a PHP page - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/712392/send-email-using-the-gmail-smtp-server-from-a-php-page"
+         }, {
+            "date_added": "13348062474893264",
+            "date_last_used": "0",
+            "guid": "d378b485-745b-4829-a9fa-77c37562d8ad",
+            "id": "144",
+            "name": "100% remboursé H&S, DermaxPro et Pantene !",
+            "type": "url",
+            "url": "https://www.enviedeplus.be/shampoo-cashback"
+         }, {
+            "date_added": "13348337006298000",
+            "date_last_used": "0",
+            "guid": "8f74c8f7-911f-4ab5-ab78-023d4d02d277",
+            "id": "145",
+            "name": "HTML5, HTML, XHTML, and DHTML - Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials",
+            "type": "url",
+            "url": "https://freecomputerbooks.com/webHtmlBooks.html"
+         }, {
+            "date_added": "13348337016025604",
+            "date_last_used": "0",
+            "guid": "423bbd79-7730-483d-ba37-0d7e8de21f31",
+            "id": "146",
+            "name": "Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials",
+            "type": "url",
+            "url": "https://freecomputerbooks.com/"
+         }, {
+            "date_added": "13348679305850437",
+            "date_last_used": "0",
+            "guid": "e04a6a17-e723-4776-8376-88e6d858cf15",
+            "id": "147",
+            "name": "Réseaux de neurones avec TensorFlow.",
+            "type": "url",
+            "url": "https://khayyam.developpez.com/articles/intelligence-artificielle/tensorflow/"
+         }, {
+            "date_added": "13349005812904701",
+            "date_last_used": "0",
+            "guid": "6e5b2f14-656c-4d78-bd27-1cf299a72a6f",
+            "id": "148",
+            "name": "Overview (Java SE 19 & JDK 19 [build 1])",
+            "type": "url",
+            "url": "https://download.java.net/java/early_access/panama/docs/api/index.html"
+         }, {
+            "date_added": "13349389143107004",
+            "date_last_used": "0",
+            "guid": "60a9c50e-a794-429c-a64d-cb2976f50d7d",
+            "id": "149",
+            "name": "Rapport de Projet Modélisation et - Présentation",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAF5g5xWrac/fYvy-Eo-n5AAeZBfeQZf9w/edit"
+         }, {
+            "date_added": "13351614676787986",
+            "date_last_used": "0",
+            "guid": "f2cd70c8-7d7f-4218-9bc2-08084b64da9a",
+            "id": "150",
+            "name": "Competitive Programming",
+            "type": "url",
+            "url": "https://competprog.ig.umons.ac.be/"
+         }, {
+            "date_added": "13352228409257121",
+            "date_last_used": "0",
+            "guid": "b14cf5e1-e04b-42a0-9cd6-45a2c71f48d4",
+            "id": "151",
+            "name": "Reply Challenges",
+            "type": "url",
+            "url": "https://challenges.reply.com/tamtamy/home.action"
+         }, {
+            "children": [ {
+               "date_added": "13352757163862217",
+               "date_last_used": "0",
+               "guid": "29be00fe-11ea-4efc-a183-c0cff1c68bab",
+               "id": "153",
+               "name": "Dictionnaire LSF : Une application pour tout traduire en langue des signes",
+               "type": "url",
+               "url": "https://handirect.fr/dictionnaire-lsf-elix-dico/#:~:text=Dictionnaire%20LSF%20%3A%20Une%20application%20pour%20tout%20traduire%20en%20langue%20des%20signes"
+            }, {
+               "date_added": "13353432353591388",
+               "date_last_used": "0",
+               "guid": "0f690ba2-d2b9-48d0-9b9d-7c31025dedf7",
+               "id": "154",
+               "name": "Développez votre première application d'Intelligence Artificielle en Python, le guide pas à pas",
+               "type": "url",
+               "url": "https://pandia.pro/guide/developpez-votre-premiere-application-dintelligence-artificielle-en-python-le-guide-pas-a-pas/"
+            }, {
+               "date_added": "13353446363886160",
+               "date_last_used": "0",
+               "guid": "b5d444ab-9575-40b6-85b2-de612d1a8f0c",
+               "id": "155",
+               "name": "Hand Tracking with Only Webcam - Webcam Motion Capture",
+               "type": "url",
+               "url": "https://webcammotioncapture.info/"
+            }, {
+               "date_added": "13353446370310107",
+               "date_last_used": "0",
+               "guid": "12c5cb16-2a4f-4066-8893-980ac746822e",
+               "id": "156",
+               "name": "[YT-S] Comment on anime nos personnages ? (v-tubing en 2D et en 3D) - Partielles.com",
+               "type": "url",
+               "url": "https://www.partielles.com/yt-s-comment-on-anime-nos-personnages-v-tubing-en-2d-et-en-3d/#Tracking_3D_-_WebcamMotionCapture"
+            }, {
+               "date_added": "13353451987236912",
+               "date_last_used": "0",
+               "guid": "1f697e5d-64f2-43e9-97c5-86df306fee92",
+               "id": "157",
+               "name": "Start building Flutter Android apps on Windows | Flutter",
+               "type": "url",
+               "url": "https://docs.flutter.dev/get-started/install/windows/mobile?tab=first-start"
+            }, {
+               "date_added": "13353452009828365",
+               "date_last_used": "0",
+               "guid": "10d2674b-a847-416b-b2df-86b8af4d106a",
+               "id": "158",
+               "name": "hand_landmarker.ipynb - Colaboratory",
+               "type": "url",
+               "url": "https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/hand_landmarker/python/hand_landmarker.ipynb#scrollTo=s3E6NFV-00Qt"
+            }, {
+               "date_added": "13353456618998708",
+               "date_last_used": "0",
+               "guid": "9421c184-8669-4c37-928e-44f1f78dec62",
+               "id": "159",
+               "name": "Formation FlutterFlow gratuite pour débutants (2024) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=ggWB5XTY-WI"
+            }, {
+               "date_added": "13353506993979238",
+               "date_last_used": "0",
+               "guid": "306f4ed3-7762-4ae9-b1a5-7e976bcf3515",
+               "id": "160",
+               "name": "Snack - React Native in the browser",
+               "type": "url",
+               "url": "https://snack.expo.dev/?platform=ios"
+            }, {
+               "date_added": "13353507054608053",
+               "date_last_used": "0",
+               "guid": "3be98699-3941-44d5-85db-d832ea63b5e3",
+               "id": "161",
+               "name": "Xamarin | Open-source mobile app platform for .NET",
+               "type": "url",
+               "url": "https://dotnet.microsoft.com/en-us/apps/xamarin"
+            }, {
+               "date_added": "13354053525693366",
+               "date_last_used": "0",
+               "guid": "e1108884-1518-4ba1-8b42-0da74b93c286",
+               "id": "162",
+               "name": "(1) Devenez un expert de Git et GitHub en 1H - de A a Z - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=SYiBCkf51uI"
+            }, {
+               "date_added": "13354109105217049",
+               "date_last_used": "0",
+               "guid": "eb6688d9-271f-4151-a56b-6592e87485a0",
+               "id": "163",
+               "name": "Mixamo",
+               "type": "url",
+               "url": "https://www.mixamo.com/#/?page=1&query=Greeting&type=Motion%2CMotionPack"
+            }, {
+               "date_added": "13354109108542800",
+               "date_last_used": "0",
+               "guid": "0953901d-acae-427a-8b34-146763b6735b",
+               "id": "164",
+               "name": "Thanks! — blender.org",
+               "type": "url",
+               "url": "https://www.blender.org/thanks/"
+            }, {
+               "date_added": "13354109111785434",
+               "date_last_used": "0",
+               "guid": "a1fd7a3c-f59c-41af-b908-5ada3c60e657",
+               "id": "165",
+               "name": "Ready Player Me - Create a Full-Body 3D Avatar From a Photo",
+               "type": "url",
+               "url": "https://readyplayer.me/fr/hub"
+            }, {
+               "date_added": "13354315995181782",
+               "date_last_used": "0",
+               "guid": "1e17750b-2c78-46fc-85ac-f7e4f6dcefd0",
+               "id": "166",
+               "name": "Formation Complete React Native - Démarrer Le Pro…",
+               "type": "url",
+               "url": "https://m.youtube.com/watch?v=1dvTM1tNvp0&list=PLprzxDsHXuDYOq5R_l2g2z5e7THd9Edas&index=6"
+            }, {
+               "date_added": "13354391877918709",
+               "date_last_used": "0",
+               "guid": "1ebd61ef-6743-4c18-b891-74aa22baf630",
+               "id": "167",
+               "name": "How To Setup & Run React Native App on Android Emulator from Terminal and edit In Visual Studio Code - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=8ejuHsaXiwU"
+            }, {
+               "date_added": "13354659887831151",
+               "date_last_used": "0",
+               "guid": "63fcb06f-7aa5-4e48-b9ba-57bed64daee5",
+               "id": "168",
+               "name": "Adding Bootstrap | Create React App",
+               "type": "url",
+               "url": "https://create-react-app.dev/docs/adding-bootstrap"
+            }, {
+               "date_added": "13355431196655227",
+               "date_last_used": "0",
+               "guid": "d1e62463-3bcc-4904-a130-0226a94c0b37",
+               "id": "169",
+               "name": "Projet Bab3 | Prezi",
+               "type": "url",
+               "url": "https://prezi.com/p/edit/a0tld_v8cnfp/"
+            }, {
+               "date_added": "13358296572941374",
+               "date_last_used": "0",
+               "guid": "ec2c34e6-9778-4466-9092-ab877c72e1e3",
+               "id": "170",
+               "name": "MEmu - The Best Android Emulator for PC - Free Download",
+               "type": "url",
+               "url": "https://www.memuplay.com/?gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745ChyYKXRi8cF4oefQ1rkOyd1fUVrGDKBvdWeluO5uPPnPwNPXjBD1kaAmoOEALw_wcB"
+            }, {
+               "date_added": "13358508274282459",
+               "date_last_used": "0",
+               "guid": "88ccfc2d-765c-483e-930e-42873d604d26",
+               "id": "171",
+               "name": "All In One Web Editor | Picsart",
+               "type": "url",
+               "url": "https://picsart.com/create/editor?category=text"
+            }, {
+               "date_added": "13358940724375864",
+               "date_last_used": "0",
+               "guid": "3c056967-d536-439a-9aeb-98e8364aca8a",
+               "id": "172",
+               "name": "How To Use 3D Character Design Software To Avatars To Your Mobile App or Game",
+               "type": "url",
+               "url": "https://readyplayer.me/blog/avatar-creator-3d-characters-mobile-app-game"
+            }, {
+               "date_added": "13358947219671389",
+               "date_last_used": "0",
+               "guid": "4c898787-38f5-4137-b3c1-8b07b47839e4",
+               "id": "173",
+               "name": "DigiHuman/README.md at main · Danial-Kord/DigiHuman · GitHub",
+               "type": "url",
+               "url": "https://github.com/Danial-Kord/DigiHuman/blob/main/README.md"
+            }, {
+               "date_added": "13359764236510046",
+               "date_last_used": "0",
+               "guid": "e2999a62-216c-4f64-b699-273f30babe55",
+               "id": "174",
+               "name": "Buckets – Cloud Storage – My First Project – Console Google Cloud",
+               "type": "url",
+               "url": "https://console.cloud.google.com/storage/browser/motsign;tab=objects?forceOnBucketsSortingFiltering=true&authuser=1&project=charged-atlas-422819-r7"
+            }, {
+               "date_added": "13359638019876885",
+               "date_last_used": "0",
+               "guid": "ebd2de11-fd8f-4813-ac8f-5e0e327fc02f",
+               "id": "175",
+               "name": "expo-video-player - npm",
+               "type": "url",
+               "url": "https://www.npmjs.com/package/expo-video-player"
+            }, {
+               "date_added": "13359903236194544",
+               "date_last_used": "0",
+               "guid": "3a665baa-d6e8-41f7-9ff4-257c000b1baa",
+               "id": "176",
+               "name": "Making predictions on live video feed using React Native and Tensorflow.js - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/68095253/making-predictions-on-live-video-feed-using-react-native-and-tensorflow-js"
+            }, {
+               "date_added": "13359943334861320",
+               "date_last_used": "0",
+               "guid": "73b5cce8-5c35-4777-84d9-a24137f9a346",
+               "id": "177",
+               "name": "Conversion de modèle  |  TensorFlow.js",
+               "type": "url",
+               "url": "https://www.tensorflow.org/js/guide/conversion?hl=fr"
+            }, {
+               "date_added": "13360025948428968",
+               "date_last_used": "0",
+               "guid": "678cf64f-8978-4f65-99a2-cf51d7dc73cd",
+               "id": "178",
+               "name": "Blue Futuristic Illustrative Artificial Intelligence Project Presentation - Présentation",
+               "type": "url",
+               "url": "https://www.canva.com/design/DAGDyVMjuB4/U43RhlwY8ImHq5AyI50MJA/edit"
+            }, {
+               "date_added": "13360149793047751",
+               "date_last_used": "0",
+               "guid": "3426f8fe-fabf-475f-98d1-f1e3c634bf8b",
+               "id": "179",
+               "name": "Quatre jeunes sourds à Phillip Island en Australie – FFSB",
+               "type": "url",
+               "url": "http://www.ffsb.be/quatrejeuneswfdys/"
+            }, {
+               "date_added": "13360151873013053",
+               "date_last_used": "0",
+               "guid": "7e6f33e7-ce04-44a1-ab9b-d6eb69a306b4",
+               "id": "180",
+               "name": "RA2019",
+               "type": "url",
+               "url": "http://www.ffsb.be/wp-content/uploads/2024/04/RA2023-WEB.pdf"
+            }, {
+               "date_added": "13360161579782488",
+               "date_last_used": "0",
+               "guid": "3b33ae22-df5b-4e42-bb13-9602363c9e3b",
+               "id": "181",
+               "name": "SMTP Basics: How It Works and Why It Matters [2024]",
+               "type": "url",
+               "url": "https://mailtrap.io/blog/smtp/"
+            }, {
+               "date_added": "13360428206634141",
+               "date_last_used": "0",
+               "guid": "999fde6e-81bf-49ab-9c0d-051656be1163",
+               "id": "182",
+               "name": "Unlocking the Power of OpenAI in React - DZone",
+               "type": "url",
+               "url": "https://dzone.com/articles/unlocking-the-power-of-openai-in-react-revolutioni"
+            }, {
+               "date_added": "13360609567543979",
+               "date_last_used": "0",
+               "guid": "e347b81c-c5f5-4cb1-a12f-c0bf08e193e0",
+               "id": "183",
+               "name": "Usage - OpenAI API",
+               "type": "url",
+               "url": "https://platform.openai.com/usage"
+            } ],
+            "date_added": "13359209123951284",
+            "date_last_used": "0",
+            "date_modified": "13360609567543979",
+            "guid": "1f6282bd-af52-40cd-b192-74c213cf320a",
+            "id": "152",
+            "name": "Projet IG BAB3",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13359202667169885",
+               "date_last_used": "0",
+               "guid": "61ff79ce-671e-4d13-92ad-b0efd53a85b2",
+               "id": "185",
+               "name": "TP4_IA_Input_2024.ipynb - Colab",
+               "type": "url",
+               "url": "https://colab.research.google.com/drive/16FOw5hrZuMlnduFRFiFvJlLsDkFLWULw#scrollTo=JiYnt33ENFpp"
+            } ],
+            "date_added": "13359209123962094",
+            "date_last_used": "0",
+            "date_modified": "13359209123962094",
+            "guid": "785f7aae-ab1b-4848-b855-e0f76b148c67",
+            "id": "184",
+            "name": "IA Cours",
+            "type": "folder"
+         }, {
+            "date_added": "13354641285061032",
+            "date_last_used": "0",
+            "guid": "fdfa2b55-68e5-4f9e-910c-e9b70b05c029",
+            "id": "186",
+            "name": "Mounir Barry – Kattis, Kattis",
+            "type": "url",
+            "url": "https://open.kattis.com/users/mounir-barry"
+         }, {
+            "date_added": "13355067970636948",
+            "date_last_used": "0",
+            "guid": "4fe969e9-0211-4022-b53b-a5104d6fec72",
+            "id": "187",
+            "name": "ON THAT ASS boxers",
+            "type": "url",
+            "url": "https://onthatass.com/fr-be/"
+         }, {
+            "date_added": "13355332957090221",
+            "date_last_used": "0",
+            "guid": "25a1f4df-2857-40b0-bd15-2868a38c1410",
+            "id": "188",
+            "name": "Code Challenge 2023 - Standard Edition | Reply Challenges",
+            "type": "url",
+            "url": "https://challenges.reply.com/challenges/coding/code-challenge-2023/detail/"
+         }, {
+            "date_added": "13355873402135509",
+            "date_last_used": "0",
+            "guid": "98384b8f-2c7b-43a9-a7bf-1d0c4d9454b7",
+            "id": "189",
+            "name": "My projects | Renderforest",
+            "type": "url",
+            "url": "https://www.renderforest.com/profile/my-logos"
+         }, {
+            "date_added": "13355943611066353",
+            "date_last_used": "0",
+            "guid": "1585e871-ea1c-4e97-a04b-2a5cf1954865",
+            "id": "190",
+            "name": "Contests - Codeforces",
+            "type": "url",
+            "url": "https://codeforces.com/group/1i1EfhEv7s/contests"
+         }, {
+            "children": [ {
+               "date_added": "13360190355972850",
+               "date_last_used": "0",
+               "guid": "239c79a0-5d39-49d5-8751-c58f0dd500ad",
+               "id": "192",
+               "name": "Caract Signal Optique : le diagramme de l'oeil - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=3OezVhSq8mg"
+            }, {
+               "date_added": "13360190721460901",
+               "date_last_used": "0",
+               "guid": "dba30ef5-e8ed-40e6-87d0-cd73f536560c",
+               "id": "193",
+               "name": "27a-QCM7-Transmissions numériques en bande de base - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=mUxoIiWU6DI"
+            }, {
+               "date_added": "13360322885977599",
+               "date_last_used": "0",
+               "guid": "31817aec-b13c-4e8b-b34c-2b6d99dc78b1",
+               "id": "194",
+               "name": "900.care société à mission : le retour d'expérience",
+               "type": "url",
+               "url": "https://www.impaccct.fr/ressources/societe-mission-retour-experience-900-care"
+            }, {
+               "date_added": "13360324185006666",
+               "date_last_used": "0",
+               "guid": "3f1aeb70-65cd-470e-84f7-8b9ed2f9ebb2",
+               "id": "195",
+               "name": "Pourquoi la marque B2C 900.care place-t-elle la vidéo au centre de sa stratégie d'acquisition ? | Agorapulse",
+               "type": "url",
+               "url": "https://www.agorapulse.com/fr/blog/pourquoi-la-marque-b2c-900-care-place-t-elle-la-video-au-centre-de-sa-strategie-dacquisition/"
+            }, {
+               "date_added": "13360324610705457",
+               "date_last_used": "0",
+               "guid": "e0b64713-d850-4962-8702-5a57e06c6839",
+               "id": "196",
+               "name": "Découvrez vos produits de salle de bain à recharger - 900.care",
+               "type": "url",
+               "url": "https://900.care/"
+            }, {
+               "date_added": "13360340681641989",
+               "date_last_used": "0",
+               "guid": "00b205f1-cb4b-4190-947a-759d23559a60",
+               "id": "197",
+               "name": "900 - Certified B Corporation - B Lab Global",
+               "type": "url",
+               "url": "https://www.bcorporation.net/en-us/find-a-b-corp/company/00/"
+            }, {
+               "date_added": "13360366822065595",
+               "date_last_used": "0",
+               "guid": "5b451234-d8ee-4bac-ac75-c5e82db4afd0",
+               "id": "198",
+               "name": "Réécrire, reformuler ou reformuler du texte | changeur de mots gratuit",
+               "type": "url",
+               "url": "https://smodin.io/fr/reformuler-automatiquement-le-texte-en-francais-gratuitement"
+            }, {
+               "date_added": "13360366845288517",
+               "date_last_used": "0",
+               "guid": "5740a725-842e-41ac-a89f-d384eb17a344",
+               "id": "199",
+               "name": "Scribbr - Le point de contrôle de votre mémoire",
+               "type": "url",
+               "url": "https://www.scribbr.fr/"
+            }, {
+               "date_added": "13360404894191446",
+               "date_last_used": "0",
+               "guid": "0d6caad2-e900-4032-94b8-6a476511020b",
+               "id": "200",
+               "name": "Recall, Precision, F1 Score - Explication Simple Métrique en ML",
+               "type": "url",
+               "url": "https://inside-machinelearning.com/recall-precision-f1-score/"
+            } ],
+            "date_added": "13360937221852251",
+            "date_last_used": "0",
+            "date_modified": "13360937221852251",
+            "guid": "16e989c5-f6f9-49a2-9f12-ef5935d1fc34",
+            "id": "191",
+            "name": "Cours",
+            "type": "folder"
+         }, {
+            "date_added": "13359542372176282",
+            "date_last_used": "0",
+            "guid": "fbd4ecc0-f7e1-4203-9f96-d65d11c6e9ee",
+            "id": "201",
+            "name": "Vols de BRU à COO",
+            "type": "url",
+            "url": "https://www.expedia.be/Flights-Search?filters=%5B%7B%22preferredAirlineFilterValue%22%3A%7B%22carrierCode%22%3A%22SN%22%7D%7D%5D&leg1=from%3ABruxelles%20%28BRU-Bruxelles-National%29%2Cto%3ACotonou%20%28COO-Cadjehoun%29%2Cdeparture%3A25%2F01%2F2025TANYT%2CfromType%3AA%2CtoType%3AA&leg2=from%3ACotonou%20%28COO-Cadjehoun%29%2Cto%3ABruxelles%20%28BRU-Bruxelles-National%29%2Cdeparture%3A31%2F01%2F2025TANYT%2CfromType%3AA%2CtoType%3AA&mode=search&options=carrier%3A%2Ccabinclass%3A%2Cmaxhops%3A1%2Cnopenalty%3AN&pageId=0&passengers=adults%3A1%2Cchildren%3A0%2Cinfantinlap%3AN&trip=roundtrip"
+         }, {
+            "date_added": "13360864324496286",
+            "date_last_used": "0",
+            "guid": "e28dab88-578e-41ee-a8df-4fab5ce8521a",
+            "id": "202",
+            "name": "OpenAI API",
+            "type": "url",
+            "url": "https://platform.openai.com/playground/chat?models=gpt-4o"
+         }, {
+            "date_added": "13285174967770276",
+            "date_last_used": "0",
+            "guid": "b799c7e6-f60b-48bc-b523-eb1a58d890a4",
+            "id": "203",
+            "name": "Amazon.co.uk – Online Shopping",
+            "type": "url",
+            "url": "http://www.amazon.co.uk/gp/bit/amazonbookmark.html?tag=hp2-brobookmark-uk-21&partner=HP"
+         }, {
+            "date_added": "13394820453016239",
+            "date_last_used": "0",
+            "guid": "13332237-d1dc-4f46-a67a-6285bf0d4d99",
+            "id": "10",
+            "name": "Utomik Games",
+            "type": "url",
+            "url": "https://www.utomik.com/hp_edgefavourites"
+         }, {
+            "date_added": "13394820453015909",
+            "date_last_used": "0",
+            "guid": "c1c0f0be-0530-4aeb-8402-919f2b32419e",
+            "id": "9",
+            "name": "Booking.com",
+            "type": "url",
+            "url": "https://www.booking.com/index.html?aid=1980379&label=edge2020"
+         }, {
+            "date_added": "13394820453015517",
+            "date_last_used": "0",
+            "guid": "5a1267ce-9ef7-44c3-bdc1-fa11b920a172",
+            "id": "8",
+            "name": "Express VPN",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge"
+         }, {
+            "date_added": "13394820453015129",
+            "date_last_used": "0",
+            "guid": "28255da2-0b8a-49e2-8ae4-a8d74b1b2758",
+            "id": "7",
+            "name": "Amazon.co.uk – Online Shopping",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=amazon&c=*&locale=en_uk&pf=*&s=*&tp=edge"
+         }, {
+            "date_added": "13394820453014481",
+            "date_last_used": "0",
+            "guid": "a3f83b93-6f32-43a0-a7c8-5451e9d35910",
+            "id": "6",
+            "name": "LastPass password manager",
+            "type": "url",
+            "url": "http://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge"
+         } ],
+         "date_added": "13394820452601906",
+         "date_last_used": "0",
+         "date_modified": "13394820457229353",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13285174967770276",
+               "date_last_used": "0",
+               "guid": "90cc5cc9-61a6-4ac2-b948-250abf7bee71",
+               "id": "49",
+               "name": "Amazon.co.uk – Online Shopping",
+               "type": "url",
+               "url": "http://www.amazon.co.uk/gp/bit/amazonbookmark.html?tag=hp2-brobookmark-uk-21&partner=HP"
+            }, {
+               "date_added": "13285174967770276",
+               "date_last_used": "0",
+               "guid": "6cb63037-d635-4ac0-add9-5dcd05a89dcf",
+               "id": "50",
+               "name": "Booking.com",
+               "type": "url",
+               "url": "http://secure.rezserver.com/sdk/v1/LinkFwd?refid=7684&destination=booking&refclickid=iefav1819"
+            } ],
+            "date_added": "13394820456376580",
+            "date_last_used": "0",
+            "date_modified": "13394820456970557",
+            "guid": "fe3374da-257a-4d56-a3e8-2bd80b2e10fa",
+            "id": "48",
+            "name": "HP",
+            "type": "folder"
+         }, {
+            "date_added": "13343076370362503",
+            "date_last_used": "0",
+            "guid": "8955d2d6-1940-45dc-9792-e4b374b425e3",
+            "id": "51",
+            "name": "Royal Air Maroc Online - réservation",
+            "type": "url",
+            "url": "https://book.royalairmaroc.com/plnext/5APHOneWayDX/Override.action?SITE=BBDGBNEW&EMBEDDED_TRANSACTION=RetrievePNR&LANGUAGE=fr&ENCT=1&ENC=0BFBE0D0FF578CF2CE3B0E4B7E1DDA900D1627AEF8E7886C48576EB19F1E1EF400189D301B1CC3380AC2EFB97DD2690814682E9417FBD6B85B809A63D3E6F8982D15453232EF8C681B936FE9295F1670C70DEA22F5CB4C489C95AFD767400229AE51466BC42BB56B48A5F8CCAB6246B158171EC99AC815600B9BBE1C02B2760221026619C4E09ADF4BD6446773A5B8CBE3EFEEED73C4500827CDB0FD6A00AF84AC12D7D91B6E09707AADD5E629E8BCE883BFB0227A99DF7038A1EAC7C35833D73B16738704B366CFA2CDB9C3783B2C077EF8D7098236626C83D782BF56B657B7EB23FE61C52BC2698C986874E4A54161BC779C9111B1A9E6B644C4AAE87ED44B9DCB78F64D80BFE568AAACB17D2FAD21236CF11E199925B2EE52A849ECCE4752107E9BA10B18B68572CFBCCB4153FE028D06A29AA2657B85456FEF2434E00599ADF4AFCCDFB2452F3FA9325829A1811A1FA2203913B99225668901FB28898D7614761C345D971932DC95BC13833D64DB0DF73A8A6149616E3782841228794A3EF767FA36C1AD38992C1458C62B5C17C65B2655C0370702AD3A347954440BAD55CCF6E14FE0434A68711728F24C78A14F2DAB41A45C5BCE768558D92F09E72A32E3F5BB72FD49225BD4A308EA1912FEFEB495E2EB8A83CA5AFBBF5305B008A552C0C4A50037C2B718DB1429BA2F8F8E9C03303CCD6D0F6F45E084C90DD95C91ADF475390FA2ACFA4CF006FC36A29AF21B7AED2E911812D173C30A665B2B6B173EC6341509F9312BAFB202A664ACC86A2DB68602C33276DE534C2F6BBF571C076579FD95EBFD64EBBADEED6AFEE6D59A46E575334E96765901BA05CF812FE091E132C98C28899192B55FDD87376F36BC0144DE7B13F6406561A33ACCAFEA437299F67361BBBA7189EA9468FAF4FF4D614352F9C54ADEFD5F2235738F92AEE91911DD3CE27AF41E69E06740846A59DA12437385356493DBBBC94BCD47C7AB80EA839502475BF9AB4C5576EF34FFA8EF78BF30E3E192FD45C21E8710A6AEFA828210802AC6972F57FFD54E452E21DB3D922FF49D78537D503895362C62E016638B51B04D28E3F3D721743EB22DAFE0024DAB5F987F115503974706AC026A526EBB4C61C21397FEF7887EB81BA69C5159012452A9178119DF7E380B8C358DCB0104C476470131AC1A93BEC68DC09F80F9CDB4#/RTPL"
+         } ],
+         "date_added": "13394820452601910",
+         "date_last_used": "0",
+         "date_modified": "13343076370362503",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13164758877186069",
+            "date_last_used": "0",
+            "guid": "fe7f41ea-08c4-4571-8fac-c8dccd4efa85",
+            "id": "16",
+            "name": "m.youtube.com",
+            "type": "url",
+            "url": "https://m.youtube.com/"
+         }, {
+            "date_added": "13218164033717919",
+            "date_last_used": "0",
+            "guid": "fb11c56f-fafb-455c-8419-91ae36acc6db",
+            "id": "17",
+            "name": "BuSE - Se connecter",
+            "type": "url",
+            "url": "https://buse.mbudget.gov.gn/index.php/home"
+         }, {
+            "date_added": "13218505049196367",
+            "date_last_used": "0",
+            "guid": "22d587ac-3b12-4bee-a08b-1bfa6248136b",
+            "id": "18",
+            "name": "Téléchargement sécurisé - SOSVirus",
+            "type": "url",
+            "url": "https://www.sosvirus.net/telechargement-securise/"
+         }, {
+            "date_added": "13218538300463745",
+            "date_last_used": "0",
+            "guid": "b2ea24c6-3be8-4c79-9ca7-b3ebf0fa6669",
+            "id": "19",
+            "name": "fr_windows_7_professional_with_sp1_x64_dvd_u_678724",
+            "type": "url",
+            "url": "http://www.mediafire.com/file/ysxxpsmognv9gd8/fr_windows_7_professional_with_sp1_x64_dvd_u_678724.iso/file"
+         }, {
+            "date_added": "13221258938012594",
+            "date_last_used": "0",
+            "guid": "19839297-7aa1-4901-9c7a-b1b0fa58fb2f",
+            "id": "20",
+            "name": "Froid industriel: [PDF] KOTZA : MANUEL DU DEPANNEUR 5e EDITION",
+            "type": "url",
+            "url": "http://frigoristes.blogspot.com/2016/05/pdf-kotza-manuel-du-depanneur-5e-edition.html?m=1"
+         }, {
+            "date_added": "13221259080964331",
+            "date_last_used": "0",
+            "guid": "e0aa52a4-9467-456b-981a-a2555bb6965a",
+            "id": "21",
+            "name": "Les detendeurs - Le site des frigoristes",
+            "type": "url",
+            "url": "http://www.frigoristes.fr/article.php?sid=19&archive=0#.XfvWIbfS8wA"
+         }, {
+            "date_added": "13225331436652430",
+            "date_last_used": "0",
+            "guid": "516ec39c-918a-4206-8587-caced393d1f7",
+            "id": "22",
+            "name": "télécharger idm internet download manager gratuit (android)",
+            "type": "url",
+            "url": "https://idm-internet-download-manager.fr.uptodown.com/android/telecharger"
+         }, {
+            "date_added": "13227022877409739",
+            "date_last_used": "0",
+            "guid": "e3d8a005-b82a-4d3e-b5ef-f9fa6278187a",
+            "id": "23",
+            "name": "login",
+            "type": "url",
+            "url": "https://www.canalplus-afrique.com/gn/mycanal/login?referer=/mycanal/a-la-demande"
+         }, {
+            "date_added": "13229491523337267",
+            "date_last_used": "0",
+            "guid": "b164de23-0e6e-4e71-bb68-0e5d1e83b5c8",
+            "id": "24",
+            "name": "Appen Login",
+            "type": "url",
+            "url": "https://connect.appen.com/qrp/core/login"
+         }, {
+            "date_added": "13229919550063177",
+            "date_last_used": "0",
+            "guid": "d96e6b26-1c01-4b3f-bc43-a0131decf954",
+            "id": "25",
+            "name": "Bitdefender Total Security 2019 Free Download Latest version Full Cracked x64",
+            "type": "url",
+            "url": "https://download.softwarescracking.com/bitdefender-total-security-2019-free-download-latest-version-full-cracked-x64/"
+         }, {
+            "date_added": "13230346602731984",
+            "date_last_used": "0",
+            "guid": "992e3652-ab09-497b-bb70-9bdb2b5538cb",
+            "id": "26",
+            "name": "3 étapes pour réparer l’erreur \"fichier ou répertoire endommagé et illisible\" - EaseUS",
+            "type": "url",
+            "url": "https://www.easeus.fr/partition-manager-tips/fichier-ou-le-repertoire-est-endommage-et-illisible.html"
+         }, {
+            "date_added": "13233209987376152",
+            "date_last_used": "0",
+            "guid": "51796fb4-9180-4fba-beba-01fea546197e",
+            "id": "27",
+            "name": "Séries - Cpasbien",
+            "type": "url",
+            "url": "https://cpasbien.tf/torrent-category/series/"
+         }, {
+            "date_added": "13233210734665660",
+            "date_last_used": "0",
+            "guid": "974d7ea2-0404-4f18-9654-62fd2b08ff4a",
+            "id": "28",
+            "name": "Torrent9.site - Telecharger avec Torrent9 Officiel Site",
+            "type": "url",
+            "url": "https://www.torrent9.site/"
+         }, {
+            "children": [ {
+               "date_added": "13346804739677092",
+               "date_last_used": "0",
+               "guid": "2551999f-7aa4-4eb0-ac0c-23ef2003e082",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "EKAIDI",
+               "type": "url",
+               "url": "https://citoyens.ambaguinee.org/home"
+            }, {
+               "date_added": "13346868710178203",
+               "date_last_used": "0",
+               "guid": "15694ac8-142d-457f-b982-c7f13d3cf3cd",
+               "id": "31",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Composite - Wikibooks, open books for an open world",
+               "type": "url",
+               "url": "https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Composite"
+            } ],
+            "date_added": "13342102499478153",
+            "date_last_used": "0",
+            "date_modified": "13346868710178203",
+            "guid": "c57d8c25-b1b2-48df-b8cb-c96d262e6784",
+            "id": "29",
+            "name": "New Folder",
+            "type": "folder"
+         }, {
+            "date_added": "13273321284364937",
+            "date_last_used": "0",
+            "guid": "054a87ae-ed5e-4158-8ada-fae94e141595",
+            "id": "32",
+            "name": "Accueil - Promotion Sociale IRAM PS - MONS",
+            "type": "url",
+            "url": "https://www.iramps.be/0-55-accueil-IRAMPS-mons.html"
+         }, {
+            "date_added": "13273964540750300",
+            "date_last_used": "0",
+            "guid": "d75943dd-d434-4dc7-bb72-2e7230596fbd",
+            "id": "33",
+            "name": "Auto-Math",
+            "type": "url",
+            "url": "https://www.auto-math.be/public/8/module/13/theorie/48"
+         }, {
+            "date_added": "13274386421913489",
+            "date_last_used": "0",
+            "guid": "1a8b4c44-767d-416f-81d7-e482e2bc11ae",
+            "id": "34",
+            "name": "Géométrie analytique — Wikipédia",
+            "type": "url",
+            "url": "https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_analytique"
+         }, {
+            "date_added": "13274553824670734",
+            "date_last_used": "0",
+            "guid": "8448c8ca-cfd6-4b77-9cc0-724d28a60347",
+            "id": "35",
+            "name": "Fonctions dans l'ensemble des complexes (exercices)",
+            "type": "url",
+            "url": "http://www.jybaudot.fr/Complexes/exfcts.html"
+         }, {
+            "date_added": "13274816528123456",
+            "date_last_used": "0",
+            "guid": "75def54a-7ba8-4c8a-b4b5-994e490b1fe3",
+            "id": "36",
+            "name": "Inscriptions - Haute Ecole Provinciale de Hainaut - Condorcet",
+            "type": "url",
+            "url": "https://www.condorcet.be/inscriptions.html"
+         }, {
+            "date_added": "13276137344217962",
+            "date_last_used": "0",
+            "guid": "056fdcfc-c7ac-41c2-9b43-b86815c1955b",
+            "id": "37",
+            "name": "Hyperplanning UMONS 2020-2021",
+            "type": "url",
+            "url": "http://applications.umons.ac.be/web/fr/horaires/index2020.htm"
+         }, {
+            "date_added": "13278193416929609",
+            "date_last_used": "0",
+            "guid": "eda5c900-6c17-4a96-93eb-44a3490af1da",
+            "id": "38",
+            "name": "Panier | H&M",
+            "type": "url",
+            "url": "https://www2.hm.com/fr_be/cart"
+         }, {
+            "date_added": "13280099159697031",
+            "date_last_used": "0",
+            "guid": "58217898-886f-4711-892c-e5613c14bdc2",
+            "id": "39",
+            "name": "Travail et énergie | Physique | Sciences | Khan Academy",
+            "type": "url",
+            "url": "https://fr.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/v/work-and-the-work-energy-principle?modal=1"
+         }, {
+            "date_added": "13280454912331865",
+            "date_last_used": "0",
+            "guid": "5a61b9b4-a9e6-4309-a91b-e77ce339427e",
+            "id": "40",
+            "name": "Interaction de Van der Waals, liaison hydrogène ← Mathrix",
+            "type": "url",
+            "url": "https://mathrix.fr/physique-chimie/cohesion-de-la-matiere-solide/cohesion-des-solides-moleculaires-interaction-van-der-waals-liaison-hydrogene-2912"
+         }, {
+            "date_added": "13280712422000436",
+            "date_last_used": "0",
+            "guid": "544411d9-0d26-4631-90b6-f2a8e326e6b7",
+            "id": "41",
+            "name": "Konvert",
+            "type": "url",
+            "url": "https://www.konvert.be/fr"
+         }, {
+            "date_added": "13281577516919752",
+            "date_last_used": "0",
+            "guid": "6e375eef-18e0-413c-b77f-3953e0e3b655",
+            "id": "42",
+            "name": "* Les formules de Taylor et de Maclaurin (s'entraîner) | Khan Academy",
+            "type": "url",
+            "url": "https://fr.khanacademy.org/math/integral-calculus/ic-series/ic-taylor-polynomials/e/finding-taylor-series"
+         }, {
+            "date_added": "13282781042973815",
+            "date_last_used": "0",
+            "guid": "5f24923e-9851-4081-9998-6535b3ceaaae",
+            "id": "43",
+            "name": "Integral of 2xsin(x^2) - Answer | Math Problem Solver - Cymath",
+            "type": "url",
+            "url": "https://www.cymath.com/answer?q=integrate%202xsin(x%5E2)%20for%20x"
+         }, {
+            "date_added": "13285081133477030",
+            "date_last_used": "0",
+            "guid": "12ba2cd8-3ecb-4a7b-b631-f99efd3d4c69",
+            "id": "44",
+            "name": "Fountain",
+            "type": "url",
+            "url": "https://justeattakeaway.fountain.com/portal/takeaway/applications/c36aac53-0f33-47bf-aa7b-dc457a38e5b9/custom_stage?stage=8d2616a1-43c6-446b-9914-e80aa7f79e3d"
+         }, {
+            "date_added": "13286144390435664",
+            "date_last_used": "0",
+            "guid": "0a39d3bc-fcb0-4809-b4c8-4c3944fce86d",
+            "id": "45",
+            "name": "Fountain",
+            "type": "url",
+            "url": "https://www.fountain.com/portal/deliveroo-belgium/applications/cfa11246-885e-4ce6-ad90-34c7d856e214/data_collection/new?stage_id=777622"
+         }, {
+            "date_added": "13287173134931622",
+            "date_last_used": "0",
+            "guid": "11031d45-948c-4aeb-aef9-43e43f815a70",
+            "id": "46",
+            "name": "كورة لايف koora live بث مباشر أهم المباريات kora live",
+            "type": "url",
+            "url": "https://ma.livekoora.online/?m=1"
+         }, {
+            "date_added": "13317490847837438",
+            "date_last_used": "0",
+            "guid": "6377b4b3-b4f2-4b4d-8d5f-761f18d978a2",
+            "id": "47",
+            "name": "Université de Mons",
+            "type": "url",
+            "url": "https://moodle.umons.ac.be/#"
+         } ],
+         "date_added": "13394820452601914",
+         "date_last_used": "0",
+         "date_modified": "13317490847837438",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
