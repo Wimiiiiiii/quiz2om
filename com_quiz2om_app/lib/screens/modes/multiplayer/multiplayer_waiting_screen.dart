@@ -148,7 +148,8 @@ class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
 
       // Vérifier que les deux joueurs sont prêts
       final players = Map<String, dynamic>.from(roomData['players']);
-      if (players.length != 2 ||
+      final maxPlayers = roomData['maxPlayers'];
+      if (players.length < maxPlayers ||
           !players.values.every((p) => p['ready'] == true)) {
         throw Exception('Les joueurs ne sont pas tous prêts');
       }
@@ -232,7 +233,7 @@ class _MultiplayerWaitingScreenState extends State<MultiplayerWaitingScreen> {
           final isReady = userData is Map && userData['ready'] == true;
           final isCreator =
               _user != null && roomData['creatorId'] == _user!.uid;
-          final allPlayersReady = players.length == 2 &&
+          final allPlayersReady = players.length == roomData['maxPlayers'] &&
               players.values.every((p) => p['ready'] == true);
 
           if (roomData['status'] == 'started') {
